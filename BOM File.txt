@@ -1,0 +1,9 @@
+The Motors x4 : Eaglepower 8308 Brushless Motor (diameter in 51fNBSpzq5L.jpg) and need a 3d printing gearbox
+The drivers x4 : Makerbase MKS XDrive MINI High-Precision Brushless Servo Motor Controller, Based on 3.6 with AS5047P Encoder Drones Motor (diameter in S7069865348f64e5ca6d538db24917394P.webp)
+
+on the PCB (ESP32 + Raspberry pi 4)
+Lipo battery 12v x2
+
+Lidar 
+Raspberry pi cam
+ 

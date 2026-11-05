@@ -1,0 +1,3194 @@
+{
+  "bodies": [
+    {
+      "area_mm2": 26981.72642332426,
+      "bbox": {
+        "max": [
+          155.268,
+          126.5000000000001,
+          304.413
+        ],
+        "min": [
+          -16.446,
+          93.99999999999993,
+          213.332
+        ]
+      },
+      "center_of_mass": [
+        69.35420834023847,
+        101.81724173227893,
+        259.59558935626563
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 320,
+      "face_types": {
+        "cylinder": 7,
+        "plane": 108
+      },
+      "faces": 115,
+      "kernel": {
+        "edges": 348,
+        "faces": 122,
+        "shells": 1,
+        "vertices": 232
+      },
+      "mass_g": 104.54558140576391,
+      "material": "Default",
+      "name": "Leg_Thigh",
+      "vertices": 218,
+      "volume_mm3": 81043.08636105729
+    },
+    {
+      "area_mm2": 10347.558576170453,
+      "bbox": {
+        "max": [
+          181.89,
+          141.50000000000009,
+          325.0
+        ],
+        "min": [
+          53.0,
+          127.49999999999993,
+          246.106
+        ]
+      },
+      "center_of_mass": [
+        117.44512154190141,
+        134.5,
+        285.55295537266244
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 214,
+      "face_types": {
+        "cylinder": 2,
+        "plane": 72
+      },
+      "faces": 74,
+      "kernel": {
+        "edges": 222,
+        "faces": 76,
+        "shells": 1,
+        "vertices": 148
+      },
+      "mass_g": 41.63574279103037,
+      "material": "Default",
+      "name": "Leg_Coupler",
+      "vertices": 144,
+      "volume_mm3": 32275.769605449896
+    },
+    {
+      "area_mm2": 33424.73768321103,
+      "bbox": {
+        "max": [
+          183.89,
+          125.50000000000006,
+          276.106
+        ],
+        "min": [
+          -18.571,
+          70.99999999999994,
+          49.0
+        ]
+      },
+      "center_of_mass": [
+        109.09061238515397,
+        80.19174161853643,
+        189.30263202802706
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 491,
+      "face_types": {
+        "cylinder": 7,
+        "plane": 165
+      },
+      "faces": 172,
+      "kernel": {
+        "edges": 519,
+        "faces": 179,
+        "shells": 1,
+        "vertices": 346
+      },
+      "mass_g": 149.86183312074112,
+      "material": "Default",
+      "name": "Leg_Shank",
+      "vertices": 332,
+      "volume_mm3": 116171.96365948925
+    },
+    {
+      "area_mm2": 22987.09527830407,
+      "bbox": {
+        "max": [
+          183.89,
+          71.00000000000004,
+          276.106
+        ],
+        "min": [
+          -18.571,
+          67.99999999999996,
+          49.0
+        ]
+      },
+      "center_of_mass": [
+        86.9881102392755,
+        69.5,
+        161.84351693276335
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 235,
+      "face_types": {
+        "cylinder": 5,
+        "plane": 77
+      },
+      "faces": 82,
+      "kernel": {
+        "edges": 255,
+        "faces": 87,
+        "shells": 1,
+        "vertices": 170
+      },
+      "mass_g": 39.70181934541619,
+      "material": "Default",
+      "name": "Leg_ShankPlate",
+      "vertices": 160,
+      "volume_mm3": 30776.60414373348
+    },
+    {
+      "area_mm2": 5127.202668911891,
+      "bbox": {
+        "max": [
+          181.89,
+          148.50000000000006,
+          274.106
+        ],
+        "min": [
+          121.315,
+          142.4999999999999,
+          213.285
+        ]
+      },
+      "center_of_mass": [
+        150.95044067951224,
+        145.49999999999997,
+        243.02424314842867
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 118,
+      "face_types": {
+        "cylinder": 2,
+        "plane": 40
+      },
+      "faces": 42,
+      "kernel": {
+        "edges": 126,
+        "faces": 44,
+        "shells": 1,
+        "vertices": 84
+      },
+      "mass_g": 13.585867628019374,
+      "material": "Default",
+      "name": "Leg_KneeStrap",
+      "vertices": 80,
+      "volume_mm3": 10531.680331797965
+    },
+    {
+      "area_mm2": 21192.062028577853,
+      "bbox": {
+        "max": [
+          139.4,
+          126.50000000000001,
+          367.5
+        ],
+        "min": [
+          -60.987,
+          119.49999999999986,
+          252.0
+        ]
+      },
+      "center_of_mass": [
+        36.400272759781465,
+        122.99999999999994,
+        307.0274947951693
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 133,
+      "face_types": {
+        "cylinder": 5,
+        "plane": 43
+      },
+      "faces": 48,
+      "kernel": {
+        "edges": 153,
+        "faces": 53,
+        "shells": 1,
+        "vertices": 102
+      },
+      "mass_g": 69.8453135014853,
+      "material": "Default",
+      "name": "Leg_ArchPlate",
+      "vertices": 92,
+      "volume_mm3": 54143.65387712038
+    },
+    {
+      "area_mm2": 14306.2,
+      "bbox": {
+        "max": [
+          145.0,
+          119.5,
+          367.5
+        ],
+        "min": [
+          85.0,
+          38.0,
+          359.0
+        ]
+      },
+      "center_of_mass": [
+        120.92619295190607,
+        75.6692538491412,
+        362.942147000238
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 43,
+      "face_types": {
+        "plane": 16
+      },
+      "faces": 16,
+      "kernel": {
+        "edges": 43,
+        "faces": 16,
+        "shells": 1,
+        "vertices": 28
+      },
+      "mass_g": 20.59433399999994,
+      "material": "Default",
+      "name": "Leg_OutriggerBeam",
+      "vertices": 28,
+      "volume_mm3": 15964.599999999955
+    },
+    {
+      "area_mm2": 800.0,
+      "bbox": {
+        "max": [
+          106.13,
+          119.5,
+          320.632
+        ],
+        "min": [
+          96.13,
+          109.5,
+          305.632
+        ]
+      },
+      "center_of_mass": [
+        101.13,
+        114.5,
+        313.132
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 12,
+      "face_types": {
+        "plane": 6
+      },
+      "faces": 6,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 1.935,
+      "material": "Default",
+      "name": "Leg_StopPad_TPU",
+      "vertices": 8,
+      "volume_mm3": 1500.0
+    },
+    {
+      "area_mm2": 345.55744878616144,
+      "bbox": {
+        "max": [
+          98.38392278106616,
+          103.50000000000006,
+          284.05186566870333
+        ],
+        "min": [
+          88.38407721893383,
+          97.49999999999994,
+          274.0521343312967
+        ]
+      },
+      "center_of_mass": [
+        93.38399999999997,
+        100.5,
+        279.052
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 2,
+      "face_types": {
+        "cylinder": 1,
+        "plane": 2
+      },
+      "faces": 3,
+      "kernel": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "vertices": 4
+      },
+      "mass_g": 0.607845359263221,
+      "material": "Default",
+      "name": "Leg_Bumper_Thigh_TPU",
+      "vertices": 2,
+      "volume_mm3": 471.19795291722556
+    },
+    {
+      "area_mm2": 345.5574487861636,
+      "bbox": {
+        "max": [
+          98.54292278106621,
+          80.00000000000004,
+          181.47586566870328
+        ],
+        "min": [
+          88.54307721893379,
+          73.99999999999996,
+          171.47613433129672
+        ]
+      },
+      "center_of_mass": [
+        93.54300000000002,
+        77.0,
+        176.476
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 2,
+      "face_types": {
+        "cylinder": 1,
+        "plane": 2
+      },
+      "faces": 3,
+      "kernel": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "vertices": 4
+      },
+      "mass_g": 0.6078453592632287,
+      "material": "Default",
+      "name": "Leg_Bumper_Shank_TPU",
+      "vertices": 2,
+      "volume_mm3": 471.1979529172316
+    },
+    {
+      "area_mm2": 90.4735305696714,
+      "bbox": {
+        "max": [
+          170.88995366863975,
+          127.40000000000009,
+          263.1059291475736
+        ],
+        "min": [
+          164.89004633136025,
+          125.59999999999991,
+          257.1060708524264
+        ]
+      },
+      "center_of_mass": [
+        167.89,
+        126.50000000000001,
+        260.106
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 2,
+      "face_types": {
+        "cylinder": 1,
+        "plane": 2
+      },
+      "faces": 3,
+      "kernel": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "vertices": 4
+      },
+      "mass_g": 0.06564862391626018,
+      "material": "Default",
+      "name": "Leg_Dot_TPU",
+      "vertices": 2,
+      "volume_mm3": 50.8904061366358
+    },
+    {
+      "area_mm2": 2324.6624526329742,
+      "bbox": {
+        "max": [
+          143.31492278106623,
+          149.00000000000009,
+          235.28486566870325
+        ],
+        "min": [
+          133.3150772189338,
+          79.99999999999997,
+          225.28513433129675
+        ]
+      },
+      "center_of_mass": [
+        138.315,
+        114.5,
+        230.285
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 2,
+      "face_types": {
+        "cylinder": 1,
+        "plane": 2
+      },
+      "faces": 3,
+      "kernel": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "vertices": 4
+      },
+      "mass_g": 6.989667849923426,
+      "material": "Default",
+      "name": "Leg_Pin_K",
+      "vertices": 2,
+      "volume_mm3": 5418.3471704832755
+    },
+    {
+      "area_mm2": 1272.2726188083302,
+      "bbox": {
+        "max": [
+          172.8899227810662,
+          149.00000000000009,
+          265.1058656687033
+        ],
+        "min": [
+          162.89007721893375,
+          113.49999999999994,
+          255.10613433129674
+        ]
+      },
+      "center_of_mass": [
+        167.89,
+        131.25,
+        260.106
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 2,
+      "face_types": {
+        "cylinder": 1,
+        "plane": 2
+      },
+      "faces": 3,
+      "kernel": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "vertices": 4
+      },
+      "mass_g": 3.5961334590185645,
+      "material": "Default",
+      "name": "Leg_Pin_C",
+      "vertices": 2,
+      "volume_mm3": 2787.7003558283445
+    },
+    {
+      "area_mm2": 1083.7848873770395,
+      "bbox": {
+        "max": [
+          71.99992278106618,
+          149.00000000000006,
+          315.9998656687033
+        ],
+        "min": [
+          62.00007721893383,
+          119.49999999999993,
+          306.00013433129675
+        ]
+      },
+      "center_of_mass": [
+        67.0,
+        134.25,
+        311.0
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 2,
+      "face_types": {
+        "cylinder": 1,
+        "plane": 2
+      },
+      "faces": 3,
+      "kernel": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "vertices": 4
+      },
+      "mass_g": 2.9883362546773697,
+      "material": "Default",
+      "name": "Leg_Pin_B",
+      "vertices": 2,
+      "volume_mm3": 2316.5397323080383
+    },
+    {
+      "area_mm2": 227.75276675108708,
+      "bbox": {
+        "max": [
+          -5.96803860946689,
+          117.00000000000004,
+          298.93493283435174
+        ],
+        "min": [
+          -10.96796139053311,
+          104.99999999999994,
+          293.9350671656483
+        ]
+      },
+      "center_of_mass": [
+        -8.468000000000002,
+        111.0,
+        296.435
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 2,
+      "face_types": {
+        "cylinder": 1,
+        "plane": 2
+      },
+      "faces": 3,
+      "kernel": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "vertices": 4
+      },
+      "mass_g": 0.3039044069874353,
+      "material": "Default",
+      "name": "Leg_Pin_Crank",
+      "vertices": 2,
+      "volume_mm3": 235.58481161816692
+    },
+    {
+      "area_mm2": 267.01939410611317,
+      "bbox": {
+        "max": [
+          127.89996139053316,
+          119.50000000000009,
+          353.39993283435166
+        ],
+        "min": [
+          122.90003860946685,
+          104.99999999999994,
+          348.4000671656483
+        ]
+      },
+      "center_of_mass": [
+        125.40000000000002,
+        112.25,
+        350.9
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 2,
+      "face_types": {
+        "cylinder": 1,
+        "plane": 2
+      },
+      "faces": 3,
+      "kernel": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "vertices": 4
+      },
+      "mass_g": 0.36721081095612534,
+      "material": "Default",
+      "name": "Leg_Pin_Anchor",
+      "vertices": 2,
+      "volume_mm3": 284.6595433768413
+    },
+    {
+      "area_mm2": 1055.5327511417302,
+      "bbox": {
+        "max": [
+          145.3148918934927,
+          93.50000000000004,
+          237.28481193618452
+        ],
+        "min": [
+          131.3151081065073,
+          81.49999999999994,
+          223.28518806381544
+        ]
+      },
+      "center_of_mass": [
+        138.315,
+        87.5,
+        230.285
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 4,
+      "face_types": {
+        "cylinder": 2,
+        "plane": 2
+      },
+      "faces": 4,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 1.167035894312676,
+      "material": "Default",
+      "name": "Leg_Bush_K_shank",
+      "vertices": 4,
+      "volume_mm3": 904.6789878392836
+    },
+    {
+      "area_mm2": 904.7403972837286,
+      "bbox": {
+        "max": [
+          145.3148918934927,
+          104.00000000000007,
+          237.28481193618458
+        ],
+        "min": [
+          131.31510810650732,
+          93.99999999999994,
+          223.28518806381544
+        ]
+      },
+      "center_of_mass": [
+        138.315,
+        99.0,
+        230.285
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 4,
+      "face_types": {
+        "cylinder": 2,
+        "plane": 2
+      },
+      "faces": 4,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 0.9725273350091049,
+      "material": "Default",
+      "name": "Leg_Bush_K_thigh",
+      "vertices": 4,
+      "volume_mm3": 753.8971589217867
+    },
+    {
+      "area_mm2": 603.1711719099858,
+      "bbox": {
+        "max": [
+          145.3148918934927,
+          148.50000000000009,
+          237.28481193618458
+        ],
+        "min": [
+          131.3151081065073,
+          142.4999999999999,
+          223.28518806381544
+        ]
+      },
+      "center_of_mass": [
+        138.315,
+        145.5,
+        230.28500000000005
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 4,
+      "face_types": {
+        "cylinder": 2,
+        "plane": 2
+      },
+      "faces": 4,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 0.58356471876896,
+      "material": "Default",
+      "name": "Leg_Bush_K_strap",
+      "vertices": 4,
+      "volume_mm3": 452.3757509836899
+    },
+    {
+      "area_mm2": 1055.5327511417356,
+      "bbox": {
+        "max": [
+          174.88989189349275,
+          125.50000000000009,
+          267.1058119361846
+        ],
+        "min": [
+          160.89010810650726,
+          113.49999999999993,
+          253.10618806381535
+        ]
+      },
+      "center_of_mass": [
+        167.8900000000001,
+        119.5,
+        260.1059999999999
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 4,
+      "face_types": {
+        "cylinder": 2,
+        "plane": 2
+      },
+      "faces": 4,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 1.167035894312712,
+      "material": "Default",
+      "name": "Leg_Bush_C_shank",
+      "vertices": 4,
+      "volume_mm3": 904.6789878393115
+    },
+    {
+      "area_mm2": 1206.325180670985,
+      "bbox": {
+        "max": [
+          174.88989189349275,
+          141.50000000000006,
+          267.1058119361845
+        ],
+        "min": [
+          160.89010810650726,
+          127.49999999999993,
+          253.10618806381535
+        ]
+      },
+      "center_of_mass": [
+        167.8900000000001,
+        134.5,
+        260.1059999999999
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 4,
+      "face_types": {
+        "cylinder": 2,
+        "plane": 2
+      },
+      "faces": 4,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 1.3615501945090123,
+      "material": "Default",
+      "name": "Leg_Bush_C_coupler",
+      "vertices": 4,
+      "volume_mm3": 1055.4652670612497
+    },
+    {
+      "area_mm2": 603.1711719099897,
+      "bbox": {
+        "max": [
+          174.88989189349275,
+          148.50000000000009,
+          267.1058119361845
+        ],
+        "min": [
+          160.89010810650726,
+          142.4999999999999,
+          253.1061880638154
+        ]
+      },
+      "center_of_mass": [
+        167.89000000000007,
+        145.5,
+        260.1059999999999
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 4,
+      "face_types": {
+        "cylinder": 2,
+        "plane": 2
+      },
+      "faces": 4,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 0.5835647187689746,
+      "material": "Default",
+      "name": "Leg_Bush_C_strap",
+      "vertices": 4,
+      "volume_mm3": 452.37575098370127
+    },
+    {
+      "area_mm2": 1206.3251806709743,
+      "bbox": {
+        "max": [
+          73.99989189349267,
+          141.50000000000009,
+          317.9998119361845
+        ],
+        "min": [
+          60.00010810650737,
+          127.49999999999991,
+          304.0001880638154
+        ]
+      },
+      "center_of_mass": [
+        67.0000000000001,
+        134.5,
+        310.99999999999994
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 4,
+      "face_types": {
+        "cylinder": 2,
+        "plane": 2
+      },
+      "faces": 4,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 1.3615501945089845,
+      "material": "Default",
+      "name": "Leg_Bush_B_coupler",
+      "vertices": 4,
+      "volume_mm3": 1055.4652670612284
+    },
+    {
+      "area_mm2": 2940.4818265722247,
+      "bbox": {
+        "max": [
+          48.99967568047805,
+          126.50000000000001,
+          300.9995040330156
+        ],
+        "min": [
+          7.000324319522004,
+          119.49999999999464,
+          259.00049596698454
+        ]
+      },
+      "center_of_mass": [
+        28.0000000000001,
+        122.99999999999837,
+        280.0000000000001
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 4,
+      "face_types": {
+        "cylinder": 2,
+        "plane": 2
+      },
+      "faces": 4,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 6.127542824991244,
+      "material": "Default",
+      "name": "Leg_Brg_6806_outer",
+      "vertices": 4,
+      "volume_mm3": 4750.033197667631
+    },
+    {
+      "area_mm2": 3023.351895088566,
+      "bbox": {
+        "max": [
+          145.3148918934927,
+          142.3000000000001,
+          237.28481193618452
+        ],
+        "min": [
+          131.31510810650727,
+          104.19999999999992,
+          223.28518806381544
+        ]
+      },
+      "center_of_mass": [
+        138.315,
+        123.25000000000003,
+        230.285
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 4,
+      "face_types": {
+        "cylinder": 2,
+        "plane": 2
+      },
+      "faces": 4,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 3.7054176859541026,
+      "material": "Default",
+      "name": "Leg_Spacer_K",
+      "vertices": 4,
+      "volume_mm3": 2872.416810817134
+    },
+    {
+      "area_mm2": 1024.9004132135888,
+      "bbox": {
+        "max": [
+          43.265,
+          98.0,
+          296.659
+        ],
+        "min": [
+          12.735,
+          94.0,
+          263.341
+        ]
+      },
+      "center_of_mass": [
+        27.999999999999996,
+        96.0,
+        280.0
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 36,
+      "face_types": {
+        "plane": 14
+      },
+      "faces": 14,
+      "kernel": {
+        "edges": 36,
+        "faces": 14,
+        "shells": 1,
+        "vertices": 24
+      },
+      "mass_g": 0.6672993218399959,
+      "material": "Default",
+      "name": "Leg_HexSleeve",
+      "vertices": 24,
+      "volume_mm3": 517.2862959999968
+    },
+    {
+      "area_mm2": 7853.384429578406,
+      "bbox": {
+        "max": [
+          127.85,
+          117.5,
+          356.921
+        ],
+        "min": [
+          -10.917000000000002,
+          104.5,
+          290.414
+        ]
+      },
+      "center_of_mass": [
+        58.46657599557012,
+        111.0,
+        323.6676251375332
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 12,
+      "face_types": {
+        "plane": 6
+      },
+      "faces": 6,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 31.508879690925,
+      "material": "Default",
+      "name": "Leg_Spring_env",
+      "vertices": 8,
+      "volume_mm3": 24425.4881325
+    },
+    {
+      "area_mm2": 6738.473028697205,
+      "bbox": {
+        "max": [
+          -28.617123550294068,
+          119.50000000000007,
+          338.4837850699252
+        ],
+        "min": [
+          -44.61687644970585,
+          39.99999999999996,
+          322.48421493007476
+        ]
+      },
+      "center_of_mass": [
+        -36.61699999999992,
+        79.74999999999997,
+        330.484
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 4,
+      "face_types": {
+        "cylinder": 2,
+        "plane": 2
+      },
+      "faces": 4,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 12.564156466221906,
+      "material": "Default",
+      "name": "Leg_ArchPost_142",
+      "vertices": 4,
+      "volume_mm3": 9739.656175365819
+    },
+    {
+      "area_mm2": 6738.473028697231,
+      "bbox": {
+        "max": [
+          -41.98712355029403,
+          119.50000000000006,
+          313.3387850699252
+        ],
+        "min": [
+          -57.986876449705946,
+          39.999999999999964,
+          297.3392149300747
+        ]
+      },
+      "center_of_mass": [
+        -49.98699999999994,
+        79.75,
+        305.33899999999994
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 4,
+      "face_types": {
+        "cylinder": 2,
+        "plane": 2
+      },
+      "faces": 4,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 12.564156466222121,
+      "material": "Default",
+      "name": "Leg_ArchPost_162",
+      "vertices": 4,
+      "volume_mm3": 9739.656175365984
+    },
+    {
+      "area_mm2": 28183.852248356634,
+      "bbox": {
+        "max": [
+          80.09919537870972,
+          93.50000000000006,
+          332.0987695295291
+        ],
+        "min": [
+          -24.09919537870973,
+          59.499999999999964,
+          227.9012304704709
+        ]
+      },
+      "center_of_mass": [
+        27.999999999999982,
+        76.5,
+        280.0
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 2,
+      "face_types": {
+        "cylinder": 1,
+        "plane": 2
+      },
+      "faces": 3,
+      "kernel": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "vertices": 4
+      },
+      "mass_g": 373.9942945696288,
+      "material": "Default",
+      "name": "REF_HipHousing",
+      "vertices": 2,
+      "volume_mm3": 289918.0578059138
+    },
+    {
+      "area_mm2": 30851.985025412047,
+      "bbox": {
+        "max": [
+          88.99905792900755,
+          59.50000000000002,
+          340.99855933399755
+        ],
+        "min": [
+          -32.999057929007535,
+          39.99999999999998,
+          219.00144066600237
+        ]
+      },
+      "center_of_mass": [
+        27.99999999999999,
+        49.75,
+        280.0
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 2,
+      "face_types": {
+        "cylinder": 1,
+        "plane": 2
+      },
+      "faces": 3,
+      "kernel": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "vertices": 4
+      },
+      "mass_g": 294.03999277871463,
+      "material": "Default",
+      "name": "REF_HipSkirt",
+      "vertices": 2,
+      "volume_mm3": 227937.9788982284
+    },
+    {
+      "area_mm2": 83044.0399801822,
+      "bbox": {
+        "max": [
+          102.42768727812525,
+          151.00000000000006,
+          169.99771636795464
+        ],
+        "min": [
+          -67.56968727812524,
+          80.49999999999996,
+          0.002283632045377052
+        ]
+      },
+      "center_of_mass": [
+        17.429000000000023,
+        115.75,
+        84.99999999999996
+      ],
+      "density_g_cm3": 1.29,
+      "edges": 2,
+      "face_types": {
+        "cylinder": 1,
+        "plane": 2
+      },
+      "faces": 3,
+      "kernel": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "vertices": 4
+      },
+      "mass_g": 2064.1210262289624,
+      "material": "Default",
+      "name": "REF_Wheel",
+      "vertices": 2,
+      "volume_mm3": 1600093.8187821414
+    }
+  ],
+  "body_count": 32,
+  "params": [],
+  "sketches": [
+    {
+      "curves": 36,
+      "dof": 72,
+      "id": 1,
+      "name": "th_plate_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 38,
+      "dof": 76,
+      "id": 3,
+      "name": "th_crank_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 4,
+      "dof": 8,
+      "id": 5,
+      "name": "th_slot_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 4,
+      "dof": 8,
+      "id": 8,
+      "name": "th_lug_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 6,
+      "dof": 12,
+      "id": 12,
+      "name": "th_hex_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 4,
+      "dof": 8,
+      "id": 16,
+      "name": "th_chan_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 4,
+      "dof": 8,
+      "id": 18,
+      "name": "cp_bar_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 40,
+      "dof": 80,
+      "id": 20,
+      "name": "cp_eB_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 40,
+      "dof": 80,
+      "id": 22,
+      "name": "cp_eC_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 38,
+      "dof": 76,
+      "id": 26,
+      "name": "sh_a_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 38,
+      "dof": 76,
+      "id": 28,
+      "name": "sh_b_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 38,
+      "dof": 76,
+      "id": 30,
+      "name": "sh_c_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 56,
+      "dof": 112,
+      "id": 32,
+      "name": "sh_foot_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 38,
+      "dof": 76,
+      "id": 34,
+      "name": "sh_kpad_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 40,
+      "dof": 80,
+      "id": 36,
+      "name": "sh_cpad_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 4,
+      "dof": 8,
+      "id": 45,
+      "name": "sh_chan_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 38,
+      "dof": 76,
+      "id": 47,
+      "name": "pl_a_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 38,
+      "dof": 76,
+      "id": 49,
+      "name": "pl_b_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 38,
+      "dof": 76,
+      "id": 51,
+      "name": "pl_c_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 56,
+      "dof": 112,
+      "id": 53,
+      "name": "pl_f_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 38,
+      "dof": 76,
+      "id": 60,
+      "name": "st_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 26,
+      "dof": 52,
+      "id": 64,
+      "name": "ar_a_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 38,
+      "dof": 76,
+      "id": 66,
+      "name": "ar_u_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 39,
+      "dof": 78,
+      "id": 68,
+      "name": "ar_p_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 15,
+      "dof": 30,
+      "id": 70,
+      "name": "ar_t_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 4,
+      "dof": 8,
+      "id": 80,
+      "name": "pad_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 6,
+      "dof": 12,
+      "id": 108,
+      "name": "Leg_HexSleeve_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 6,
+      "dof": 12,
+      "id": 110,
+      "name": "Leg_HexSleeve_i_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 4,
+      "dof": 8,
+      "id": 112,
+      "name": "Leg_Spring_env_sk",
+      "profiles": 1,
+      "status": "solved",
+      "visible": false
+    }
+  ],
+  "timeline": [
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 1,
+      "ms": 0.231036,
+      "name": "th_plate_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 2,
+      "ms": 2.2446469999999996,
+      "name": "th_plate",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 3,
+      "ms": 0.167183,
+      "name": "th_crank_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 4,
+      "ms": 20.825039999999998,
+      "name": "th_crank",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": "the joined piece doesn't touch `Leg_Thigh`, so `Leg_Thigh` is now in 2 separate pieces (New Body makes it a body of its own)"
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 5,
+      "ms": 0.055678,
+      "name": "th_slot_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 6,
+      "ms": 24.456499,
+      "name": "th_slot",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 7,
+      "ms": 27.145888,
+      "name": "th_crankpin",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 8,
+      "ms": 0.060180000000000004,
+      "name": "th_lug_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 0.0,
+            "rotation_rad": 0.0,
+            "strategy": "refined_tolerance",
+            "tolerance_mm": 1.722774482068575,
+            "translation_mm": 0.0
+          },
+          {
+            "face_shift_mm": 0.0,
+            "rotation_rad": 0.0,
+            "strategy": "refined_tolerance",
+            "tolerance_mm": 1.722774482068575,
+            "translation_mm": 0.0
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 9,
+      "ms": 200.516138,
+      "name": "th_lug",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 10,
+      "ms": 142.04667700000002,
+      "name": "th_stub",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 11,
+      "ms": 24.511730999999997,
+      "name": "th_stubbore",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 12,
+      "ms": 0.074575,
+      "name": "th_hex_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 13,
+      "ms": 25.971269000000003,
+      "name": "th_hex",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 14,
+      "ms": 31.663429,
+      "name": "th_m4",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 15,
+      "ms": 29.702958000000002,
+      "name": "th_kbore",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 16,
+      "ms": 0.061657,
+      "name": "th_chan_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 17,
+      "ms": 27.722830000000002,
+      "name": "th_chan",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 18,
+      "ms": 0.057057,
+      "name": "cp_bar_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 19,
+      "ms": 0.400774,
+      "name": "cp_bar",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 20,
+      "ms": 0.271545,
+      "name": "cp_eB_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 21,
+      "ms": 11.041194,
+      "name": "cp_eB",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 22,
+      "ms": 0.204125,
+      "name": "cp_eC_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 23,
+      "ms": 15.428304,
+      "name": "cp_eC",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 24,
+      "ms": 10.081186,
+      "name": "cp_bB",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 25,
+      "ms": 9.933048,
+      "name": "cp_bC",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 26,
+      "ms": 0.26122500000000004,
+      "name": "sh_a_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 27,
+      "ms": 1.416671,
+      "name": "sh_a",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 28,
+      "ms": 0.16986099999999998,
+      "name": "sh_b_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 29,
+      "ms": 13.234613,
+      "name": "sh_b",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 30,
+      "ms": 0.485906,
+      "name": "sh_c_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 31,
+      "ms": 14.73696,
+      "name": "sh_c",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 32,
+      "ms": 0.20371699999999998,
+      "name": "sh_foot_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 33,
+      "ms": 15.971368,
+      "name": "sh_foot",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 34,
+      "ms": 0.195036,
+      "name": "sh_kpad_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 35,
+      "ms": 28.662725000000002,
+      "name": "sh_kpad",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 36,
+      "ms": 0.220389,
+      "name": "sh_cpad_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 6.986333326988368,
+            "rotation_rad": 0.0,
+            "strategy": "coplanar_separation",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.0
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 37,
+      "ms": 70.672902,
+      "name": "sh_cpad",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 38,
+      "ms": 21.666038,
+      "name": "sh_kbore",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 39,
+      "ms": 24.223599,
+      "name": "sh_cbore",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 40,
+      "ms": 33.5292,
+      "name": "sh_axle",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 41,
+      "ms": 27.959521000000002,
+      "name": "sh_cb0",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 42,
+      "ms": 28.540169000000002,
+      "name": "sh_cb1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 43,
+      "ms": 26.677139,
+      "name": "sh_cb2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 44,
+      "ms": 27.829022,
+      "name": "sh_cb3",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 45,
+      "ms": 0.08697,
+      "name": "sh_chan_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 46,
+      "ms": 33.639813999999994,
+      "name": "sh_chan",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 47,
+      "ms": 0.183677,
+      "name": "pl_a_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 48,
+      "ms": 1.242415,
+      "name": "pl_a",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 49,
+      "ms": 0.172592,
+      "name": "pl_b_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 50,
+      "ms": 11.777856,
+      "name": "pl_b",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 51,
+      "ms": 0.158797,
+      "name": "pl_c_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 52,
+      "ms": 15.070452999999999,
+      "name": "pl_c",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 53,
+      "ms": 0.208405,
+      "name": "pl_f_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 54,
+      "ms": 16.293921,
+      "name": "pl_f",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 55,
+      "ms": 9.241855000000001,
+      "name": "pl_ax",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 56,
+      "ms": 11.398096,
+      "name": "pl_cb0",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 57,
+      "ms": 12.677437,
+      "name": "pl_cb1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 58,
+      "ms": 12.904819999999999,
+      "name": "pl_cb2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 59,
+      "ms": 11.255289,
+      "name": "pl_cb3",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 60,
+      "ms": 0.18649000000000002,
+      "name": "st_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 61,
+      "ms": 1.6244409999999998,
+      "name": "st",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 62,
+      "ms": 7.893898999999999,
+      "name": "st_k",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 63,
+      "ms": 10.657092,
+      "name": "st_c",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 64,
+      "ms": 0.12329999999999999,
+      "name": "ar_a_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 65,
+      "ms": 0.984232,
+      "name": "ar_a",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 66,
+      "ms": 0.166549,
+      "name": "ar_u_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 67,
+      "ms": 11.610265,
+      "name": "ar_u",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 68,
+      "ms": 0.165685,
+      "name": "ar_p_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 69,
+      "ms": 14.607658,
+      "name": "ar_p",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 70,
+      "ms": 0.11332400000000001,
+      "name": "ar_t_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 71,
+      "ms": 14.93992,
+      "name": "ar_t",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 72,
+      "ms": 8.511773,
+      "name": "ar_brg",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 73,
+      "ms": 7.991769,
+      "name": "ar_B",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 74,
+      "ms": 10.767628,
+      "name": "ar_anch",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 75,
+      "ms": 13.903469999999999,
+      "name": "ar_post142",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 76,
+      "ms": 10.245773999999999,
+      "name": "ar_post162",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 77,
+      "ms": 0.556756,
+      "name": "bm_a",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 78,
+      "ms": 4.79648,
+      "name": "bm_b",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 79,
+      "ms": 4.481044,
+      "name": "bm_bi",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 80,
+      "ms": 0.082822,
+      "name": "pad_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 81,
+      "ms": 0.468682,
+      "name": "pad",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 82,
+      "ms": 0.894995,
+      "name": "bump1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 83,
+      "ms": 0.594853,
+      "name": "bump2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 84,
+      "ms": 0.5132230000000001,
+      "name": "bump3",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 85,
+      "ms": 0.6587430000000001,
+      "name": "Leg_Pin_K",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 86,
+      "ms": 0.606626,
+      "name": "Leg_Pin_C",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 87,
+      "ms": 0.5236620000000001,
+      "name": "Leg_Pin_B",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 88,
+      "ms": 0.815147,
+      "name": "Leg_Pin_Crank",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 89,
+      "ms": 0.554349,
+      "name": "Leg_Pin_Anchor",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 90,
+      "ms": 0.5075620000000001,
+      "name": "Leg_Bush_K_shank_o",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 91,
+      "ms": 9.071246,
+      "name": "Leg_Bush_K_shank_i",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 92,
+      "ms": 0.6473540000000001,
+      "name": "Leg_Bush_K_thigh_o",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 93,
+      "ms": 7.911866,
+      "name": "Leg_Bush_K_thigh_i",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 94,
+      "ms": 0.795308,
+      "name": "Leg_Bush_K_strap_o",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 95,
+      "ms": 6.831163,
+      "name": "Leg_Bush_K_strap_i",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 96,
+      "ms": 0.672491,
+      "name": "Leg_Bush_C_shank_o",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 97,
+      "ms": 7.8495490000000006,
+      "name": "Leg_Bush_C_shank_i",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 98,
+      "ms": 0.796827,
+      "name": "Leg_Bush_C_coupler_o",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 99,
+      "ms": 8.395202,
+      "name": "Leg_Bush_C_coupler_i",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 100,
+      "ms": 0.7625839999999999,
+      "name": "Leg_Bush_C_strap_o",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 101,
+      "ms": 6.976437000000001,
+      "name": "Leg_Bush_C_strap_i",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 102,
+      "ms": 0.841163,
+      "name": "Leg_Bush_B_coupler_o",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 103,
+      "ms": 9.992650000000001,
+      "name": "Leg_Bush_B_coupler_i",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 104,
+      "ms": 0.5215029999999999,
+      "name": "Leg_Brg_6806_outer_o",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 105,
+      "ms": 7.242686,
+      "name": "Leg_Brg_6806_outer_i",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 106,
+      "ms": 0.767617,
+      "name": "Leg_Spacer_K_o",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 107,
+      "ms": 7.803348,
+      "name": "Leg_Spacer_K_i",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 108,
+      "ms": 0.08791500000000001,
+      "name": "Leg_HexSleeve_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 109,
+      "ms": 0.444317,
+      "name": "Leg_HexSleeve",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 110,
+      "ms": 0.060148,
+      "name": "Leg_HexSleeve_i_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 111,
+      "ms": 2.180943,
+      "name": "Leg_HexSleeve_i",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 112,
+      "ms": 0.040672,
+      "name": "Leg_Spring_env_sk",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 113,
+      "ms": 0.312025,
+      "name": "Leg_Spring_env",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 114,
+      "ms": 0.581897,
+      "name": "Leg_ArchPost_142_o",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 115,
+      "ms": 9.150708,
+      "name": "Leg_ArchPost_142_i",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 116,
+      "ms": 0.538285,
+      "name": "Leg_ArchPost_162_o",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 117,
+      "ms": 6.909421,
+      "name": "Leg_ArchPost_162_i",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 118,
+      "ms": 0.888494,
+      "name": "ref_ring",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 119,
+      "ms": 0.57625,
+      "name": "ref_skirt",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 120,
+      "ms": 0.6928610000000001,
+      "name": "ref_wheel",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    }
+  ],
+  "total": {
+    "area_mm2": 318157.4036868442,
+    "edges": 1680,
+    "faces": 652,
+    "mass_g": 3263.7216789001122,
+    "vertices": 1160,
+    "volume_mm3": 2530016.8053489244
+  }
+}

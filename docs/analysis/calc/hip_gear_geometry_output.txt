@@ -1,0 +1,13 @@
+centre distance small-ring (mm): 33.75
+shift sum needed / used: (-0.2428741934608646, -0.243)
+ratio: 6.0
+assembly (Zs*Zp2+Zr*Zp1)/(N*gcd(Zp1,Zp2)): 504.0
+Zs/N (not an integer: planets 2,3 are spun on their pins, see PLANET_SPIN_J), Zr/N: (9.333333333333334, 21.0)
+big-step tip clearance between planets (mm): 16.6507
+big-step swept radius (mm): 54.653
+contact ratio sun-big: 1.7517
+contact ratio small-ring: 1.7865
+output backlash (deg, approx.): 0.2037
+small step root dia (mm): 23.25
+wall 685 bore (D11) to small root (mm): 6.125
+big-step root dia (mm) (lightening holes must stay inside): 37.306

@@ -1,0 +1,288 @@
+[
+  {
+    "bodies": [
+      "REF_8308_KV130",
+      "HG_CarrierIn",
+      "HG_AlPlate",
+      "B_685ZZ_1",
+      "B_685ZZ_2",
+      "B_Pin5x45_1",
+      "B_685ZZ_3",
+      "B_685ZZ_4",
+      "B_Pin5x45_2",
+      "B_685ZZ_5",
+      "B_685ZZ_6",
+      "B_Pin5x45_3",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Ring",
+      "HG_Cover",
+      "HG_Skirt",
+      "HG_CarrierOut",
+      "HG_Sun",
+      "HG_Planet_1",
+      "HG_Planet_2",
+      "HG_Planet_3"
+    ],
+    "component": 1,
+    "component_name": "HG",
+    "created_bodies": [
+      "REF_8308_KV130",
+      "HG_CarrierIn",
+      "HG_AlPlate",
+      "B_685ZZ_1",
+      "B_685ZZ_2",
+      "B_Pin5x45_1",
+      "B_685ZZ_3",
+      "B_685ZZ_4",
+      "B_Pin5x45_2",
+      "B_685ZZ_5",
+      "B_685ZZ_6",
+      "B_Pin5x45_3",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Ring",
+      "HG_Cover",
+      "HG_Skirt",
+      "HG_CarrierOut",
+      "HG_Sun",
+      "HG_Planet_1",
+      "HG_Planet_2",
+      "HG_Planet_3"
+    ],
+    "exporter": "SolidCraft",
+    "exporter_up": "z",
+    "feature": 19,
+    "name": "HG",
+    "occurrence": 2,
+    "path": "/tmp/claude-1000/-run-media-jo-engineer-Engineer-files-0--AI-Created-Balance-Robot-with-AI/ffd43867-84d2-43ed-b744-1e3f5fdd9e71/scratchpad/in/hip_gearbox.step",
+    "rigid_joints": 8,
+    "subcomponents": 8,
+    "system": "SolidCraft",
+    "transform": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        28.0,
+        40.0,
+        280.0,
+        1.0
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "bodies": [
+      "HG_Cover",
+      "HG_CarrierOut"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [],
+    "feature": 28,
+    "ms": 0.017136,
+    "name": "Remove1",
+    "removed_bodies": [
+      "REF_8308_KV130",
+      "HG_CarrierIn",
+      "HG_AlPlate",
+      "B_685ZZ_1",
+      "B_685ZZ_2",
+      "B_Pin5x45_1",
+      "B_685ZZ_3",
+      "B_685ZZ_4",
+      "B_Pin5x45_2",
+      "B_685ZZ_5",
+      "B_685ZZ_6",
+      "B_Pin5x45_3",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Ring",
+      "HG_Skirt",
+      "HG_Sun",
+      "HG_Planet_1",
+      "HG_Planet_2",
+      "HG_Planet_3"
+    ],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "Leg_Thigh"
+    ],
+    "component": 29,
+    "component_name": "Leg_thigh",
+    "created_bodies": [
+      "Leg_Thigh"
+    ],
+    "exporter": "SolidCraft",
+    "exporter_up": "z",
+    "feature": 31,
+    "name": "Leg_thigh",
+    "occurrence": 30,
+    "path": "/tmp/claude-1000/-run-media-jo-engineer-Engineer-files-0--AI-Created-Balance-Robot-with-AI/ffd43867-84d2-43ed-b744-1e3f5fdd9e71/scratchpad/in/leg_thigh.step",
+    "system": "SolidCraft",
+    "warnings": []
+  },
+  {
+    "bodies": [
+      "Leg_Pin_K",
+      "Leg_Pin_C",
+      "Leg_Pin_B",
+      "Leg_Pin_Crank",
+      "Leg_Pin_Anchor",
+      "Leg_Bush_K_shank",
+      "Leg_Bush_K_thigh",
+      "Leg_Bush_K_strap",
+      "Leg_Bush_C_shank",
+      "Leg_Bush_C_coupler",
+      "Leg_Bush_C_strap",
+      "Leg_Bush_B_coupler",
+      "Leg_Brg_6806_outer",
+      "Leg_Spacer_K",
+      "Leg_HexSleeve",
+      "Leg_Spring_env"
+    ],
+    "component": 32,
+    "component_name": "Leg_hw",
+    "created_bodies": [
+      "Leg_Pin_K",
+      "Leg_Pin_C",
+      "Leg_Pin_B",
+      "Leg_Pin_Crank",
+      "Leg_Pin_Anchor",
+      "Leg_Bush_K_shank",
+      "Leg_Bush_K_thigh",
+      "Leg_Bush_K_strap",
+      "Leg_Bush_C_shank",
+      "Leg_Bush_C_coupler",
+      "Leg_Bush_C_strap",
+      "Leg_Bush_B_coupler",
+      "Leg_Brg_6806_outer",
+      "Leg_Spacer_K",
+      "Leg_HexSleeve",
+      "Leg_Spring_env"
+    ],
+    "exporter": "SolidCraft",
+    "exporter_up": "z",
+    "feature": 34,
+    "name": "Leg_hw",
+    "occurrence": 33,
+    "path": "/tmp/claude-1000/-run-media-jo-engineer-Engineer-files-0--AI-Created-Balance-Robot-with-AI/ffd43867-84d2-43ed-b744-1e3f5fdd9e71/scratchpad/in/leg_hw.step",
+    "system": "SolidCraft",
+    "warnings": []
+  },
+  {
+    "bodies": [
+      "HG_Cover",
+      "HG_CarrierOut",
+      "Leg_Thigh",
+      "Leg_Brg_6806_outer",
+      "Leg_HexSleeve"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [],
+    "feature": 35,
+    "ms": 0.006771999999999999,
+    "name": "Remove2",
+    "removed_bodies": [
+      "Leg_Pin_K",
+      "Leg_Pin_C",
+      "Leg_Pin_B",
+      "Leg_Pin_Crank",
+      "Leg_Pin_Anchor",
+      "Leg_Bush_K_shank",
+      "Leg_Bush_K_thigh",
+      "Leg_Bush_K_strap",
+      "Leg_Bush_C_shank",
+      "Leg_Bush_C_coupler",
+      "Leg_Bush_C_strap",
+      "Leg_Bush_B_coupler",
+      "Leg_Spacer_K",
+      "Leg_Spring_env"
+    ],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "HG_Cover",
+      "HG_CarrierOut",
+      "Leg_Thigh",
+      "Leg_Brg_6806_outer",
+      "Leg_HexSleeve"
+    ],
+    "changed_bodies": [
+      "Leg_HexSleeve"
+    ],
+    "created_bodies": [],
+    "feature": 36,
+    "ms": 0.156011,
+    "name": "Move1",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "HG_Cover",
+      "HG_CarrierOut",
+      "Leg_Thigh",
+      "Leg_Brg_6806_outer",
+      "Leg_HexSleeve"
+    ],
+    "changed_bodies": [
+      "Leg_HexSleeve"
+    ],
+    "created_bodies": [],
+    "feature": 37,
+    "ms": 0.11354900000000001,
+    "name": "Move2",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bodies": 1,
+    "ms": 150.025323,
+    "near": [
+      {
+        "a": "Leg_HexSleeve",
+        "b": "HG_CarrierOut",
+        "distance_mm": 0.1156818410421208,
+        "from": [
+          41.11568062813491,
+          98.0,
+          272.4938702629199
+        ],
+        "to": [
+          41.00000000000072,
+          98.00000000000001,
+          272.49439999999913
+        ]
+      }
+    ],
+    "nearest": {},
+    "overlaps": [],
+    "pairs_checked": 1,
+    "pairs_pruned": 0,
+    "pairs_reused": 0,
+    "truncated": false,
+    "unchecked": []
+  }
+]

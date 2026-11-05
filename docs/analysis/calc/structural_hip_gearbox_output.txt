@@ -1,0 +1,63 @@
+== bearing, single 6806 @ overhang 10.5 mm; C=4450 C0=2900 Q0=967 N/ball
+LC-A ctrl sym        Fr=   467 M=  4.9Nm  C0/Fr=6.21 ball Qr= 166 Qm_ax=  36 Qn= 106 SFball=3.56 seat p0= 12.7MPa SFseat=3.21 tilt(seat)=1.04deg
+LC-C ctrl 1 wheel    Fr=   719 M=  7.5Nm  C0/Fr=4.03 ball Qr= 255 Qm_ax=  56 Qn= 164 SFball=2.31 seat p0= 19.6MPa SFseat=2.09 tilt(seat)=1.61deg
+LC-B fault sym       Fr=  1247 M= 13.1Nm  C0/Fr=2.33 ball Qr= 442 Qm_ax=  97 Qn= 284 SFball=1.33 seat p0= 34.0MPa SFseat=1.20 tilt(seat)=2.78deg
+LC-D fault 1 wheel   Fr=  2133 M= 22.4Nm  C0/Fr=1.36 ball Qr= 757 Qm_ax= 166 Qn= 485 SFball=0.78 seat p0= 58.2MPa SFseat=0.70 tilt(seat)=4.76deg
+free tilt from bearing play: 3.06 mrad = 0.18 deg
+
+== option: pair of 6806 touching (centres 7 mm apart, load 10.5 mm outside nearer one)
+LC-D fault 1 wheel: outer bearing radial 5332 N (1.84 C0), inner 3200 N reversed
+== option: 2nd bearing centred spacing s (load midway): radial each F/2
+LC-A ctrl sym        each   234 N  SF_static C0/(0.6*F/2)=20.70  C0/(F/2)=12.42
+LC-C ctrl 1 wheel    each   360 N  SF_static C0/(0.6*F/2)=13.44  C0/(F/2)=8.07
+LC-B fault sym       each   624 N  SF_static C0/(0.6*F/2)=7.75  C0/(F/2)=4.65
+LC-D fault 1 wheel   each  1066 N  SF_static C0/(0.6*F/2)=4.53  C0/(F/2)=2.72
+   needs s=2*overhang=21 mm: 2nd bearing centre y=108.5
+== option: 2nd bearing inboard at carrier-in (z~2, span 45.5 mm): outer bearing 1.23F
+LC-A ctrl sym        outer   575 N  inner reversed  108 N  C0/outer=5.05
+LC-C ctrl 1 wheel    outer   885 N  inner reversed  166 N  C0/outer=3.28
+LC-B fault sym       outer  1535 N  inner reversed  288 N  C0/outer=1.89
+LC-D fault 1 wheel   outer  2625 N  inner reversed  492 N  C0/outer=1.10
+LC-A ctrl sym: equivalent radial incl. moment 816 N, (C/P)^3 = 162 Mrev
+LC-C ctrl 1 wheel: equivalent radial incl. moment 1256 N, (C/P)^3 = 45 Mrev
+
+== carrier tilt -> planet meshes
+torque-only ring-mesh tangential per planet at 16 Nm: 141 N; pin load 226 N
+LC-A ctrl sym        gear share=0.90 radial on teeth=  176 N  worst-planet wedge normal=  171 N  x torque load  1.2
+LC-C ctrl 1 wheel    gear share=0.90 radial on teeth=  271 N  worst-planet wedge normal=  264 N  x torque load  1.9
+LC-D fault 1 wheel   gear share=0.90 radial on teeth=  804 N  worst-planet wedge normal=  782 N  x torque load  5.5
+misalignment over ring face b=20: tilt 0.17deg ->0.059 mm ; 1deg -> 0.35 mm
+
+== hex 26 A/F x 6
+T=20: p_torque=11.4 MPa  p_radial(LC-D)=13.7  sum=25.1  SF PAHT=1.63 SF PETG=0.71; torsion shear 5.8 MPa SF=4.1
+T=16: p_torque=9.1 MPa  p_radial(LC-D)=13.7  sum=22.8  SF PAHT=1.80 SF PETG=0.78; torsion shear 4.6 MPa SF=5.1
+M4 8.8 bolt tension capacity 0.9*640*8.78=5057 N; insert design pull 150 N rule is for heat-set; Ensat in PAHT-CF: see md
+
+== planet pin d5 hardened (yield >=1000 MPa), span 40 mm
+T=20: Fs=106 Fr=177 Ra=137 Rb=146 M=1893 Nmm sigma=154 MPa SF(1000)=6.5 cheek p=7.3 MPa SF=5.6
+T=16: Fs=85 Fr=141 Ra=109 Rb=117 M=1515 Nmm sigma=123 MPa SF(1000)=8.1 cheek p=5.8 MPa SF=7.0
+
+== stack bolts M3x35 x5 at r=64
+T=20: tangential at ears 312 N, per bolt 62 (3 sharing 104); ear bearing 5.8 MPa SF=7.1; friction cap (800 N preload, 2 faces) 154 Nm; with 50% creep 77 Nm SF=3.8; washer p=27 MPa SF=1.51
+T=16: tangential at ears 250 N, per bolt 50 (3 sharing 83); ear bearing 4.6 MPa SF=8.8; friction cap (800 N preload, 2 faces) 154 Nm; with 50% creep 77 Nm SF=4.8; washer p=27 MPa SF=1.51
+M3 shear 3 sharing: tau=21 MPa vs 0.6*640
+axial 970 N on 5 bolts: 194 N each (0.07 of M3 proof); cover lip shear area pi*42*1.5=198 mm2 -> tau=4.9 MPa SF=1.9 (Z-layer 0.4)
+axial 1700 N on 5 bolts: 340 N each (0.12 of M3 proof); cover lip shear area pi*42*1.5=198 mm2 -> tau=8.6 MPa SF=1.1 (Z-layer 0.4)
+
+== ear & skirt
+ear tear-out tau=2.6 MPa (e=3.3 mm, t=6) SF=9.0; edge distance 5 mm = 1.7 d (rule 2.5d)
+skirt shear 0.70 MPa
+LC-A ctrl sym: stack bending at plate Mb=36 Nm sigma=2.5 MPa, with Kt 2.5 at windows 6.4; SF=6.45
+LC-D fault 1 wheel: stack bending at plate Mb=165 Nm sigma=11.6 MPa, with Kt 2.5 at windows 29.0; SF=1.41
+
+== Al plate 4xM4 at +-44 (r=62.2)
+T=20 F=0 all moment through plate  : shear/bolt    80 N tension     0 N  Al bearing    6 MPa (6061 ~380) body-plate bearing  3.3 MPa SF PAHT=12.23 PETG=5.33; M4 8.8 shear tau=6
+T=20 F=0 side plate carries radial : shear/bolt    80 N tension     0 N  Al bearing    6 MPa (6061 ~380) body-plate bearing  3.3 MPa SF PAHT=12.23 PETG=5.33; M4 8.8 shear tau=6
+T=16 F=2133 all moment through plate  : shear/bolt   537 N tension   939 N  Al bearing   40 MPa (6061 ~380) body-plate bearing 22.4 MPa SF PAHT=1.83 PETG=0.80; M4 8.8 shear tau=43
+T=16 F=2133 side plate carries radial : shear/bolt    64 N tension     0 N  Al bearing    5 MPa (6061 ~380) body-plate bearing  2.7 MPa SF PAHT=15.29 PETG=6.66; M4 8.8 shear tau=5
+T=5 F=719 all moment through plate  : shear/bolt   181 N tension   317 N  Al bearing   13 MPa (6061 ~380) body-plate bearing  7.5 MPa SF PAHT=5.43 PETG=2.37; M4 8.8 shear tau=14
+T=5 F=719 side plate carries radial : shear/bolt    20 N tension     0 N  Al bearing    1 MPa (6061 ~380) body-plate bearing  0.8 MPa SF PAHT=48.92 PETG=21.33; M4 8.8 shear tau=2
+
+== LC-L lateral slide
+LC-C: Fy=154 N, roll moment 33 Nm, hip/B-pin axial couple (34 mm lever) 971 N
+LC-D: Fy=270 N, roll moment 58 Nm, hip/B-pin axial couple (34 mm lever) 1705 N

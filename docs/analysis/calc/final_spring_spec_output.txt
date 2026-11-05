@@ -1,0 +1,30 @@
+Wire 2.0 mm A228: Sut 2000 MPa; D 11.0, ID 9.0, C 5.50, Wahl Kw 1.278
+Active coils for 3.5 N/mm: Na = 34.0 (G 79.3 GPa); body coils Nb = Na - G/E(0.4) = 33.6; body length (Nb+1)d = 69.3 mm
+Initial tension 15.0 N -> tau_i = 53 MPa (typical winding range C=5.5: ~28-85 MPa) -> achievable
+
+Body shear (Wahl), allowable 0.45 Sut = 900 MPa (static, stress-relieved)
+  F0 15 N: 67 MPa, SF 13.40
+  Fmax 169 N: 757 MPa, SF 1.19
+
+Hook stresses at 169 N (bend A bending, bend B torsion); allow bending 0.75 Sut = 1500, torsion 0.40 Sut = 800 MPa
+  full loop, hook D = coil D (11 mm), r1 = D/2, r2 = 2d: bending 1423 MPa (SF 1.05), torsion 740 MPa (SF 1.08)
+  full loop, r2 = 3d: bending 1423 MPa (SF 1.05), torsion 680 MPa (SF 1.18)
+  reduced hook: hook mean D 8.5 (ID 6.5), arm = mean(D, Dh) = 9.75, r1 4.25, r2 = 3d (ESTIMATE): bending 1326 MPa (SF 1.13), torsion 603 MPa (SF 1.33)
+
+Pin-centre distance (CAD rev 2): h289 111.0, h195 144.5, h140 154.5 mm; ext. at 140 = 43.5 mm
+Anchor/crank pins are 5 mm, so inside-hook length at F0 (= free length) Li = 116.0 mm; at crouch 159.5 mm
+force vs hip height (incl. over-travel into the TPU stop; mechanical reach 116 mm):
+  h 289: spring 111.0 mm, ext 0.0, F 15 N, body tau 67 MPa (7 % of allow)
+  h 250: spring 128.3 mm, ext 17.3, F 76 N, body tau 338 MPa (38 % of allow)
+  h 195: spring 144.5 mm, ext 33.5, F 132 N, body tau 592 MPa (66 % of allow)
+  h 160: spring 151.5 mm, ext 40.4, F 157 N, body tau 701 MPa (78 % of allow)
+  h 140: spring 154.5 mm, ext 43.5, F 167 N, body tau 749 MPa (83 % of allow)
+  h 130: spring 155.8 mm, ext 44.8, F 172 N, body tau 769 MPa (85 % of allow)
+  h 120: spring 157.0 mm, ext 46.0, F 176 N, body tau 787 MPa (88 % of allow)
+  h 116: spring 157.4 mm, ext 46.4, F 177 N, body tau 794 MPa (88 % of allow)
+Force at the 0.45 Sut body limit: 201 N = extension 53.1 mm (beyond free) -> hip height ~[]
+
+Fatigue (Zimmerli unpeened, Sse 662 MPa @1e7, Goodman): jump cycle 15->169 N: ta 345, tm 412, SF(1e7) 1.21; stance cycle 15->132 N: SF 1.56
+  Jump count in the test plan: ~500 jumps (structural S10) -> finite life, far below 1e7; hook fatigue is the limiter, not the body.
+
+Wire length ~1330 mm -> mass 33 g/spring (BOM placeholder 35 g)

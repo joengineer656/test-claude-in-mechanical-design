@@ -1,0 +1,73 @@
+=== WHEEL MN5008 KV170 ===
+10 km/h: wheel 32.7 rad/s, motor 1092 rpm, f_el 255 Hz, P_iron+bearing ~1.39 W
+h_rotor(1090 rpm) = 27 W/m2K, h_outer(2.78 m/s) = 16 W/m2K, A_motor 104 cm2, A_cavity 298 cm2
+[sealed hub, standstill] R_wind-amb sealed = 19.7 K/W ; with Al heat path = 5.4 K/W
+[sealed hub, 10 km/h] R_wind-amb sealed = 8.3 K/W ; with Al heat path = 4.4 K/W
+6 A -> 0.92 Nm at wheel; duty RMS 0.3 Nm -> 1.96 A
+  6 A standstill         sealed  : P_cu25  7.29 W, P_tot 17.37 W, T_wind  376.8 C
+  6 A standstill         Al path : P_cu25  7.29 W, P_tot  8.98 W, T_wind   83.9 C
+  6 A @10 km/h           sealed  : P_cu25  7.29 W, P_tot 15.71 W, T_wind  165.7 C
+  6 A @10 km/h           Al path : P_cu25  7.29 W, P_tot 13.70 W, T_wind   95.3 C
+  duty @10 km/h          sealed  : P_cu25  0.78 W, P_tot  3.26 W, T_wind   62.1 C
+  duty @10 km/h          Al path : P_cu25  0.78 W, P_tot  3.22 W, T_wind   49.2 C
+  duty standstill bal.   sealed  : P_cu25  0.78 W, P_tot  0.86 W, T_wind   51.9 C
+  duty standstill bal.   Al path : P_cu25  0.78 W, P_tot  0.82 W, T_wind   39.5 C
+  I_max cont (T_wind 100 C) [sealed hub, standstill]: sealed 3.5 A, Al path 6.7 A
+  I_max cont (T_wind 100 C) [sealed hub, 10 km/h]: sealed 4.9 A, Al path 7.1 A
+  (if R_ll were 0.720: I_max sealed standstill 2.2 A)
+  at sealed limit (3.3 W): motor can 95 C, cavity air 66 C, hub wall inner 44 C
+  tau sealed standstill = 21 min (C = 64 J/K)
+  15 A peak: P_cu(80C) 55 W -> copper-only adiabatic 5.8 K/s, whole motor 0.87 K/s
+  6 A from 60 C to 100 C (sealed, standstill): 170 s
+
+=== HIP 8308 KV130 ===
+R_wind-amb: printed mount 4.32 K/W, with Al adapter plate 3.38 K/W, printed + driving air 2.95 K/W
+  6 Nm continuous  I  13.9 A printed : P_cu25 12.84 W, T_wind 108.6 C, can/housing  95.0 C
+  6 Nm continuous  I  13.9 A Al plate: P_cu25 12.84 W, T_wind  89.4 C, can/housing  76.5 C
+  30 % (1.8 Nm)    I   4.2 A printed : P_cu25  1.16 W, T_wind  40.3 C, can/housing  39.3 C
+  30 % (1.8 Nm)    I   4.2 A Al plate: P_cu25  1.16 W, T_wind  39.1 C, can/housing  38.1 C
+  standing 2.3 Nm  I   5.3 A printed : P_cu25  1.89 W, T_wind  43.7 C, can/housing  42.1 C
+  standing 2.3 Nm  I   5.3 A Al plate: P_cu25  1.89 W, T_wind  41.8 C, can/housing  40.2 C
+  climb 5.3 Nm     I  12.3 A printed : P_cu25 10.02 W, T_wind  89.1 C, can/housing  79.1 C
+  climb 5.3 Nm     I  12.3 A Al plate: P_cu25 10.02 W, T_wind  75.6 C, can/housing  66.0 C
+  I_max cont printed: 13.2 A -> 5.7 Nm at hip
+  I_max cont Al plate: 14.9 A -> 6.5 Nm at hip
+  (with measured-Kt derate 0.8: 6 Nm needs 17.3 A)
+
+=== JUMP 40 A BURST (hip) ===
+  0.115 s at 40 A: P_cu(80C) 130 W, E 15 J, copper-only dT 0.8 K, whole motor 0.09 K
+  0.300 s at 40 A: P_cu(80C) 130 W, E 39 J, copper-only dT 2.0 K, whole motor 0.23 K
+  2.000 s at 40 A: P_cu(80C) 130 W, E 260 J, copper-only dT 13.5 K, whole motor 1.55 K
+  one 0.3 s push-off every  5 s adds 7.8 W average
+  one 0.3 s push-off every 10 s adds 3.9 W average
+  one 0.3 s push-off every 20 s adds 1.9 W average
+
+=== DRIVER ===
+board->air: bare 12.4 K/W, with 70x70x1.5 Al plate 5.5 K/W
+   2.0 A: cond  0.02 sw 0.07 shunt 0.00 + logic 1.5 =  1.59 W; rise bare   20 K, Al    9 K
+   4.2 A: cond  0.10 sw 0.15 shunt 0.00 + logic 1.5 =  1.75 W; rise bare   22 K, Al   10 K
+   6.0 A: cond  0.19 sw 0.21 shunt 0.01 + logic 1.5 =  1.91 W; rise bare   24 K, Al   10 K
+  14.0 A: cond  1.06 sw 0.49 shunt 0.05 + logic 1.5 =  3.09 W; rise bare   38 K, Al   17 K
+  20.0 A: cond  2.16 sw 0.69 shunt 0.10 + logic 1.5 =  4.45 W; rise bare   55 K, Al   24 K
+  40.0 A: cond  8.64 sw 1.39 shunt 0.40 + logic 1.5 = 11.93 W; rise bare  148 K, Al   65 K
+
+=== BRAKE RESISTOR 2 ohm ===
+  25.2 V: peak 318 W, 12.6 A
+  28.0 V: peak 392 W, 14.0 A
+  30.0 V: peak 450 W, 15.0 A
+  25 J event -> 2.3 K ; fault (318 W continuous) -> 29 K/s, reaches 200 C in 5.6 s
+
+=== BODY ===
+  duty: drivers 6.7 W + others 7.6 W = 14.3 W
+  high (hip 14 A, wheel 6 A): drivers 10.0 W + others 7.6 W = 17.6 W
+  sealed body (0.235 m2, R 1.20 K/W) duty: air 52 C
+  sealed body (0.235 m2, R 1.20 K/W) high: air 56 C
+  fan flow for dT_air 5 K: 2.47 L/s = 5.2 CFM; free vent area at 1.5 m/s: 16 cm2 each
+  fan flow for dT_air 8 K: 1.54 L/s = 3.3 CFM; free vent area at 1.5 m/s: 10 cm2 each
+  natural chimney (H 0.15 m, dT 15 K): v 0.23 m/s, free area each 36 cm2
+  Pi SoC bare             at local air   52 C ->  102 C
+  Pi SoC bare             at local air   41 C ->   91 C
+  Pi SoC passive heatsink at local air   52 C ->   87 C
+  Pi SoC passive heatsink at local air   41 C ->   76 C
+  Pi SoC heatsink + fan   at local air   52 C ->   70 C
+  Pi SoC heatsink + fan   at local air   41 C ->   59 C

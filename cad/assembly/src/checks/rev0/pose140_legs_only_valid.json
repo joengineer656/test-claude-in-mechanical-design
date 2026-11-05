@@ -1,0 +1,2844 @@
+[
+  {
+    "bodies": [
+      "B1_Side_L",
+      "REF_AnchorPin_L",
+      "B1_Side_R",
+      "REF_AnchorPin_R",
+      "B3_Lid",
+      "B4_Front",
+      "B5_Rear",
+      "B6_Mast",
+      "REF_HipHousing_L",
+      "REF_HipRing_L",
+      "B1S_HipSeat_L",
+      "REF_HipHousing_R",
+      "REF_HipRing_R",
+      "B1S_HipSeat_R",
+      "REF_Battery",
+      "REF_Pi4",
+      "REF_ESP32",
+      "REF_Fan",
+      "REF_Res_L",
+      "REF_Res_R",
+      "REF_Lidar",
+      "REF_DrvPlate_hip_L",
+      "REF_DrvPlate_whl_L",
+      "REF_DrvPlate_hip_R",
+      "REF_DrvPlate_whl_R",
+      "B2_Tray",
+      "B2b_Cradle",
+      "B7a_PiDeck",
+      "REF_ResBracket_Al1mm"
+    ],
+    "component": 1,
+    "component_name": "Body",
+    "created_bodies": [
+      "B1_Side_L",
+      "REF_AnchorPin_L",
+      "B1_Side_R",
+      "REF_AnchorPin_R",
+      "B3_Lid",
+      "B4_Front",
+      "B5_Rear",
+      "B6_Mast",
+      "REF_HipHousing_L",
+      "REF_HipRing_L",
+      "B1S_HipSeat_L",
+      "REF_HipHousing_R",
+      "REF_HipRing_R",
+      "B1S_HipSeat_R",
+      "REF_Battery",
+      "REF_Pi4",
+      "REF_ESP32",
+      "REF_Fan",
+      "REF_Res_L",
+      "REF_Res_R",
+      "REF_Lidar",
+      "REF_DrvPlate_hip_L",
+      "REF_DrvPlate_whl_L",
+      "REF_DrvPlate_hip_R",
+      "REF_DrvPlate_whl_R",
+      "B2_Tray",
+      "B2b_Cradle",
+      "B7a_PiDeck",
+      "REF_ResBracket_Al1mm"
+    ],
+    "exporter": "SolidCraft",
+    "exporter_up": "z",
+    "feature": 3,
+    "name": "Body",
+    "occurrence": 2,
+    "path": "/tmp/solidcraft-mcp-171537-36af69a1/in/body.step",
+    "system": "SolidCraft",
+    "warnings": []
+  },
+  {
+    "bodies": [
+      "B1_Side_L",
+      "REF_AnchorPin_L",
+      "B1_Side_R",
+      "REF_AnchorPin_R",
+      "B3_Lid",
+      "B4_Front",
+      "B5_Rear",
+      "B6_Mast",
+      "B1S_HipSeat_L",
+      "B1S_HipSeat_R",
+      "REF_Battery",
+      "REF_Pi4",
+      "REF_ESP32",
+      "REF_Fan",
+      "REF_Res_L",
+      "REF_Res_R",
+      "REF_Lidar",
+      "REF_DrvPlate_hip_L",
+      "REF_DrvPlate_whl_L",
+      "REF_DrvPlate_hip_R",
+      "REF_DrvPlate_whl_R",
+      "B2_Tray",
+      "B2b_Cradle",
+      "B7a_PiDeck",
+      "REF_ResBracket_Al1mm"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [],
+    "feature": 4,
+    "ms": 0.009753,
+    "name": "Remove1",
+    "removed_bodies": [
+      "REF_HipHousing_L",
+      "REF_HipRing_L",
+      "REF_HipHousing_R",
+      "REF_HipRing_R"
+    ],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "B_6806_2",
+      "HG_Arch",
+      "REF_8308_KV130",
+      "HG_CarrierIn",
+      "HG_AlPlate",
+      "B_685ZZ_1",
+      "B_685ZZ_2",
+      "B_Pin5x45_1",
+      "B_685ZZ_3",
+      "B_685ZZ_4",
+      "B_Pin5x45_2",
+      "B_685ZZ_5",
+      "B_685ZZ_6",
+      "B_Pin5x45_3",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Ring",
+      "HG_Cover",
+      "HG_Skirt",
+      "HG_CarrierOut",
+      "HG_Sun",
+      "HG_Planet_1",
+      "HG_Planet_2",
+      "HG_Planet_3"
+    ],
+    "component": 5,
+    "component_name": "HG",
+    "created_bodies": [
+      "B_6806_2",
+      "HG_Arch",
+      "REF_8308_KV130",
+      "HG_CarrierIn",
+      "HG_AlPlate",
+      "B_685ZZ_1",
+      "B_685ZZ_2",
+      "B_Pin5x45_1",
+      "B_685ZZ_3",
+      "B_685ZZ_4",
+      "B_Pin5x45_2",
+      "B_685ZZ_5",
+      "B_685ZZ_6",
+      "B_Pin5x45_3",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Ring",
+      "HG_Cover",
+      "HG_Skirt",
+      "HG_CarrierOut",
+      "HG_Sun",
+      "HG_Planet_1",
+      "HG_Planet_2",
+      "HG_Planet_3"
+    ],
+    "exporter": "SolidCraft",
+    "exporter_up": "z",
+    "feature": 23,
+    "name": "HG",
+    "occurrence": 6,
+    "path": "/tmp/solidcraft-mcp-171537-36af69a1/in/hip_gearbox_61.step",
+    "rigid_joints": 8,
+    "subcomponents": 8,
+    "system": "SolidCraft",
+    "transform": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        28.0,
+        40.0,
+        280.0,
+        1.0
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "bodies": [
+      "B1_Side_L",
+      "REF_AnchorPin_L",
+      "B1_Side_R",
+      "REF_AnchorPin_R",
+      "B3_Lid",
+      "B4_Front",
+      "B5_Rear",
+      "B6_Mast",
+      "B1S_HipSeat_L",
+      "B1S_HipSeat_R",
+      "REF_Battery",
+      "REF_Pi4",
+      "REF_ESP32",
+      "REF_Fan",
+      "REF_Res_L",
+      "REF_Res_R",
+      "REF_Lidar",
+      "REF_DrvPlate_hip_L",
+      "REF_DrvPlate_whl_L",
+      "REF_DrvPlate_hip_R",
+      "REF_DrvPlate_whl_R",
+      "B2_Tray",
+      "B2b_Cradle",
+      "B7a_PiDeck",
+      "REF_ResBracket_Al1mm",
+      "B_6806_2",
+      "HG_Arch",
+      "REF_8308_KV130",
+      "HG_AlPlate",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Cover",
+      "HG_Skirt",
+      "HG_CarrierOut"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [],
+    "feature": 32,
+    "ms": 0.018658,
+    "name": "Remove2",
+    "removed_bodies": [
+      "HG_CarrierIn",
+      "B_685ZZ_1",
+      "B_685ZZ_2",
+      "B_Pin5x45_1",
+      "B_685ZZ_3",
+      "B_685ZZ_4",
+      "B_Pin5x45_2",
+      "B_685ZZ_5",
+      "B_685ZZ_6",
+      "B_Pin5x45_3",
+      "HG_Ring",
+      "HG_Sun",
+      "HG_Planet_1",
+      "HG_Planet_2",
+      "HG_Planet_3"
+    ],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "WH_Axle",
+      "WH_RingSleeve",
+      "WH_Sun",
+      "WH_Planet_1",
+      "WH_Planet_2",
+      "WH_Planet_3",
+      "WH_CarrierA",
+      "WH_CarrierB",
+      "WH_Hub",
+      "WH_Cover",
+      "WH_Tyre",
+      "REF_MN5008",
+      "B_6806_1",
+      "B_6806_2 (2)",
+      "B_685ZZ_1",
+      "B_685ZZ_2",
+      "B_Pin5x20_1",
+      "B_685ZZ_3",
+      "B_685ZZ_4",
+      "B_Pin5x20_2",
+      "B_685ZZ_5",
+      "B_685ZZ_6",
+      "B_Pin5x20_3",
+      "REF_EncBoard_D30x8",
+      "WH_MagHolder",
+      "B_Magnet_D6x2.5"
+    ],
+    "component": 33,
+    "component_name": "WH",
+    "created_bodies": [
+      "WH_Axle",
+      "WH_RingSleeve",
+      "WH_Sun",
+      "WH_Planet_1",
+      "WH_Planet_2",
+      "WH_Planet_3",
+      "WH_CarrierA",
+      "WH_CarrierB",
+      "WH_Hub",
+      "WH_Cover",
+      "WH_Tyre",
+      "REF_MN5008",
+      "B_6806_1",
+      "B_6806_2 (2)",
+      "B_685ZZ_1",
+      "B_685ZZ_2",
+      "B_Pin5x20_1",
+      "B_685ZZ_3",
+      "B_685ZZ_4",
+      "B_Pin5x20_2",
+      "B_685ZZ_5",
+      "B_685ZZ_6",
+      "B_Pin5x20_3",
+      "REF_EncBoard_D30x8",
+      "WH_MagHolder",
+      "B_Magnet_D6x2.5"
+    ],
+    "exporter": "SolidCraft",
+    "exporter_up": "z",
+    "feature": 35,
+    "name": "WH",
+    "occurrence": 34,
+    "path": "/tmp/solidcraft-mcp-171537-36af69a1/in/wheel.step",
+    "system": "SolidCraft",
+    "transform": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -9.088411428390273,
+        80.0,
+        85.0,
+        1.0
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "bodies": [
+      "B1_Side_L",
+      "REF_AnchorPin_L",
+      "B1_Side_R",
+      "REF_AnchorPin_R",
+      "B3_Lid",
+      "B4_Front",
+      "B5_Rear",
+      "B6_Mast",
+      "B1S_HipSeat_L",
+      "B1S_HipSeat_R",
+      "REF_Battery",
+      "REF_Pi4",
+      "REF_ESP32",
+      "REF_Fan",
+      "REF_Res_L",
+      "REF_Res_R",
+      "REF_Lidar",
+      "REF_DrvPlate_hip_L",
+      "REF_DrvPlate_whl_L",
+      "REF_DrvPlate_hip_R",
+      "REF_DrvPlate_whl_R",
+      "B2_Tray",
+      "B2b_Cradle",
+      "B7a_PiDeck",
+      "REF_ResBracket_Al1mm",
+      "B_6806_2",
+      "HG_Arch",
+      "REF_8308_KV130",
+      "HG_AlPlate",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Cover",
+      "HG_Skirt",
+      "HG_CarrierOut",
+      "WH_Axle",
+      "WH_Hub",
+      "WH_Cover",
+      "WH_Tyre",
+      "REF_MN5008",
+      "B_6806_1",
+      "B_6806_2 (2)",
+      "REF_EncBoard_D30x8"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [],
+    "feature": 36,
+    "ms": 0.019992,
+    "name": "Remove3",
+    "removed_bodies": [
+      "WH_RingSleeve",
+      "WH_Sun",
+      "WH_Planet_1",
+      "WH_Planet_2",
+      "WH_Planet_3",
+      "WH_CarrierA",
+      "WH_CarrierB",
+      "B_685ZZ_1",
+      "B_685ZZ_2",
+      "B_Pin5x20_1",
+      "B_685ZZ_3",
+      "B_685ZZ_4",
+      "B_Pin5x20_2",
+      "B_685ZZ_5",
+      "B_685ZZ_6",
+      "B_Pin5x20_3",
+      "WH_MagHolder",
+      "B_Magnet_D6x2.5"
+    ],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "Leg_Thigh"
+    ],
+    "component": 37,
+    "component_name": "Leg_thigh",
+    "created_bodies": [
+      "Leg_Thigh"
+    ],
+    "exporter": "SolidCraft",
+    "exporter_up": "z",
+    "feature": 39,
+    "name": "Leg_thigh",
+    "occurrence": 38,
+    "path": "/tmp/solidcraft-mcp-171537-36af69a1/in/leg_thigh.step",
+    "system": "SolidCraft",
+    "warnings": []
+  },
+  {
+    "bodies": [
+      "Leg_Coupler"
+    ],
+    "component": 40,
+    "component_name": "Leg_coupler",
+    "created_bodies": [
+      "Leg_Coupler"
+    ],
+    "exporter": "SolidCraft",
+    "exporter_up": "z",
+    "feature": 42,
+    "name": "Leg_coupler",
+    "occurrence": 41,
+    "path": "/tmp/solidcraft-mcp-171537-36af69a1/in/leg_coupler.step",
+    "system": "SolidCraft",
+    "warnings": []
+  },
+  {
+    "bodies": [
+      "Leg_Shank"
+    ],
+    "component": 43,
+    "component_name": "Leg_shank",
+    "created_bodies": [
+      "Leg_Shank"
+    ],
+    "exporter": "SolidCraft",
+    "exporter_up": "z",
+    "feature": 45,
+    "name": "Leg_shank",
+    "occurrence": 44,
+    "path": "/tmp/solidcraft-mcp-171537-36af69a1/in/leg_shank.step",
+    "system": "SolidCraft",
+    "warnings": []
+  },
+  {
+    "bodies": [
+      "Leg_ShankPlate"
+    ],
+    "component": 46,
+    "component_name": "Leg_plate",
+    "created_bodies": [
+      "Leg_ShankPlate"
+    ],
+    "exporter": "SolidCraft",
+    "exporter_up": "z",
+    "feature": 48,
+    "name": "Leg_plate",
+    "occurrence": 47,
+    "path": "/tmp/solidcraft-mcp-171537-36af69a1/in/leg_plate.step",
+    "system": "SolidCraft",
+    "warnings": []
+  },
+  {
+    "bodies": [
+      "Leg_KneeStrap"
+    ],
+    "component": 49,
+    "component_name": "Leg_strap",
+    "created_bodies": [
+      "Leg_KneeStrap"
+    ],
+    "exporter": "SolidCraft",
+    "exporter_up": "z",
+    "feature": 51,
+    "name": "Leg_strap",
+    "occurrence": 50,
+    "path": "/tmp/solidcraft-mcp-171537-36af69a1/in/leg_strap.step",
+    "system": "SolidCraft",
+    "warnings": []
+  },
+  {
+    "bodies": [
+      "Leg_ArchPlate"
+    ],
+    "component": 52,
+    "component_name": "Leg_arch",
+    "created_bodies": [
+      "Leg_ArchPlate"
+    ],
+    "exporter": "SolidCraft",
+    "exporter_up": "z",
+    "feature": 54,
+    "name": "Leg_arch",
+    "occurrence": 53,
+    "path": "/tmp/solidcraft-mcp-171537-36af69a1/in/leg_arch.step",
+    "system": "SolidCraft",
+    "warnings": []
+  },
+  {
+    "bodies": [
+      "Leg_OutriggerBeam"
+    ],
+    "component": 55,
+    "component_name": "Leg_beam",
+    "created_bodies": [
+      "Leg_OutriggerBeam"
+    ],
+    "exporter": "SolidCraft",
+    "exporter_up": "z",
+    "feature": 57,
+    "name": "Leg_beam",
+    "occurrence": 56,
+    "path": "/tmp/solidcraft-mcp-171537-36af69a1/in/leg_beam.step",
+    "system": "SolidCraft",
+    "warnings": []
+  },
+  {
+    "bodies": [
+      "Leg_ArchPost_142",
+      "Leg_ArchPost_162"
+    ],
+    "component": 58,
+    "component_name": "Leg_posts",
+    "created_bodies": [
+      "Leg_ArchPost_142",
+      "Leg_ArchPost_162"
+    ],
+    "exporter": "SolidCraft",
+    "exporter_up": "z",
+    "feature": 60,
+    "name": "Leg_posts",
+    "occurrence": 59,
+    "path": "/tmp/solidcraft-mcp-171537-36af69a1/in/leg_posts.step",
+    "system": "SolidCraft",
+    "warnings": []
+  },
+  {
+    "bodies": [
+      "Leg_StopPad_TPU",
+      "Leg_Bumper_Thigh_TPU",
+      "Leg_Bumper_Shank_TPU",
+      "Leg_Dot_TPU"
+    ],
+    "component": 61,
+    "component_name": "Leg_tpu",
+    "created_bodies": [
+      "Leg_StopPad_TPU",
+      "Leg_Bumper_Thigh_TPU",
+      "Leg_Bumper_Shank_TPU",
+      "Leg_Dot_TPU"
+    ],
+    "exporter": "SolidCraft",
+    "exporter_up": "z",
+    "feature": 63,
+    "name": "Leg_tpu",
+    "occurrence": 62,
+    "path": "/tmp/solidcraft-mcp-171537-36af69a1/in/leg_tpu.step",
+    "system": "SolidCraft",
+    "warnings": []
+  },
+  {
+    "bodies": [
+      "Leg_Pin_K",
+      "Leg_Pin_C",
+      "Leg_Pin_B",
+      "Leg_Pin_Crank",
+      "Leg_Pin_Anchor",
+      "Leg_Bush_K_shank",
+      "Leg_Bush_K_thigh",
+      "Leg_Bush_K_strap",
+      "Leg_Bush_C_shank",
+      "Leg_Bush_C_coupler",
+      "Leg_Bush_C_strap",
+      "Leg_Bush_B_coupler",
+      "Leg_Brg_6806_outer",
+      "Leg_Spacer_K",
+      "Leg_HexSleeve",
+      "Leg_Spring_env"
+    ],
+    "component": 64,
+    "component_name": "Leg_hw",
+    "created_bodies": [
+      "Leg_Pin_K",
+      "Leg_Pin_C",
+      "Leg_Pin_B",
+      "Leg_Pin_Crank",
+      "Leg_Pin_Anchor",
+      "Leg_Bush_K_shank",
+      "Leg_Bush_K_thigh",
+      "Leg_Bush_K_strap",
+      "Leg_Bush_C_shank",
+      "Leg_Bush_C_coupler",
+      "Leg_Bush_C_strap",
+      "Leg_Bush_B_coupler",
+      "Leg_Brg_6806_outer",
+      "Leg_Spacer_K",
+      "Leg_HexSleeve",
+      "Leg_Spring_env"
+    ],
+    "exporter": "SolidCraft",
+    "exporter_up": "z",
+    "feature": 66,
+    "name": "Leg_hw",
+    "occurrence": 65,
+    "path": "/tmp/solidcraft-mcp-171537-36af69a1/in/leg_hw.step",
+    "system": "SolidCraft",
+    "warnings": []
+  },
+  {
+    "bodies": [
+      "B1_Side_L",
+      "REF_AnchorPin_L",
+      "B1_Side_R",
+      "REF_AnchorPin_R",
+      "B3_Lid",
+      "B4_Front",
+      "B5_Rear",
+      "B6_Mast",
+      "B1S_HipSeat_L",
+      "B1S_HipSeat_R",
+      "REF_Battery",
+      "REF_Pi4",
+      "REF_ESP32",
+      "REF_Fan",
+      "REF_Res_L",
+      "REF_Res_R",
+      "REF_Lidar",
+      "REF_DrvPlate_hip_L",
+      "REF_DrvPlate_whl_L",
+      "REF_DrvPlate_hip_R",
+      "REF_DrvPlate_whl_R",
+      "B2_Tray",
+      "B2b_Cradle",
+      "B7a_PiDeck",
+      "REF_ResBracket_Al1mm",
+      "B_6806_2",
+      "HG_Arch",
+      "REF_8308_KV130",
+      "HG_AlPlate",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Cover",
+      "HG_Skirt",
+      "HG_CarrierOut",
+      "WH_Axle",
+      "WH_Hub",
+      "WH_Cover",
+      "WH_Tyre",
+      "REF_MN5008",
+      "B_6806_1",
+      "B_6806_2 (2)",
+      "REF_EncBoard_D30x8",
+      "Leg_Thigh",
+      "Leg_Coupler",
+      "Leg_Shank",
+      "Leg_ShankPlate",
+      "Leg_KneeStrap",
+      "Leg_ArchPlate",
+      "Leg_OutriggerBeam",
+      "Leg_ArchPost_142",
+      "Leg_ArchPost_162",
+      "Leg_StopPad_TPU",
+      "Leg_Bumper_Thigh_TPU",
+      "Leg_Bumper_Shank_TPU",
+      "Leg_Dot_TPU",
+      "Leg_Pin_K",
+      "Leg_Pin_C",
+      "Leg_Pin_B",
+      "Leg_Pin_Crank",
+      "Leg_Pin_Anchor",
+      "Leg_Bush_K_shank",
+      "Leg_Bush_K_thigh",
+      "Leg_Bush_K_strap",
+      "Leg_Bush_C_shank",
+      "Leg_Bush_C_coupler",
+      "Leg_Bush_C_strap",
+      "Leg_Bush_B_coupler",
+      "Leg_Brg_6806_outer",
+      "Leg_Spacer_K",
+      "Leg_HexSleeve",
+      "Leg_Spring_env",
+      "Leg_Thigh (2)",
+      "Leg_Coupler (2)",
+      "Leg_Shank (2)",
+      "Leg_ShankPlate (2)",
+      "Leg_KneeStrap (2)",
+      "Leg_ArchPlate (2)",
+      "Leg_OutriggerBeam (2)",
+      "Leg_ArchPost_142 (2)",
+      "Leg_ArchPost_162 (2)",
+      "Leg_StopPad_TPU (2)",
+      "Leg_Bumper_Thigh_TPU (2)",
+      "Leg_Bumper_Shank_TPU (2)",
+      "Leg_Dot_TPU (2)",
+      "Leg_Pin_K (2)",
+      "Leg_Pin_C (2)",
+      "Leg_Pin_B (2)",
+      "Leg_Pin_Crank (2)",
+      "Leg_Pin_Anchor (2)",
+      "Leg_Bush_K_shank (2)",
+      "Leg_Bush_K_thigh (2)",
+      "Leg_Bush_K_strap (2)",
+      "Leg_Bush_C_shank (2)",
+      "Leg_Bush_C_coupler (2)",
+      "Leg_Bush_C_strap (2)",
+      "Leg_Bush_B_coupler (2)",
+      "Leg_Brg_6806_outer (2)",
+      "Leg_Spacer_K (2)",
+      "Leg_HexSleeve (2)"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "Leg_Thigh (2)",
+      "Leg_Coupler (2)",
+      "Leg_Shank (2)",
+      "Leg_ShankPlate (2)",
+      "Leg_KneeStrap (2)",
+      "Leg_ArchPlate (2)",
+      "Leg_OutriggerBeam (2)",
+      "Leg_ArchPost_142 (2)",
+      "Leg_ArchPost_162 (2)",
+      "Leg_StopPad_TPU (2)",
+      "Leg_Bumper_Thigh_TPU (2)",
+      "Leg_Bumper_Shank_TPU (2)",
+      "Leg_Dot_TPU (2)",
+      "Leg_Pin_K (2)",
+      "Leg_Pin_C (2)",
+      "Leg_Pin_B (2)",
+      "Leg_Pin_Crank (2)",
+      "Leg_Pin_Anchor (2)",
+      "Leg_Bush_K_shank (2)",
+      "Leg_Bush_K_thigh (2)",
+      "Leg_Bush_K_strap (2)",
+      "Leg_Bush_C_shank (2)",
+      "Leg_Bush_C_coupler (2)",
+      "Leg_Bush_C_strap (2)",
+      "Leg_Bush_B_coupler (2)",
+      "Leg_Brg_6806_outer (2)",
+      "Leg_Spacer_K (2)",
+      "Leg_HexSleeve (2)"
+    ],
+    "feature": 67,
+    "ms": 44.123593,
+    "name": "Mirror1",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "B1_Side_L",
+      "REF_AnchorPin_L",
+      "B1_Side_R",
+      "REF_AnchorPin_R",
+      "B3_Lid",
+      "B4_Front",
+      "B5_Rear",
+      "B6_Mast",
+      "B1S_HipSeat_L",
+      "B1S_HipSeat_R",
+      "REF_Battery",
+      "REF_Pi4",
+      "REF_ESP32",
+      "REF_Fan",
+      "REF_Res_L",
+      "REF_Res_R",
+      "REF_Lidar",
+      "REF_DrvPlate_hip_L",
+      "REF_DrvPlate_whl_L",
+      "REF_DrvPlate_hip_R",
+      "REF_DrvPlate_whl_R",
+      "B2_Tray",
+      "B2b_Cradle",
+      "B7a_PiDeck",
+      "REF_ResBracket_Al1mm",
+      "B_6806_2",
+      "HG_Arch",
+      "REF_8308_KV130",
+      "HG_AlPlate",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Cover",
+      "HG_Skirt",
+      "HG_CarrierOut",
+      "WH_Axle",
+      "WH_Hub",
+      "WH_Cover",
+      "WH_Tyre",
+      "REF_MN5008",
+      "B_6806_1",
+      "B_6806_2 (2)",
+      "REF_EncBoard_D30x8",
+      "Leg_Thigh (2)",
+      "Leg_Coupler (2)",
+      "Leg_Shank (2)",
+      "Leg_ShankPlate (2)",
+      "Leg_KneeStrap (2)",
+      "Leg_ArchPlate (2)",
+      "Leg_OutriggerBeam (2)",
+      "Leg_ArchPost_142 (2)",
+      "Leg_ArchPost_162 (2)",
+      "Leg_StopPad_TPU (2)",
+      "Leg_Bumper_Thigh_TPU (2)",
+      "Leg_Bumper_Shank_TPU (2)",
+      "Leg_Dot_TPU (2)",
+      "Leg_Pin_K (2)",
+      "Leg_Pin_C (2)",
+      "Leg_Pin_B (2)",
+      "Leg_Pin_Crank (2)",
+      "Leg_Pin_Anchor (2)",
+      "Leg_Bush_K_shank (2)",
+      "Leg_Bush_K_thigh (2)",
+      "Leg_Bush_K_strap (2)",
+      "Leg_Bush_C_shank (2)",
+      "Leg_Bush_C_coupler (2)",
+      "Leg_Bush_C_strap (2)",
+      "Leg_Bush_B_coupler (2)",
+      "Leg_Brg_6806_outer (2)",
+      "Leg_Spacer_K (2)",
+      "Leg_HexSleeve (2)"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [],
+    "feature": 68,
+    "ms": 0.026149,
+    "name": "Remove4",
+    "removed_bodies": [
+      "Leg_Thigh",
+      "Leg_Coupler",
+      "Leg_Shank",
+      "Leg_ShankPlate",
+      "Leg_KneeStrap",
+      "Leg_ArchPlate",
+      "Leg_OutriggerBeam",
+      "Leg_ArchPost_142",
+      "Leg_ArchPost_162",
+      "Leg_StopPad_TPU",
+      "Leg_Bumper_Thigh_TPU",
+      "Leg_Bumper_Shank_TPU",
+      "Leg_Dot_TPU",
+      "Leg_Pin_K",
+      "Leg_Pin_C",
+      "Leg_Pin_B",
+      "Leg_Pin_Crank",
+      "Leg_Pin_Anchor",
+      "Leg_Bush_K_shank",
+      "Leg_Bush_K_thigh",
+      "Leg_Bush_K_strap",
+      "Leg_Bush_C_shank",
+      "Leg_Bush_C_coupler",
+      "Leg_Bush_C_strap",
+      "Leg_Bush_B_coupler",
+      "Leg_Brg_6806_outer",
+      "Leg_Spacer_K",
+      "Leg_HexSleeve",
+      "Leg_Spring_env"
+    ],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "B1_Side_L",
+      "REF_AnchorPin_L",
+      "B1_Side_R",
+      "REF_AnchorPin_R",
+      "B3_Lid",
+      "B4_Front",
+      "B5_Rear",
+      "B6_Mast",
+      "B1S_HipSeat_L",
+      "B1S_HipSeat_R",
+      "REF_Battery",
+      "REF_Pi4",
+      "REF_ESP32",
+      "REF_Fan",
+      "REF_Res_L",
+      "REF_Res_R",
+      "REF_Lidar",
+      "REF_DrvPlate_hip_L",
+      "REF_DrvPlate_whl_L",
+      "REF_DrvPlate_hip_R",
+      "REF_DrvPlate_whl_R",
+      "B2_Tray",
+      "B2b_Cradle",
+      "B7a_PiDeck",
+      "REF_ResBracket_Al1mm",
+      "B_6806_2",
+      "HG_Arch",
+      "REF_8308_KV130",
+      "HG_AlPlate",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Cover",
+      "HG_Skirt",
+      "HG_CarrierOut",
+      "WH_Axle",
+      "WH_Hub",
+      "WH_Cover",
+      "WH_Tyre",
+      "REF_MN5008",
+      "B_6806_1",
+      "B_6806_2 (2)",
+      "REF_EncBoard_D30x8",
+      "Leg_Thigh (2)",
+      "Leg_Coupler (2)",
+      "Leg_Shank (2)",
+      "Leg_ShankPlate (2)",
+      "Leg_KneeStrap (2)",
+      "Leg_ArchPlate (2)",
+      "Leg_OutriggerBeam (2)",
+      "Leg_ArchPost_142 (2)",
+      "Leg_ArchPost_162 (2)",
+      "Leg_StopPad_TPU (2)",
+      "Leg_Bumper_Thigh_TPU (2)",
+      "Leg_Bumper_Shank_TPU (2)",
+      "Leg_Dot_TPU (2)",
+      "Leg_Pin_K (2)",
+      "Leg_Pin_C (2)",
+      "Leg_Pin_B (2)",
+      "Leg_Pin_Crank (2)",
+      "Leg_Pin_Anchor (2)",
+      "Leg_Bush_K_shank (2)",
+      "Leg_Bush_K_thigh (2)",
+      "Leg_Bush_K_strap (2)",
+      "Leg_Bush_C_shank (2)",
+      "Leg_Bush_C_coupler (2)",
+      "Leg_Bush_C_strap (2)",
+      "Leg_Bush_B_coupler (2)",
+      "Leg_Brg_6806_outer (2)",
+      "Leg_Spacer_K (2)",
+      "Leg_HexSleeve (2)"
+    ],
+    "changed_bodies": [
+      "Leg_Thigh (2)",
+      "Leg_Coupler (2)",
+      "Leg_Shank (2)",
+      "Leg_ShankPlate (2)",
+      "Leg_KneeStrap (2)",
+      "Leg_ArchPlate (2)",
+      "Leg_OutriggerBeam (2)",
+      "Leg_ArchPost_142 (2)",
+      "Leg_ArchPost_162 (2)",
+      "Leg_StopPad_TPU (2)",
+      "Leg_Bumper_Thigh_TPU (2)",
+      "Leg_Bumper_Shank_TPU (2)",
+      "Leg_Dot_TPU (2)",
+      "Leg_Pin_K (2)",
+      "Leg_Pin_C (2)",
+      "Leg_Pin_B (2)",
+      "Leg_Pin_Crank (2)",
+      "Leg_Pin_Anchor (2)",
+      "Leg_Bush_K_shank (2)",
+      "Leg_Bush_K_thigh (2)",
+      "Leg_Bush_K_strap (2)",
+      "Leg_Bush_C_shank (2)",
+      "Leg_Bush_C_coupler (2)",
+      "Leg_Bush_C_strap (2)",
+      "Leg_Bush_B_coupler (2)",
+      "Leg_Brg_6806_outer (2)",
+      "Leg_Spacer_K (2)",
+      "Leg_HexSleeve (2)"
+    ],
+    "created_bodies": [],
+    "feature": 69,
+    "ms": 43.877199999999995,
+    "name": "Move1",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "B1_Side_L",
+      "REF_AnchorPin_L",
+      "B1_Side_R",
+      "REF_AnchorPin_R",
+      "B3_Lid",
+      "B4_Front",
+      "B5_Rear",
+      "B6_Mast",
+      "B1S_HipSeat_L",
+      "B1S_HipSeat_R",
+      "REF_Battery",
+      "REF_Pi4",
+      "REF_ESP32",
+      "REF_Fan",
+      "REF_Res_L",
+      "REF_Res_R",
+      "REF_Lidar",
+      "REF_DrvPlate_hip_L",
+      "REF_DrvPlate_whl_L",
+      "REF_DrvPlate_hip_R",
+      "REF_DrvPlate_whl_R",
+      "B2_Tray",
+      "B2b_Cradle",
+      "B7a_PiDeck",
+      "REF_ResBracket_Al1mm",
+      "B_6806_2",
+      "HG_Arch",
+      "REF_8308_KV130",
+      "HG_AlPlate",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Cover",
+      "HG_Skirt",
+      "HG_CarrierOut",
+      "WH_Axle",
+      "WH_Hub",
+      "WH_Cover",
+      "WH_Tyre",
+      "REF_MN5008",
+      "B_6806_1",
+      "B_6806_2 (2)",
+      "REF_EncBoard_D30x8",
+      "Leg_Thigh (2)",
+      "Leg_Coupler (2)",
+      "Leg_Shank (2)",
+      "Leg_ShankPlate (2)",
+      "Leg_KneeStrap (2)",
+      "Leg_ArchPlate (2)",
+      "Leg_OutriggerBeam (2)",
+      "Leg_ArchPost_142 (2)",
+      "Leg_ArchPost_162 (2)",
+      "Leg_StopPad_TPU (2)",
+      "Leg_Bumper_Thigh_TPU (2)",
+      "Leg_Bumper_Shank_TPU (2)",
+      "Leg_Dot_TPU (2)",
+      "Leg_Pin_K (2)",
+      "Leg_Pin_C (2)",
+      "Leg_Pin_B (2)",
+      "Leg_Pin_Crank (2)",
+      "Leg_Pin_Anchor (2)",
+      "Leg_Bush_K_shank (2)",
+      "Leg_Bush_K_thigh (2)",
+      "Leg_Bush_K_strap (2)",
+      "Leg_Bush_C_shank (2)",
+      "Leg_Bush_C_coupler (2)",
+      "Leg_Bush_C_strap (2)",
+      "Leg_Bush_B_coupler (2)",
+      "Leg_Brg_6806_outer (2)",
+      "Leg_Spacer_K (2)",
+      "Leg_HexSleeve (2)"
+    ],
+    "changed_bodies": [
+      "Leg_Thigh (2)",
+      "Leg_Bumper_Thigh_TPU (2)",
+      "Leg_Pin_Crank (2)",
+      "Leg_Bush_K_thigh (2)"
+    ],
+    "created_bodies": [],
+    "feature": 70,
+    "ms": 9.418747999999999,
+    "name": "Move2",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "B1_Side_L",
+      "REF_AnchorPin_L",
+      "B1_Side_R",
+      "REF_AnchorPin_R",
+      "B3_Lid",
+      "B4_Front",
+      "B5_Rear",
+      "B6_Mast",
+      "B1S_HipSeat_L",
+      "B1S_HipSeat_R",
+      "REF_Battery",
+      "REF_Pi4",
+      "REF_ESP32",
+      "REF_Fan",
+      "REF_Res_L",
+      "REF_Res_R",
+      "REF_Lidar",
+      "REF_DrvPlate_hip_L",
+      "REF_DrvPlate_whl_L",
+      "REF_DrvPlate_hip_R",
+      "REF_DrvPlate_whl_R",
+      "B2_Tray",
+      "B2b_Cradle",
+      "B7a_PiDeck",
+      "REF_ResBracket_Al1mm",
+      "B_6806_2",
+      "HG_Arch",
+      "REF_8308_KV130",
+      "HG_AlPlate",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Cover",
+      "HG_Skirt",
+      "HG_CarrierOut",
+      "WH_Axle",
+      "WH_Hub",
+      "WH_Cover",
+      "WH_Tyre",
+      "REF_MN5008",
+      "B_6806_1",
+      "B_6806_2 (2)",
+      "REF_EncBoard_D30x8",
+      "Leg_Thigh (2)",
+      "Leg_Coupler (2)",
+      "Leg_Shank (2)",
+      "Leg_ShankPlate (2)",
+      "Leg_KneeStrap (2)",
+      "Leg_ArchPlate (2)",
+      "Leg_OutriggerBeam (2)",
+      "Leg_ArchPost_142 (2)",
+      "Leg_ArchPost_162 (2)",
+      "Leg_StopPad_TPU (2)",
+      "Leg_Bumper_Thigh_TPU (2)",
+      "Leg_Bumper_Shank_TPU (2)",
+      "Leg_Dot_TPU (2)",
+      "Leg_Pin_K (2)",
+      "Leg_Pin_C (2)",
+      "Leg_Pin_B (2)",
+      "Leg_Pin_Crank (2)",
+      "Leg_Pin_Anchor (2)",
+      "Leg_Bush_K_shank (2)",
+      "Leg_Bush_K_thigh (2)",
+      "Leg_Bush_K_strap (2)",
+      "Leg_Bush_C_shank (2)",
+      "Leg_Bush_C_coupler (2)",
+      "Leg_Bush_C_strap (2)",
+      "Leg_Bush_B_coupler (2)",
+      "Leg_Brg_6806_outer (2)",
+      "Leg_Spacer_K (2)",
+      "Leg_HexSleeve (2)"
+    ],
+    "changed_bodies": [
+      "Leg_Thigh (2)",
+      "Leg_Bumper_Thigh_TPU (2)",
+      "Leg_Pin_Crank (2)",
+      "Leg_Bush_K_thigh (2)"
+    ],
+    "created_bodies": [],
+    "feature": 71,
+    "ms": 9.386175,
+    "name": "Move3",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "B1_Side_L",
+      "REF_AnchorPin_L",
+      "B1_Side_R",
+      "REF_AnchorPin_R",
+      "B3_Lid",
+      "B4_Front",
+      "B5_Rear",
+      "B6_Mast",
+      "B1S_HipSeat_L",
+      "B1S_HipSeat_R",
+      "REF_Battery",
+      "REF_Pi4",
+      "REF_ESP32",
+      "REF_Fan",
+      "REF_Res_L",
+      "REF_Res_R",
+      "REF_Lidar",
+      "REF_DrvPlate_hip_L",
+      "REF_DrvPlate_whl_L",
+      "REF_DrvPlate_hip_R",
+      "REF_DrvPlate_whl_R",
+      "B2_Tray",
+      "B2b_Cradle",
+      "B7a_PiDeck",
+      "REF_ResBracket_Al1mm",
+      "B_6806_2",
+      "HG_Arch",
+      "REF_8308_KV130",
+      "HG_AlPlate",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Cover",
+      "HG_Skirt",
+      "HG_CarrierOut",
+      "WH_Axle",
+      "WH_Hub",
+      "WH_Cover",
+      "WH_Tyre",
+      "REF_MN5008",
+      "B_6806_1",
+      "B_6806_2 (2)",
+      "REF_EncBoard_D30x8",
+      "Leg_Thigh (2)",
+      "Leg_Coupler (2)",
+      "Leg_Shank (2)",
+      "Leg_ShankPlate (2)",
+      "Leg_KneeStrap (2)",
+      "Leg_ArchPlate (2)",
+      "Leg_OutriggerBeam (2)",
+      "Leg_ArchPost_142 (2)",
+      "Leg_ArchPost_162 (2)",
+      "Leg_StopPad_TPU (2)",
+      "Leg_Bumper_Thigh_TPU (2)",
+      "Leg_Bumper_Shank_TPU (2)",
+      "Leg_Dot_TPU (2)",
+      "Leg_Pin_K (2)",
+      "Leg_Pin_C (2)",
+      "Leg_Pin_B (2)",
+      "Leg_Pin_Crank (2)",
+      "Leg_Pin_Anchor (2)",
+      "Leg_Bush_K_shank (2)",
+      "Leg_Bush_K_thigh (2)",
+      "Leg_Bush_K_strap (2)",
+      "Leg_Bush_C_shank (2)",
+      "Leg_Bush_C_coupler (2)",
+      "Leg_Bush_C_strap (2)",
+      "Leg_Bush_B_coupler (2)",
+      "Leg_Brg_6806_outer (2)",
+      "Leg_Spacer_K (2)",
+      "Leg_HexSleeve (2)"
+    ],
+    "changed_bodies": [
+      "WH_Axle",
+      "WH_Hub",
+      "WH_Cover",
+      "WH_Tyre",
+      "REF_MN5008",
+      "B_6806_1",
+      "B_6806_2 (2)",
+      "REF_EncBoard_D30x8",
+      "Leg_Shank (2)",
+      "Leg_ShankPlate (2)",
+      "Leg_KneeStrap (2)",
+      "Leg_Bumper_Shank_TPU (2)",
+      "Leg_Pin_K (2)",
+      "Leg_Pin_C (2)",
+      "Leg_Bush_K_shank (2)",
+      "Leg_Bush_K_strap (2)",
+      "Leg_Bush_C_shank (2)",
+      "Leg_Bush_C_strap (2)",
+      "Leg_Spacer_K (2)"
+    ],
+    "created_bodies": [],
+    "feature": 72,
+    "ms": 133.431878,
+    "name": "Move4",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "B1_Side_L",
+      "REF_AnchorPin_L",
+      "B1_Side_R",
+      "REF_AnchorPin_R",
+      "B3_Lid",
+      "B4_Front",
+      "B5_Rear",
+      "B6_Mast",
+      "B1S_HipSeat_L",
+      "B1S_HipSeat_R",
+      "REF_Battery",
+      "REF_Pi4",
+      "REF_ESP32",
+      "REF_Fan",
+      "REF_Res_L",
+      "REF_Res_R",
+      "REF_Lidar",
+      "REF_DrvPlate_hip_L",
+      "REF_DrvPlate_whl_L",
+      "REF_DrvPlate_hip_R",
+      "REF_DrvPlate_whl_R",
+      "B2_Tray",
+      "B2b_Cradle",
+      "B7a_PiDeck",
+      "REF_ResBracket_Al1mm",
+      "B_6806_2",
+      "HG_Arch",
+      "REF_8308_KV130",
+      "HG_AlPlate",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Cover",
+      "HG_Skirt",
+      "HG_CarrierOut",
+      "WH_Axle",
+      "WH_Hub",
+      "WH_Cover",
+      "WH_Tyre",
+      "REF_MN5008",
+      "B_6806_1",
+      "B_6806_2 (2)",
+      "REF_EncBoard_D30x8",
+      "Leg_Thigh (2)",
+      "Leg_Coupler (2)",
+      "Leg_Shank (2)",
+      "Leg_ShankPlate (2)",
+      "Leg_KneeStrap (2)",
+      "Leg_ArchPlate (2)",
+      "Leg_OutriggerBeam (2)",
+      "Leg_ArchPost_142 (2)",
+      "Leg_ArchPost_162 (2)",
+      "Leg_StopPad_TPU (2)",
+      "Leg_Bumper_Thigh_TPU (2)",
+      "Leg_Bumper_Shank_TPU (2)",
+      "Leg_Dot_TPU (2)",
+      "Leg_Pin_K (2)",
+      "Leg_Pin_C (2)",
+      "Leg_Pin_B (2)",
+      "Leg_Pin_Crank (2)",
+      "Leg_Pin_Anchor (2)",
+      "Leg_Bush_K_shank (2)",
+      "Leg_Bush_K_thigh (2)",
+      "Leg_Bush_K_strap (2)",
+      "Leg_Bush_C_shank (2)",
+      "Leg_Bush_C_coupler (2)",
+      "Leg_Bush_C_strap (2)",
+      "Leg_Bush_B_coupler (2)",
+      "Leg_Brg_6806_outer (2)",
+      "Leg_Spacer_K (2)",
+      "Leg_HexSleeve (2)"
+    ],
+    "changed_bodies": [
+      "WH_Axle",
+      "WH_Hub",
+      "WH_Cover",
+      "WH_Tyre",
+      "REF_MN5008",
+      "B_6806_1",
+      "B_6806_2 (2)",
+      "REF_EncBoard_D30x8",
+      "Leg_Shank (2)",
+      "Leg_ShankPlate (2)",
+      "Leg_KneeStrap (2)",
+      "Leg_Bumper_Shank_TPU (2)",
+      "Leg_Pin_K (2)",
+      "Leg_Pin_C (2)",
+      "Leg_Bush_K_shank (2)",
+      "Leg_Bush_K_strap (2)",
+      "Leg_Bush_C_shank (2)",
+      "Leg_Bush_C_strap (2)",
+      "Leg_Spacer_K (2)"
+    ],
+    "created_bodies": [],
+    "feature": 73,
+    "ms": 133.526754,
+    "name": "Move5",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "B1_Side_L",
+      "REF_AnchorPin_L",
+      "B1_Side_R",
+      "REF_AnchorPin_R",
+      "B3_Lid",
+      "B4_Front",
+      "B5_Rear",
+      "B6_Mast",
+      "B1S_HipSeat_L",
+      "B1S_HipSeat_R",
+      "REF_Battery",
+      "REF_Pi4",
+      "REF_ESP32",
+      "REF_Fan",
+      "REF_Res_L",
+      "REF_Res_R",
+      "REF_Lidar",
+      "REF_DrvPlate_hip_L",
+      "REF_DrvPlate_whl_L",
+      "REF_DrvPlate_hip_R",
+      "REF_DrvPlate_whl_R",
+      "B2_Tray",
+      "B2b_Cradle",
+      "B7a_PiDeck",
+      "REF_ResBracket_Al1mm",
+      "B_6806_2",
+      "HG_Arch",
+      "REF_8308_KV130",
+      "HG_AlPlate",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Cover",
+      "HG_Skirt",
+      "HG_CarrierOut",
+      "WH_Axle",
+      "WH_Hub",
+      "WH_Cover",
+      "WH_Tyre",
+      "REF_MN5008",
+      "B_6806_1",
+      "B_6806_2 (2)",
+      "REF_EncBoard_D30x8",
+      "Leg_Thigh (2)",
+      "Leg_Coupler (2)",
+      "Leg_Shank (2)",
+      "Leg_ShankPlate (2)",
+      "Leg_KneeStrap (2)",
+      "Leg_ArchPlate (2)",
+      "Leg_OutriggerBeam (2)",
+      "Leg_ArchPost_142 (2)",
+      "Leg_ArchPost_162 (2)",
+      "Leg_StopPad_TPU (2)",
+      "Leg_Bumper_Thigh_TPU (2)",
+      "Leg_Bumper_Shank_TPU (2)",
+      "Leg_Dot_TPU (2)",
+      "Leg_Pin_K (2)",
+      "Leg_Pin_C (2)",
+      "Leg_Pin_B (2)",
+      "Leg_Pin_Crank (2)",
+      "Leg_Pin_Anchor (2)",
+      "Leg_Bush_K_shank (2)",
+      "Leg_Bush_K_thigh (2)",
+      "Leg_Bush_K_strap (2)",
+      "Leg_Bush_C_shank (2)",
+      "Leg_Bush_C_coupler (2)",
+      "Leg_Bush_C_strap (2)",
+      "Leg_Bush_B_coupler (2)",
+      "Leg_Brg_6806_outer (2)",
+      "Leg_Spacer_K (2)",
+      "Leg_HexSleeve (2)"
+    ],
+    "changed_bodies": [
+      "Leg_Coupler (2)",
+      "Leg_Bush_C_coupler (2)",
+      "Leg_Bush_B_coupler (2)"
+    ],
+    "created_bodies": [],
+    "feature": 74,
+    "ms": 4.535038,
+    "name": "Move6",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "B1_Side_L",
+      "REF_AnchorPin_L",
+      "B1_Side_R",
+      "REF_AnchorPin_R",
+      "B3_Lid",
+      "B4_Front",
+      "B5_Rear",
+      "B6_Mast",
+      "B1S_HipSeat_L",
+      "B1S_HipSeat_R",
+      "REF_Battery",
+      "REF_Pi4",
+      "REF_ESP32",
+      "REF_Fan",
+      "REF_Res_L",
+      "REF_Res_R",
+      "REF_Lidar",
+      "REF_DrvPlate_hip_L",
+      "REF_DrvPlate_whl_L",
+      "REF_DrvPlate_hip_R",
+      "REF_DrvPlate_whl_R",
+      "B2_Tray",
+      "B2b_Cradle",
+      "B7a_PiDeck",
+      "REF_ResBracket_Al1mm",
+      "B_6806_2",
+      "HG_Arch",
+      "REF_8308_KV130",
+      "HG_AlPlate",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Cover",
+      "HG_Skirt",
+      "HG_CarrierOut",
+      "WH_Axle",
+      "WH_Hub",
+      "WH_Cover",
+      "WH_Tyre",
+      "REF_MN5008",
+      "B_6806_1",
+      "B_6806_2 (2)",
+      "REF_EncBoard_D30x8",
+      "Leg_Thigh (2)",
+      "Leg_Coupler (2)",
+      "Leg_Shank (2)",
+      "Leg_ShankPlate (2)",
+      "Leg_KneeStrap (2)",
+      "Leg_ArchPlate (2)",
+      "Leg_OutriggerBeam (2)",
+      "Leg_ArchPost_142 (2)",
+      "Leg_ArchPost_162 (2)",
+      "Leg_StopPad_TPU (2)",
+      "Leg_Bumper_Thigh_TPU (2)",
+      "Leg_Bumper_Shank_TPU (2)",
+      "Leg_Dot_TPU (2)",
+      "Leg_Pin_K (2)",
+      "Leg_Pin_C (2)",
+      "Leg_Pin_B (2)",
+      "Leg_Pin_Crank (2)",
+      "Leg_Pin_Anchor (2)",
+      "Leg_Bush_K_shank (2)",
+      "Leg_Bush_K_thigh (2)",
+      "Leg_Bush_K_strap (2)",
+      "Leg_Bush_C_shank (2)",
+      "Leg_Bush_C_coupler (2)",
+      "Leg_Bush_C_strap (2)",
+      "Leg_Bush_B_coupler (2)",
+      "Leg_Brg_6806_outer (2)",
+      "Leg_Spacer_K (2)",
+      "Leg_HexSleeve (2)"
+    ],
+    "changed_bodies": [
+      "Leg_Coupler (2)",
+      "Leg_Bush_C_coupler (2)",
+      "Leg_Bush_B_coupler (2)"
+    ],
+    "created_bodies": [],
+    "feature": 75,
+    "ms": 4.627239,
+    "name": "Move7",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "B1_Side_L",
+      "REF_AnchorPin_L",
+      "B1_Side_R",
+      "REF_AnchorPin_R",
+      "B3_Lid",
+      "B4_Front",
+      "B5_Rear",
+      "B6_Mast",
+      "B1S_HipSeat_L",
+      "B1S_HipSeat_R",
+      "REF_Battery",
+      "REF_Pi4",
+      "REF_ESP32",
+      "REF_Fan",
+      "REF_Res_L",
+      "REF_Res_R",
+      "REF_Lidar",
+      "REF_DrvPlate_hip_L",
+      "REF_DrvPlate_whl_L",
+      "REF_DrvPlate_hip_R",
+      "REF_DrvPlate_whl_R",
+      "B2_Tray",
+      "B2b_Cradle",
+      "B7a_PiDeck",
+      "REF_ResBracket_Al1mm",
+      "B_6806_2",
+      "HG_Arch",
+      "REF_8308_KV130",
+      "HG_AlPlate",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Cover",
+      "HG_Skirt",
+      "HG_CarrierOut",
+      "WH_Axle",
+      "WH_Hub",
+      "WH_Cover",
+      "WH_Tyre",
+      "REF_MN5008",
+      "B_6806_1",
+      "B_6806_2 (2)",
+      "REF_EncBoard_D30x8",
+      "Leg_Thigh (2)",
+      "Leg_Coupler (2)",
+      "Leg_Shank (2)",
+      "Leg_ShankPlate (2)",
+      "Leg_KneeStrap (2)",
+      "Leg_ArchPlate (2)",
+      "Leg_OutriggerBeam (2)",
+      "Leg_ArchPost_142 (2)",
+      "Leg_ArchPost_162 (2)",
+      "Leg_StopPad_TPU (2)",
+      "Leg_Bumper_Thigh_TPU (2)",
+      "Leg_Bumper_Shank_TPU (2)",
+      "Leg_Dot_TPU (2)",
+      "Leg_Pin_K (2)",
+      "Leg_Pin_C (2)",
+      "Leg_Pin_B (2)",
+      "Leg_Pin_Crank (2)",
+      "Leg_Pin_Anchor (2)",
+      "Leg_Bush_K_shank (2)",
+      "Leg_Bush_K_thigh (2)",
+      "Leg_Bush_K_strap (2)",
+      "Leg_Bush_C_shank (2)",
+      "Leg_Bush_C_coupler (2)",
+      "Leg_Bush_C_strap (2)",
+      "Leg_Bush_B_coupler (2)",
+      "Leg_Brg_6806_outer (2)",
+      "Leg_Spacer_K (2)",
+      "Leg_HexSleeve (2)",
+      "Spring_cyl"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [
+      "Spring_cyl"
+    ],
+    "feature": 76,
+    "ms": 2.829004,
+    "name": "Cylinder1",
+    "removed_bodies": [],
+    "warning": null
+  },
+  {
+    "bodies": 5,
+    "ms": 85.385379,
+    "near": [],
+    "nearest": {},
+    "overlaps": [],
+    "pairs_checked": 0,
+    "pairs_pruned": 130,
+    "pairs_reused": 0,
+    "truncated": false,
+    "unchecked": []
+  },
+  {
+    "bodies": 20,
+    "ms": 272363.598658,
+    "near": [
+      {
+        "a": "Leg_Thigh (2)",
+        "b": "HG_Cover",
+        "distance_mm": 0.0,
+        "from": [
+          39.64249639956817,
+          92.9999999999942,
+          300.3327611040938
+        ],
+        "to": [
+          39.64249639956817,
+          92.9999999999942,
+          300.3327611040938
+        ]
+      },
+      {
+        "a": "B1_Side_L",
+        "b": "Leg_Thigh (2)",
+        "distance_mm": 1.0002292565340376,
+        "from": [
+          90.00040174522877,
+          91.999770743499,
+          280.5115461416811
+        ],
+        "to": [
+          90.00040186562006,
+          93.00000000003288,
+          280.5115466812931
+        ]
+      },
+      {
+        "a": "Leg_ArchPlate (2)",
+        "b": "HG_Arch",
+        "distance_mm": 1.499999999999332,
+        "from": [
+          9.66518784573584,
+          117.4999999999988,
+          317.516770765965
+        ],
+        "to": [
+          9.66518784573584,
+          115.99999999999947,
+          317.516770765965
+        ]
+      },
+      {
+        "a": "Leg_Brg_6806_outer (2)",
+        "b": "HG_Arch",
+        "distance_mm": 1.5000000000002984,
+        "from": [
+          30.333802007890405,
+          117.49999999999946,
+          298.8561228302099
+        ],
+        "to": [
+          30.333802007890405,
+          115.99999999999916,
+          298.8561228302099
+        ]
+      },
+      {
+        "a": "Leg_HexSleeve (2)",
+        "b": "B_6806",
+        "distance_mm": 2.0000000000000107,
+        "from": [
+          14.621205244277126,
+          93.00000000000001,
+          273.21709166595883
+        ],
+        "to": [
+          14.621205130243338,
+          91.00000000000001,
+          273.21709149162604
+        ]
+      },
+      {
+        "a": "Leg_Thigh (2)",
+        "b": "B_6806",
+        "distance_mm": 2.00000000001846,
+        "from": [
+          39.40600256078177,
+          93.00000000001846,
+          292.41394528679047
+        ],
+        "to": [
+          39.40600256078177,
+          91.0,
+          292.41394528679047
+        ]
+      },
+      {
+        "a": "Leg_HexSleeve (2)",
+        "b": "HG_Cover",
+        "distance_mm": 2.256841128388978,
+        "from": [
+          42.012,
+          93.00000000000001,
+          270.835
+        ],
+        "to": [
+          43.90070320908234,
+          93.00000000000118,
+          269.59963282106486
+        ]
+      },
+      {
+        "a": "Spring_cyl",
+        "b": "HG_CarrierOut",
+        "distance_mm": 2.9722812053962993,
+        "from": [
+          20.363896555196476,
+          109.99999999999919,
+          296.2693827758178
+        ],
+        "to": [
+          21.62676610916295,
+          109.99999999999882,
+          293.5787293136238
+        ]
+      },
+      {
+        "a": "B1S_HipSeat_L",
+        "b": "Leg_ArchPost_142 (2)",
+        "distance_mm": 3.9999447865662088,
+        "from": [
+          -27.16089080015928,
+          64.99999999994283,
+          323.09612657922963
+        ],
+        "to": [
+          -30.31289819413702,
+          64.9999999999436,
+          325.5587283911123
+        ]
+      },
+      {
+        "a": "B1S_HipSeat_L",
+        "b": "Leg_ArchPost_162 (2)",
+        "distance_mm": 4.000226158220532,
+        "from": [
+          -38.574084758469745,
+          64.99999999998364,
+          301.630793757331
+        ],
+        "to": [
+          -42.37853323208739,
+          64.99999999998337,
+          302.866909095194
+        ]
+      },
+      {
+        "a": "Spring_cyl",
+        "b": "REF_AnchorPin_L",
+        "distance_mm": 4.500000000000028,
+        "from": [
+          122.0999998370889,
+          103.50000000000003,
+          351.20000034709625
+        ],
+        "to": [
+          122.0999998370889,
+          99.0,
+          351.20000034709625
+        ]
+      },
+      {
+        "a": "Leg_Brg_6806_outer (2)",
+        "b": "HG_CarrierOut",
+        "distance_mm": 4.500000000000526,
+        "from": [
+          20.33640496479096,
+          117.49999999999955,
+          292.89454579022805
+        ],
+        "to": [
+          20.33640496479096,
+          112.99999999999902,
+          292.894545790228
+        ]
+      },
+      {
+        "a": "B1_Side_L",
+        "b": "Leg_Bumper_Thigh_TPU (2)",
+        "distance_mm": 4.500233205820598,
+        "from": [
+          90.0004138857074,
+          91.9997667941801,
+          287.8320332147192
+        ],
+        "to": [
+          90.00041499064565,
+          96.50000000000001,
+          287.83203544259146
+        ]
+      },
+      {
+        "a": "REF_AnchorPin_L",
+        "b": "Leg_OutriggerBeam (2)",
+        "distance_mm": 4.7999999999999545,
+        "from": [
+          122.09999992835631,
+          63.00000000000001,
+          354.20000000000005
+        ],
+        "to": [
+          122.09999992835631,
+          63.00000000000001,
+          359.0
+        ]
+      },
+      {
+        "a": "REF_AnchorPin_L",
+        "b": "Leg_Pin_Anchor (2)",
+        "distance_mm": 5.0,
+        "from": [
+          123.93562286393342,
+          99.0,
+          352.8972002537723
+        ],
+        "to": [
+          123.93562286393342,
+          104.0,
+          352.8972002537723
+        ]
+      },
+      {
+        "a": "B1_Side_L",
+        "b": "Leg_ShankPlate (2)",
+        "distance_mm": 5.000000000374932,
+        "from": [
+          -39.4402496186583,
+          62.999999999623746,
+          150.00000000002086
+        ],
+        "to": [
+          -39.44024961865787,
+          67.99999999999868,
+          150.0000000000208
+        ]
+      },
+      {
+        "a": "Leg_ArchPost_162 (2)",
+        "b": "HG_Cover",
+        "distance_mm": 5.395328984552683,
+        "from": [
+          -42.95578020295082,
+          82.49999999993679,
+          301.5229879238113
+        ],
+        "to": [
+          -38.21381220697993,
+          82.49999999993712,
+          298.94940785380334
+        ]
+      },
+      {
+        "a": "Leg_ArchPost_162 (2)",
+        "b": "HG_Skirt",
+        "distance_mm": 5.39546987791286,
+        "from": [
+          -42.95574919947343,
+          53.50031437616493,
+          301.52304505003576
+        ],
+        "to": [
+          -38.21363646218992,
+          53.50031437616526,
+          298.94943630153523
+        ]
+      },
+      {
+        "a": "Leg_ArchPlate (2)",
+        "b": "B_6806_2",
+        "distance_mm": 5.499999999999048,
+        "from": [
+          28.0,
+          117.49999999999905,
+          301.00000000000006
+        ],
+        "to": [
+          28.0,
+          112.0,
+          301.0
+        ]
+      },
+      {
+        "a": "Leg_Brg_6806_outer (2)",
+        "b": "B_6806_2",
+        "distance_mm": 5.499999999999432,
+        "from": [
+          25.421164281322284,
+          117.49999999999943,
+          300.8410557874613
+        ],
+        "to": [
+          25.421164281322284,
+          112.0,
+          300.84105578746124
+        ]
+      },
+      {
+        "a": "Leg_HexSleeve (2)",
+        "b": "B_6806_2",
+        "distance_mm": 5.999999999999965,
+        "from": [
+          41.37879551506545,
+          99.00000000000003,
+          286.7829078373433
+        ],
+        "to": [
+          41.37879534318363,
+          104.99999999999999,
+          286.7829075745735
+        ]
+      },
+      {
+        "a": "Leg_HexSleeve (2)",
+        "b": "HG_Arch",
+        "distance_mm": 6.566635089019896,
+        "from": [
+          42.012,
+          99.00000000000003,
+          270.835
+        ],
+        "to": [
+          45.57446144161741,
+          104.00000000000024,
+          268.5048573285452
+        ]
+      },
+      {
+        "a": "B4_Front",
+        "b": "Leg_ShankPlate (2)",
+        "distance_mm": 7.399999999983066,
+        "from": [
+          83.80000000022865,
+          60.60000000000535,
+          171.19935447243626
+        ],
+        "to": [
+          83.80000000022928,
+          67.99999999998842,
+          171.1993544724362
+        ]
+      },
+      {
+        "a": "B2_Tray",
+        "b": "Leg_ShankPlate (2)",
+        "distance_mm": 7.399999999989774,
+        "from": [
+          67.29645000296028,
+          60.599999999999966,
+          161.9999999999016
+        ],
+        "to": [
+          67.29645000296091,
+          67.99999999998974,
+          161.99999999990155
+        ]
+      },
+      {
+        "a": "Leg_ArchPlate (2)",
+        "b": "HG_CarrierOut",
+        "distance_mm": 7.499999999608716,
+        "from": [
+          46.199999999435036,
+          117.49999999999996,
+          290.47664068394846
+        ],
+        "to": [
+          41.00000000000197,
+          112.99999999999707,
+          287.48331477452916
+        ]
+      }
+    ],
+    "nearest": {},
+    "overlaps": [
+      {
+        "a": "Spring_cyl",
+        "area_mm2": 334.71479731596327,
+        "b": "B_6806_2",
+        "bbox": {
+          "max": [
+            30.19729135241884,
+            112.0000000613401,
+            300.9999875597623
+          ],
+          "min": [
+            10.530562044568985,
+            105.0,
+            291.65412972621556
+          ]
+        },
+        "center": [
+          19.763315427521764,
+          109.0866204534496,
+          297.5488833993786
+        ],
+        "volume_mm3": 238.59849222485158
+      },
+      {
+        "a": "B1_Side_L",
+        "area_mm2": 115.19433080871022,
+        "b": "Leg_OutriggerBeam (2)",
+        "bbox": {
+          "max": [
+            123.87763888516429,
+            79.0,
+            359.19999999999993
+          ],
+          "min": [
+            120.32236111598448,
+            63.0,
+            358.99999999961227
+          ]
+        },
+        "center": [
+          122.10004949834564,
+          70.99999999895095,
+          359.0798859862167
+        ],
+        "volume_mm3": 7.5748310644054895
+      },
+      {
+        "a": "B1_Side_L",
+        "area_mm2": 422.1286847699112,
+        "b": "Leg_ArchPost_142 (2)",
+        "bbox": {
+          "max": [
+            -28.61704145766518,
+            62.99999999825497,
+            338.48399850070183
+          ],
+          "min": [
+            -44.616999030503166,
+            60.59999999820148,
+            322.4840009694968
+          ]
+        },
+        "center": [
+          -37.13504704348176,
+          61.80000000916904,
+          330.6570984195931
+        ],
+        "volume_mm3": 270.9330277462565
+      },
+      {
+        "a": "B1_Side_L",
+        "area_mm2": 563.7891662140203,
+        "b": "Leg_ArchPost_162 (2)",
+        "bbox": {
+          "max": [
+            -41.98660592278816,
+            63.00000000679032,
+            313.3394683148924
+          ],
+          "min": [
+            -57.986608953097615,
+            56.59999999587081,
+            297.33946961958253
+          ]
+        },
+        "center": [
+          -51.147909240317695,
+          61.07198432906446,
+          305.26083850787853
+        ],
+        "volume_mm3": 365.63241292408344
+      },
+      {
+        "a": "B3_Lid",
+        "area_mm2": 216.50999679398623,
+        "b": "Leg_ArchPost_142 (2)",
+        "bbox": {
+          "max": [
+            -28.617038694101986,
+            61.59999999999902,
+            338.4840000042015
+          ],
+          "min": [
+            -37.77326342504959,
+            39.99999999999999,
+            325.99999999838167
+          ]
+        },
+        "center": [
+          -31.36521324743732,
+          59.555376568907405,
+          331.3902268328544
+        ],
+        "volume_mm3": 48.04651424345414
+      },
+      {
+        "a": "REF_DrvPlate_hip_L",
+        "area_mm2": 151.4455208512961,
+        "b": "Leg_ArchPost_162 (2)",
+        "bbox": {
+          "max": [
+            -50.0,
+            52.1,
+            310.0
+          ],
+          "min": [
+            -57.98692159305888,
+            50.599999999999994,
+            297.3390105625069
+          ]
+        },
+        "center": [
+          -54.723321820026314,
+          51.350000000073344,
+          303.4135279499534
+        ],
+        "volume_mm3": 69.637455602559
+      },
+      {
+        "a": "Leg_Thigh (2)",
+        "area_mm2": 2140.5335309060138,
+        "b": "B_6806_2",
+        "bbox": {
+          "max": [
+            44.983187435067876,
+            112.0,
+            296.9831874350682
+          ],
+          "min": [
+            6.999999999999989,
+            105.0,
+            263.0168125649311
+          ]
+        },
+        "center": [
+          21.432139965411125,
+          108.50003017231512,
+          281.4653367494823
+        ],
+        "volume_mm3": 2346.0082419430005
+      },
+      {
+        "a": "Leg_HexSleeve (2)",
+        "area_mm2": 558.2308103799871,
+        "b": "HG_CarrierOut",
+        "bbox": {
+          "max": [
+            41.00015231632518,
+            99.00000000000003,
+            295.0112557751011
+          ],
+          "min": [
+            15.000121546966023,
+            93.00000000000001,
+            264.9890525380936
+          ]
+        },
+        "center": [
+          28.005909010196344,
+          96.00000000425081,
+          280.0040457777664
+        ],
+        "volume_mm3": 52.909438548906756
+      }
+    ],
+    "pairs_checked": 54,
+    "pairs_pruned": 486,
+    "pairs_reused": 0,
+    "truncated": false,
+    "unchecked": [
+      {
+        "a": "Spring_cyl",
+        "b": "HG_Arch",
+        "reason": "the operation failed: boolean Intersect: the operation failed: no result"
+      },
+      {
+        "a": "Leg_Thigh (2)",
+        "b": "HG_Arch",
+        "reason": "the operation failed: boolean Intersect: the operation failed: no result"
+      },
+      {
+        "a": "Leg_Thigh (2)",
+        "b": "HG_CarrierOut",
+        "reason": "a pin on one cylinder with its hole, whose walls could not be intersected (the operation failed: boolean Intersect: the operation failed: no result in the tries it was given)"
+      }
+    ]
+  },
+  {
+    "bodies": 20,
+    "ms": 38305.744843,
+    "near": [
+      {
+        "a": "Leg_Thigh (2)",
+        "b": "Leg_Shank (2)",
+        "distance_mm": 0.0,
+        "from": [
+          159.59762283810184,
+          93.00000000000001,
+          263.98245807488547
+        ],
+        "to": [
+          159.59762283810184,
+          93.00000000000001,
+          263.98245807488547
+        ]
+      },
+      {
+        "a": "Leg_Thigh (2)",
+        "b": "Leg_Pin_Crank (2)",
+        "distance_mm": 0.0,
+        "from": [
+          -13.216800689886647,
+          116.0,
+          289.94004075065635
+        ],
+        "to": [
+          -13.216800689886647,
+          116.0,
+          289.94004075065635
+        ]
+      },
+      {
+        "a": "Leg_Thigh (2)",
+        "b": "Leg_Brg_6806_outer (2)",
+        "distance_mm": 0.0,
+        "from": [
+          19.555717046143076,
+          117.4999999999999,
+          267.6026581318727
+        ],
+        "to": [
+          19.555717046143076,
+          117.4999999999999,
+          267.6026581318727
+        ]
+      },
+      {
+        "a": "Leg_Shank (2)",
+        "b": "Leg_ShankPlate (2)",
+        "distance_mm": 0.0,
+        "from": [
+          -16.53735177976693,
+          71.00000000000007,
+          105.92842619463656
+        ],
+        "to": [
+          -16.53735177976693,
+          71.00000000000007,
+          105.92842619463656
+        ]
+      },
+      {
+        "a": "Leg_Shank (2)",
+        "b": "Leg_Pin_C (2)",
+        "distance_mm": 0.0,
+        "from": [
+          185.7331138190408,
+          111.00000000000004,
+          278.8809733075653
+        ],
+        "to": [
+          185.7331138190408,
+          111.00000000000004,
+          278.8809733075653
+        ]
+      },
+      {
+        "a": "Leg_ArchPlate (2)",
+        "b": "Leg_ArchPost_142 (2)",
+        "distance_mm": 0.0,
+        "from": [
+          -44.38740898037173,
+          117.49999999999861,
+          332.3868253408441
+        ],
+        "to": [
+          -44.38740898037173,
+          117.49999999999861,
+          332.3868253408441
+        ]
+      },
+      {
+        "a": "Leg_ArchPlate (2)",
+        "b": "Leg_ArchPost_162 (2)",
+        "distance_mm": 0.0,
+        "from": [
+          -55.85428267119696,
+          117.49999999999906,
+          299.9007103739987
+        ],
+        "to": [
+          -55.85428267119696,
+          117.49999999999906,
+          299.9007103739987
+        ]
+      },
+      {
+        "a": "Leg_ArchPlate (2)",
+        "b": "Leg_StopPad_TPU (2)",
+        "distance_mm": 0.0,
+        "from": [
+          109.225,
+          117.49999999999915,
+          293.95799999999997
+        ],
+        "to": [
+          109.225,
+          117.49999999999915,
+          293.95799999999997
+        ]
+      },
+      {
+        "a": "Leg_ArchPlate (2)",
+        "b": "Leg_Pin_B (2)",
+        "distance_mm": 0.0,
+        "from": [
+          78.85650561273235,
+          117.5,
+          308.81073416197256
+        ],
+        "to": [
+          78.85650561273235,
+          117.5,
+          308.81073416197256
+        ]
+      },
+      {
+        "a": "Leg_ArchPlate (2)",
+        "b": "Leg_Pin_Anchor (2)",
+        "distance_mm": 0.0,
+        "from": [
+          119.88247187093512,
+          117.49999999999835,
+          350.04563047649117
+        ],
+        "to": [
+          119.88247187093512,
+          117.49999999999835,
+          350.04563047649117
+        ]
+      },
+      {
+        "a": "Leg_ArchPlate (2)",
+        "b": "Leg_Brg_6806_outer (2)",
+        "distance_mm": 0.0,
+        "from": [
+          48.8187413532784,
+          124.49999999999977,
+          277.24681848304624
+        ],
+        "to": [
+          48.8187413532784,
+          124.49999999999977,
+          277.24681848304624
+        ]
+      },
+      {
+        "a": "Leg_Coupler (2)",
+        "b": "Leg_ArchPlate (2)",
+        "distance_mm": 0.4999999999938325,
+        "from": [
+          63.1165848981968,
+          124.99999999999378,
+          318.74270015066236
+        ],
+        "to": [
+          63.11658489819683,
+          124.49999999999994,
+          318.74270015066236
+        ]
+      },
+      {
+        "a": "Leg_Coupler (2)",
+        "b": "Leg_KneeStrap (2)",
+        "distance_mm": 0.4999999999999716,
+        "from": [
+          173.21738140525423,
+          139.00000000000003,
+          286.9734223857951
+        ],
+        "to": [
+          173.21738140525423,
+          139.5,
+          286.9734223857951
+        ]
+      },
+      {
+        "a": "Spring_cyl",
+        "b": "Leg_ArchPlate (2)",
+        "distance_mm": 0.9999999999983373,
+        "from": [
+          116.55249333867384,
+          116.50000000000003,
+          348.59625434299795
+        ],
+        "to": [
+          116.55249333875456,
+          117.49999999999837,
+          348.596254342826
+        ]
+      },
+      {
+        "a": "Leg_Shank (2)",
+        "b": "Leg_Pin_K (2)",
+        "distance_mm": 1.0,
+        "from": [
+          150.8023083286099,
+          80.00000000000003,
+          251.96365538359032
+        ],
+        "to": [
+          150.8023083286099,
+          81.00000000000003,
+          251.96365538359032
+        ]
+      },
+      {
+        "a": "Leg_Thigh (2)",
+        "b": "Leg_ArchPlate (2)",
+        "distance_mm": 1.4999999999855333,
+        "from": [
+          -18.14077236209232,
+          116.00000000001374,
+          285.0256003451921
+        ],
+        "to": [
+          -18.14077236209232,
+          117.49999999999928,
+          285.0256003451921
+        ]
+      },
+      {
+        "a": "Leg_ArchPlate (2)",
+        "b": "Leg_Pin_Crank (2)",
+        "distance_mm": 1.4999999999991616,
+        "from": [
+          -11.937517317345982,
+          117.49999999999919,
+          291.0435094980103
+        ],
+        "to": [
+          -11.937517317345982,
+          116.00000000000003,
+          291.0435094980103
+        ]
+      },
+      {
+        "a": "Spring_cyl",
+        "b": "Leg_Brg_6806_outer (2)",
+        "distance_mm": 1.7647889730682311,
+        "from": [
+          18.762442222821228,
+          115.89851721064595,
+          299.6814057275768
+        ],
+        "to": [
+          19.07746684532797,
+          117.49999999999996,
+          299.010218360234
+        ]
+      },
+      {
+        "a": "Spring_cyl",
+        "b": "Leg_OutriggerBeam (2)",
+        "distance_mm": 1.9158839639709413,
+        "from": [
+          119.33826531423804,
+          110.0000024212168,
+          357.08411603602906
+        ],
+        "to": [
+          119.33826531423804,
+          110.0000024212168,
+          359.0
+        ]
+      },
+      {
+        "a": "Leg_Coupler (2)",
+        "b": "Leg_Pin_C (2)",
+        "distance_mm": 1.9997512106896231,
+        "from": [
+          187.9608973017495,
+          139.00000000000006,
+          272.70149090225596
+        ],
+        "to": [
+          186.18029430445802,
+          139.00000000000003,
+          273.61168751326437
+        ]
+      },
+      {
+        "a": "Leg_Thigh (2)",
+        "b": "Leg_Pin_K (2)",
+        "distance_mm": 1.9999597759072345,
+        "from": [
+          152.34613852913935,
+          93.00000000003982,
+          250.50012052707498
+        ],
+        "to": [
+          150.56040958177016,
+          93.00000000003982,
+          251.40068214727353
+        ]
+      },
+      {
+        "a": "Leg_Coupler (2)",
+        "b": "Leg_Shank (2)",
+        "distance_mm": 1.9999999999983658,
+        "from": [
+          168.65652921524907,
+          124.99999999999841,
+          270.87716967901696
+        ],
+        "to": [
+          168.65652921524918,
+          123.00000000000004,
+          270.877169679017
+        ]
+      },
+      {
+        "a": "Leg_KneeStrap (2)",
+        "b": "Leg_Pin_C (2)",
+        "distance_mm": 1.9999999999999307,
+        "from": [
+          184.29105171225905,
+          145.5,
+          269.3734944576704
+        ],
+        "to": [
+          183.55882039488642,
+          145.5,
+          271.23463316766987
+        ]
+      },
+      {
+        "a": "Leg_Coupler (2)",
+        "b": "Leg_Pin_B (2)",
+        "distance_mm": 1.9999999999999354,
+        "from": [
+          78.02783922555841,
+          125.00000000000003,
+          304.27492260549667
+        ],
+        "to": [
+          76.87702801825603,
+          125.00000000000003,
+          305.9106590039261
+        ]
+      },
+      {
+        "a": "Leg_KneeStrap (2)",
+        "b": "Leg_Pin_K (2)",
+        "distance_mm": 1.9999999999999687,
+        "from": [
+          146.90657148041709,
+          139.5,
+          246.69943622505778
+        ],
+        "to": [
+          146.67501190517925,
+          139.5,
+          248.68598603896015
+        ]
+      },
+      {
+        "a": "Leg_Thigh (2)",
+        "b": "Leg_StopPad_TPU (2)",
+        "distance_mm": 3.1326388983899602,
+        "from": [
+          98.54294556324211,
+          107.49999999999348,
+          290.90051276159573
+        ],
+        "to": [
+          99.225,
+          107.50000000000003,
+          293.95799999999997
+        ]
+      },
+      {
+        "a": "Leg_ShankPlate (2)",
+        "b": "Leg_Bumper_Shank_TPU (2)",
+        "distance_mm": 4.000000000011383,
+        "from": [
+          85.17032038742548,
+          70.99999999998866,
+          211.7449296894313
+        ],
+        "to": [
+          85.17032038742582,
+          75.00000000000004,
+          211.74492968943127
+        ]
+      },
+      {
+        "a": "Leg_OutriggerBeam (2)",
+        "b": "Leg_Pin_Anchor (2)",
+        "distance_mm": 5.300000000000011,
+        "from": [
+          122.09999979029257,
+          104.0,
+          359.0
+        ],
+        "to": [
+          122.09999979029257,
+          104.0,
+          353.7
+        ]
+      },
+      {
+        "a": "Leg_StopPad_TPU (2)",
+        "b": "Leg_Bumper_Thigh_TPU (2)",
+        "distance_mm": 5.4601791788305185,
+        "from": [
+          99.225,
+          107.50000000000003,
+          293.95799999999997
+        ],
+        "to": [
+          97.08926219299363,
+          102.50000000000003,
+          293.4558240501
+        ]
+      },
+      {
+        "a": "Leg_Coupler (2)",
+        "b": "Leg_StopPad_TPU (2)",
+        "distance_mm": 7.499999999995154,
+        "from": [
+          99.2249999999996,
+          124.99999999999518,
+          293.9579999999998
+        ],
+        "to": [
+          99.225,
+          117.50000000000003,
+          293.95799999999997
+        ]
+      },
+      {
+        "a": "Spring_cyl",
+        "b": "Leg_Pin_B (2)",
+        "distance_mm": 7.531946504742625,
+        "from": [
+          69.17087730860727,
+          113.47421506941488,
+          320.2888649137293
+        ],
+        "to": [
+          71.87558826330769,
+          117.50000000000003,
+          314.5262428981446
+        ]
+      }
+    ],
+    "nearest": {},
+    "overlaps": [
+      {
+        "a": "Leg_Thigh (2)",
+        "area_mm2": 209.4255024245532,
+        "b": "Leg_Bumper_Thigh_TPU (2)",
+        "bbox": {
+          "max": [
+            96.98743795742668,
+            102.50000000000003,
+            292.4214317840124
+          ],
+          "min": [
+            87.22200685611432,
+            96.50000000000001,
+            287.3115708301467
+          ]
+        },
+        "center": [
+          91.81013862630441,
+          99.49999999818581,
+          289.83419613647607
+        ],
+        "volume_mm3": 193.05382593945487
+      },
+      {
+        "a": "Leg_Thigh (2)",
+        "area_mm2": 661.6912736077959,
+        "b": "Leg_HexSleeve (2)",
+        "bbox": {
+          "max": [
+            42.94325702833786,
+            98.99987218037604,
+            296.7172812422726
+          ],
+          "min": [
+            13.057226105242878,
+            93.00000000001857,
+            263.2832810934632
+          ]
+        },
+        "center": [
+          28.001715360767477,
+          95.99992678441724,
+          280.0023370342375
+        ],
+        "volume_mm3": 253.91885211686645
+      },
+      {
+        "a": "Leg_Shank (2)",
+        "area_mm2": 188.47749400210535,
+        "b": "Leg_Bumper_Shank_TPU (2)",
+        "bbox": {
+          "max": [
+            95.16673510862739,
+            76.00000000000004,
+            216.55846988681418
+          ],
+          "min": [
+            85.16694306480656,
+            75.00000000000004,
+            206.55867784294654
+          ]
+        },
+        "center": [
+          90.16683976634307,
+          75.50000047915134,
+          211.5585775722632
+        ],
+        "volume_mm3": 78.53267057070956
+      },
+      {
+        "a": "Leg_ArchPlate (2)",
+        "area_mm2": 218.29734607494925,
+        "b": "Leg_OutriggerBeam (2)",
+        "bbox": {
+          "max": [
+            128.32808000000003,
+            124.49999999999994,
+            361.2
+          ],
+          "min": [
+            115.87191999999997,
+            117.4999999999982,
+            358.99999999999994
+          ]
+        },
+        "center": [
+          122.10003284913164,
+          120.99999999999889,
+          359.8788836596858
+        ],
+        "volume_mm3": 129.1585281000089
+      }
+    ],
+    "pairs_checked": 53,
+    "pairs_pruned": 137,
+    "pairs_reused": 0,
+    "truncated": false,
+    "unchecked": [
+      {
+        "a": "Spring_cyl",
+        "b": "Leg_Thigh (2)",
+        "reason": "the operation failed: boolean Intersect: the operation failed: no result"
+      },
+      {
+        "a": "Spring_cyl",
+        "b": "Leg_Pin_Crank (2)",
+        "reason": "the operation failed: boolean Intersect: the operation failed: no result; the operation failed: not supported yet: the exact fallback for where the bodies meet (faces that touch, or cross at a shallow angle) takes planar faces only, and the target has 4 curved faces (cylinder) and the tool has 1 curved face (cylinder); nudged: the operation failed: boolean Intersect: the operation failed: no result; the operation failed: not supported yet: the exact fallback for where the bodies meet (faces that touch, or cross at a shallow angle) takes planar faces only, and the target has 4 curved faces (cylinder) and the tool has 1 curved face (cylinder)"
+      },
+      {
+        "a": "Spring_cyl",
+        "b": "Leg_Pin_Anchor (2)",
+        "reason": "the operation failed: boolean Intersect: the operation failed: no result; the operation failed: not supported yet: the exact fallback for where the bodies meet (faces that touch, or cross at a shallow angle) takes planar faces only, and the target has 4 curved faces (cylinder) and the tool has 1 curved face (cylinder); nudged: the operation failed: boolean Intersect: the operation failed: no result; the operation failed: not supported yet: the exact fallback for where the bodies meet (faces that touch, or cross at a shallow angle) takes planar faces only, and the target has 4 curved faces (cylinder) and the tool has 1 curved face (cylinder)"
+      }
+    ]
+  }
+]

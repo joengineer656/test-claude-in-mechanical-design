@@ -1,0 +1,308 @@
+[
+  {
+    "bodies": [
+      "REF_8308_KV130",
+      "HG_CarrierIn",
+      "HG_AlPlate",
+      "B_685ZZ_1",
+      "B_685ZZ_2",
+      "B_Pin5x45_1",
+      "B_685ZZ_3",
+      "B_685ZZ_4",
+      "B_Pin5x45_2",
+      "B_685ZZ_5",
+      "B_685ZZ_6",
+      "B_Pin5x45_3",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Ring",
+      "HG_Cover",
+      "HG_Skirt",
+      "HG_CarrierOut",
+      "HG_Sun",
+      "HG_Planet_1",
+      "HG_Planet_2",
+      "HG_Planet_3"
+    ],
+    "component": 1,
+    "component_name": "HG",
+    "created_bodies": [
+      "REF_8308_KV130",
+      "HG_CarrierIn",
+      "HG_AlPlate",
+      "B_685ZZ_1",
+      "B_685ZZ_2",
+      "B_Pin5x45_1",
+      "B_685ZZ_3",
+      "B_685ZZ_4",
+      "B_Pin5x45_2",
+      "B_685ZZ_5",
+      "B_685ZZ_6",
+      "B_Pin5x45_3",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Ring",
+      "HG_Cover",
+      "HG_Skirt",
+      "HG_CarrierOut",
+      "HG_Sun",
+      "HG_Planet_1",
+      "HG_Planet_2",
+      "HG_Planet_3"
+    ],
+    "exporter": "SolidCraft",
+    "exporter_up": "z",
+    "feature": 19,
+    "name": "HG",
+    "occurrence": 2,
+    "path": "/tmp/claude-1000/-run-media-jo-engineer-Engineer-files-0--AI-Created-Balance-Robot-with-AI/ffd43867-84d2-43ed-b744-1e3f5fdd9e71/scratchpad/in/hip_gearbox.step",
+    "rigid_joints": 8,
+    "subcomponents": 8,
+    "system": "SolidCraft",
+    "transform": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        28.0,
+        40.0,
+        280.0,
+        1.0
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "bodies": [
+      "HG_Ring",
+      "HG_Cover",
+      "HG_Skirt",
+      "HG_CarrierOut"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [],
+    "feature": 28,
+    "ms": 0.032057,
+    "name": "Remove1",
+    "removed_bodies": [
+      "REF_8308_KV130",
+      "HG_CarrierIn",
+      "HG_AlPlate",
+      "B_685ZZ_1",
+      "B_685ZZ_2",
+      "B_Pin5x45_1",
+      "B_685ZZ_3",
+      "B_685ZZ_4",
+      "B_Pin5x45_2",
+      "B_685ZZ_5",
+      "B_685ZZ_6",
+      "B_Pin5x45_3",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Sun",
+      "HG_Planet_1",
+      "HG_Planet_2",
+      "HG_Planet_3"
+    ],
+    "warning": null
+  },
+  {
+    "bodies": [
+      "REF_8308_KV130",
+      "HG_CarrierIn",
+      "HG_AlPlate",
+      "B_685ZZ_1",
+      "B_685ZZ_2",
+      "B_Pin5x45_1",
+      "B_685ZZ_3",
+      "B_685ZZ_4",
+      "B_Pin5x45_2",
+      "B_685ZZ_5",
+      "B_685ZZ_6",
+      "B_Pin5x45_3",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Ring (2)",
+      "HG_Cover (2)",
+      "HG_Skirt (2)",
+      "HG_CarrierOut (2)",
+      "HG_Sun",
+      "HG_Planet_1",
+      "HG_Planet_2",
+      "HG_Planet_3"
+    ],
+    "component": 29,
+    "component_name": "HC",
+    "created_bodies": [
+      "REF_8308_KV130",
+      "HG_CarrierIn",
+      "HG_AlPlate",
+      "B_685ZZ_1",
+      "B_685ZZ_2",
+      "B_Pin5x45_1",
+      "B_685ZZ_3",
+      "B_685ZZ_4",
+      "B_Pin5x45_2",
+      "B_685ZZ_5",
+      "B_685ZZ_6",
+      "B_Pin5x45_3",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Ring (2)",
+      "HG_Cover (2)",
+      "HG_Skirt (2)",
+      "HG_CarrierOut (2)",
+      "HG_Sun",
+      "HG_Planet_1",
+      "HG_Planet_2",
+      "HG_Planet_3"
+    ],
+    "exporter": "SolidCraft",
+    "exporter_up": "z",
+    "feature": 47,
+    "name": "HC",
+    "occurrence": 30,
+    "path": "/tmp/claude-1000/-run-media-jo-engineer-Engineer-files-0--AI-Created-Balance-Robot-with-AI/ffd43867-84d2-43ed-b744-1e3f5fdd9e71/scratchpad/in/hip_gearbox.step",
+    "rigid_joints": 8,
+    "subcomponents": 8,
+    "system": "SolidCraft",
+    "transform": [
+      [
+        0.6041746684028539,
+        0.0,
+        -0.7968519122523968,
+        0.0
+      ],
+      [
+        -0.7968519122523968,
+        0.0,
+        -0.6041746684028539,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        28.0,
+        40.0,
+        280.0,
+        1.0
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "bodies": [
+      "HG_Ring",
+      "HG_Cover",
+      "HG_Skirt",
+      "HG_CarrierOut",
+      "HG_CarrierOut (2)"
+    ],
+    "changed_bodies": [],
+    "created_bodies": [],
+    "feature": 56,
+    "ms": 0.015359,
+    "name": "Remove2",
+    "removed_bodies": [
+      "REF_8308_KV130",
+      "HG_CarrierIn",
+      "HG_AlPlate",
+      "B_685ZZ_1",
+      "B_685ZZ_2",
+      "B_Pin5x45_1",
+      "B_685ZZ_3",
+      "B_685ZZ_4",
+      "B_Pin5x45_2",
+      "B_685ZZ_5",
+      "B_685ZZ_6",
+      "B_Pin5x45_3",
+      "B_6806",
+      "REF_Encoder_env_D30x8",
+      "REF_Magnet_D6x2.5",
+      "HG_Ring (2)",
+      "HG_Cover (2)",
+      "HG_Skirt (2)",
+      "HG_Sun",
+      "HG_Planet_1",
+      "HG_Planet_2",
+      "HG_Planet_3"
+    ],
+    "warning": null
+  },
+  {
+    "bodies": 1,
+    "ms": 4542.0791229999995,
+    "near": [
+      {
+        "a": "HG_CarrierOut (2)",
+        "b": "HG_Ring",
+        "distance_mm": 0.5000000000080718,
+        "from": [
+          21.602899999999984,
+          80.00000000000807,
+          325.45199999999994
+        ],
+        "to": [
+          21.602899999999998,
+          79.5,
+          325.452
+        ]
+      }
+    ],
+    "nearest": {},
+    "overlaps": [
+      {
+        "a": "HG_CarrierOut (2)",
+        "area_mm2": 288.38327062455346,
+        "b": "HG_Cover",
+        "bbox": {
+          "max": [
+            29.07640738542528,
+            88.50000000000193,
+            327.66311972918464
+          ],
+          "min": [
+            20.713212706736652,
+            81.0,
+            321.65365366022274
+          ]
+        },
+        "center": [
+          24.89061105684512,
+          84.74999999999622,
+          324.70631631083324
+        ],
+        "volume_mm3": 322.23330708874397
+      }
+    ],
+    "pairs_checked": 2,
+    "pairs_pruned": 1,
+    "pairs_reused": 0,
+    "truncated": false,
+    "unchecked": []
+  }
+]

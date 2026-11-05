@@ -1,0 +1,1 @@
+python3 -u o14_cad_mass.py > o14_output.txt 2>&1  106.95s user 0.03s system 99% cpu 1:47.19 total

@@ -1,0 +1,4 @@
+*.bak
+*.pre_*
+exports/step/robot_assembly.step
+cad/vendor/rpi_camera_v3/*.stp

@@ -1,0 +1,21 @@
+bearing 1 (gearbox) with the thigh load path; spring 180 N (was 122); SF ball / seat / tilt deg
+A ideal beam, support at brg1 y87.5          LC-A: R1=  286 N M1=  0.0 Nm SFball=9.54 SFseat=99.00 tilt=0.00deg | brg2 R2=  239 N C0/R2=12.1
+A ideal beam, support at brg1 y87.5          LC-C: R1=  451 N M1=  0.0 Nm SFball=6.04 SFseat=99.00 tilt=0.00deg | brg2 R2=  326 N C0/R2= 8.9
+A ideal beam, support at brg1 y87.5          LC-B: R1=  798 N M1=  0.0 Nm SFball=3.42 SFseat=99.00 tilt=0.00deg | brg2 R2=  507 N C0/R2= 5.7
+A ideal beam, support at brg1 y87.5          LC-D: R1= 1380 N M1=  0.0 Nm SFball=1.98 SFseat=99.00 tilt=0.00deg | brg2 R2=  811 N C0/R2= 3.6
+B hex edge contact y94 (inboard end of hub)  LC-A: R1=  354 N M1=  2.3 Nm SFball=5.50 SFseat= 6.84 tilt=0.49deg | brg2 R2=  171 N C0/R2=17.0
+B hex edge contact y94 (inboard end of hub)  LC-C: R1=  560 N M1=  3.6 Nm SFball=3.49 SFseat= 4.33 tilt=0.77deg | brg2 R2=  217 N C0/R2=13.4
+B hex edge contact y94 (inboard end of hub)  LC-B: R1=  990 N M1=  6.4 Nm SFball=1.97 SFseat= 2.45 tilt=1.37deg | brg2 R2=  315 N C0/R2= 9.2
+B hex edge contact y94 (inboard end of hub)  LC-D: R1= 1712 N M1= 11.1 Nm SFball=1.14 SFseat= 1.42 tilt=2.37deg | brg2 R2=  479 N C0/R2= 6.1
+C hex contact at hub centre y99 (rigid thigh LC-A: R1=  435 N M1=  5.0 Nm SFball=3.68 SFseat= 3.15 tilt=1.06deg | brg2 R2=   90 N C0/R2=32.2
+C hex contact at hub centre y99 (rigid thigh LC-C: R1=  687 N M1=  7.9 Nm SFball=2.33 SFseat= 1.99 tilt=1.68deg | brg2 R2=   90 N C0/R2=32.2
+C hex contact at hub centre y99 (rigid thigh LC-B: R1= 1215 N M1= 14.0 Nm SFball=1.32 SFseat= 1.13 tilt=2.97deg | brg2 R2=   90 N C0/R2=32.2
+C hex contact at hub centre y99 (rigid thigh LC-D: R1= 2101 N M1= 24.2 Nm SFball=0.76 SFseat= 0.65 tilt=5.14deg | brg2 R2=   90 N C0/R2=32.2
+cover lip after trim to y92:
+ t=2.0 mm axial 970 N: tau=3.7 MPa SF=2.57
+ t=2.0 mm axial 1700 N: tau=6.4 MPa SF=1.47
+ t=1.0 mm axial 970 N: tau=7.4 MPa SF=1.29
+ t=1.0 mm axial 1700 N: tau=12.9 MPa SF=0.73
+hex worst radial 2191 N: p=25.4 MPa SF PAHT=1.61 (sleeve steel 26.3 A/F: contact stays in the hub/steel)
+skirt bending case C LC-A: Mb=41 Nm SF=5.74 (2.4 mm wall; CAD wall 3.4 -> x1.65: 9.46)
+skirt bending case C LC-D: Mb=170 Nm SF=1.37 (2.4 mm wall; CAD wall 3.4 -> x1.65: 2.27)

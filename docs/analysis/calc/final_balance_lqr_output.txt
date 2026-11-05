@@ -1,0 +1,66 @@
+CAD inertia (rev 2, bodies_nominal + leg.solidcraft): non-wheel mass, CoM above axle, offset ahead of axle, k_g (point / +box)
+  sliced: M 6.350 kg, wheel module 577 g each, body 5.196 kg, l 177.3 mm, CoM +1.1 mm, k_g 82 / 94 mm  (I_b = 0.0456 kg m2)
+  solid: M 6.979 kg, wheel module 649 g each, body 5.682 kg, l 176.5 mm, CoM +2.5 mm, k_g 81 / 94 mm  (I_b = 0.0499 kg m2)
+
+## 6.4 kg (sliced CAD): l 177 mm, k_g 94 mm, wheel 0.577 kg, I_wheel 2.0e-03; open-loop pole 10.0 rad/s; K = [[-10.   -15.2  -65.29  -8.41]]
+  Vbus 19.8: standstill torque limit 4.27 N m total (motor 15 A 4.60, traction 4.27); cont. 0.4*15 A = 1.84
+  Vbus 22.2: standstill torque limit 4.27 N m total (motor 15 A 4.60, traction 4.27); cont. 0.4*15 A = 1.84
+  Vbus 25.2: standstill torque limit 4.27 N m total (motor 15 A 4.60, traction 4.27); cont. 0.4*15 A = 1.84
+  Tilt recovery (from rest, 5 s): 19.8 V: max recoverable tilt 45.0 deg; 25.2 V: max recoverable tilt 45.0 deg
+    start  5 deg @19.8 V: ok True, peak torque 4.27 N m (100 % of limit), peak speed 0.19 m/s, settled (<1 deg) at 0.27 s
+    start 10 deg @19.8 V: ok True, peak torque 4.27 N m (100 % of limit), peak speed 0.37 m/s, settled (<1 deg) at 0.32 s
+    start 20 deg @19.8 V: ok True, peak torque 4.27 N m (100 % of limit), peak speed 0.76 m/s, settled (<1 deg) at 1.20 s
+  Push at CoM height, 0.1 s, standing, 19.8 V:
+    20 N x 0.1 s: ok True, peak tilt 4.1 deg, peak torque 0.79 N m, peak speed 0.45 m/s, settle (<1 deg, <0.05 rad/s) 1.17 s after push, x drift +6 cm
+    40 N x 0.1 s: ok True, peak tilt 8.6 deg, peak torque 1.55 N m, peak speed 0.90 m/s, settle (<1 deg, <0.05 rad/s) 1.81 s after push, x drift +10 cm
+    max recoverable 0.1 s push @ 19.8 V: 193 N (impulse 19.3 N s)
+    max recoverable 0.1 s push @ 25.2 V: 203 N (impulse 20.3 N s)
+  12 km/h run (accel 1.5 m/s2 to 3.33 m/s, cruise, brake 1.5 m/s2), drag+rolling included:
+    19.8 V: ok True, peak tilt 18.7 deg, peak torque 1.48 N m (35 % of 15 A/traction limit), min speed margin 1-Ke*w/(0.7V) 35 %, saturated samples 0, end speed -0.44 m/s
+    22.2 V: ok True, peak tilt 18.7 deg, peak torque 1.48 N m (35 % of 15 A/traction limit), min speed margin 1-Ke*w/(0.7V) 42 %, saturated samples 0, end speed -0.44 m/s
+    25.2 V: ok True, peak tilt 18.7 deg, peak torque 1.48 N m (35 % of 15 A/traction limit), min speed margin 1-Ke*w/(0.7V) 49 %, saturated samples 0, end speed -0.44 m/s
+    top speed that still balances (sim, no push margin) @ 19.8 V: 18.5 km/h
+    top speed that still balances (sim, no push margin) @ 25.2 V: 24.1 km/h
+    max forward 0.1 s push while cruising at 12 km/h @ 19.8 V: 86 N
+    max forward 0.1 s push while cruising at 12 km/h @ 22.2 V: 112 N
+  Slope (wheel contact stays, IMU = true pitch, slope ramped in 0.5 s at t=0.5; no integrator):
+    10 deg: ok True, hold torque 0.93 N m total (50 % of continuous), peak 0.90, end offset -55 cm, end pitch +5.7 deg
+    15 deg: ok True, hold torque 1.38 N m total (75 % of continuous), peak 1.36, end offset -83 cm, end pitch +8.6 deg
+    20 deg: ok True, hold torque 1.83 N m total (99 % of continuous), peak 1.81, end offset -111 cm, end pitch +11.4 deg
+    25 deg: ok True, hold torque 2.26 N m total (123 % of continuous), peak 2.29, end offset -138 cm, end pitch +14.2 deg
+    max slope that holds (sim, 15 A peak / traction) @ 19.8 V: 40.0 deg; continuous-torque slope limit 20.2 deg
+    drive up 10 deg at 1 m/s: ok True, peak torque 1.82 N m, tilt peak 16.1 deg
+  CoM +1.1 mm ahead of axle = 0.34 deg: hold torque m_b g dx = 0.05 N m total; IMU zeroed to the frame (not to the CoM line) -> robot parks 4 cm from its start, steady torque ~0 (trim the pitch zero in 6b)
+
+## 6.9 kg (solid CAD): l 177 mm, k_g 94 mm, wheel 0.649 kg, I_wheel 2.0e-03; open-loop pole 10.0 rad/s; K = [[-10.   -15.23 -65.57  -8.43]]
+  Vbus 19.8: standstill torque limit 4.60 N m total (motor 15 A 4.60, traction 4.60); cont. 0.4*15 A = 1.84
+  Vbus 22.2: standstill torque limit 4.60 N m total (motor 15 A 4.60, traction 4.60); cont. 0.4*15 A = 1.84
+  Vbus 25.2: standstill torque limit 4.60 N m total (motor 15 A 4.60, traction 4.60); cont. 0.4*15 A = 1.84
+  Tilt recovery (from rest, 5 s): 19.8 V: max recoverable tilt 45.0 deg; 25.2 V: max recoverable tilt 45.0 deg
+    start  5 deg @19.8 V: ok True, peak torque 4.60 N m (100 % of limit), peak speed 0.18 m/s, settled (<1 deg) at 0.27 s
+    start 10 deg @19.8 V: ok True, peak torque 4.60 N m (100 % of limit), peak speed 0.37 m/s, settled (<1 deg) at 0.32 s
+    start 20 deg @19.8 V: ok True, peak torque 4.60 N m (100 % of limit), peak speed 0.76 m/s, settled (<1 deg) at 1.20 s
+  Push at CoM height, 0.1 s, standing, 19.8 V:
+    20 N x 0.1 s: ok True, peak tilt 3.9 deg, peak torque 0.79 N m, peak speed 0.42 m/s, settle (<1 deg, <0.05 rad/s) 1.10 s after push, x drift +5 cm
+    40 N x 0.1 s: ok True, peak tilt 8.1 deg, peak torque 1.55 N m, peak speed 0.84 m/s, settle (<1 deg, <0.05 rad/s) 1.79 s after push, x drift +10 cm
+    max recoverable 0.1 s push @ 19.8 V: 205 N (impulse 20.5 N s)
+    max recoverable 0.1 s push @ 25.2 V: 218 N (impulse 21.8 N s)
+  12 km/h run (accel 1.5 m/s2 to 3.33 m/s, cruise, brake 1.5 m/s2), drag+rolling included:
+    19.8 V: ok True, peak tilt 18.7 deg, peak torque 1.58 N m (34 % of 15 A/traction limit), min speed margin 1-Ke*w/(0.7V) 35 %, saturated samples 0, end speed -0.44 m/s
+    22.2 V: ok True, peak tilt 18.7 deg, peak torque 1.58 N m (34 % of 15 A/traction limit), min speed margin 1-Ke*w/(0.7V) 42 %, saturated samples 0, end speed -0.44 m/s
+    25.2 V: ok True, peak tilt 18.7 deg, peak torque 1.58 N m (34 % of 15 A/traction limit), min speed margin 1-Ke*w/(0.7V) 49 %, saturated samples 0, end speed -0.44 m/s
+    top speed that still balances (sim, no push margin) @ 19.8 V: 18.4 km/h
+    top speed that still balances (sim, no push margin) @ 25.2 V: 24.1 km/h
+    max forward 0.1 s push while cruising at 12 km/h @ 19.8 V: 91 N
+    max forward 0.1 s push while cruising at 12 km/h @ 22.2 V: 119 N
+  Slope (wheel contact stays, IMU = true pitch, slope ramped in 0.5 s at t=0.5; no integrator):
+    10 deg: ok True, hold torque 1.00 N m total (54 % of continuous), peak 0.97, end offset -55 cm, end pitch +5.8 deg
+    15 deg: ok True, hold torque 1.49 N m total (81 % of continuous), peak 1.46, end offset -84 cm, end pitch +8.7 deg
+    20 deg: ok True, hold torque 1.97 N m total (107 % of continuous), peak 1.95, end offset -112 cm, end pitch +11.6 deg
+    25 deg: ok True, hold torque 2.43 N m total (132 % of continuous), peak 2.46, end offset -139 cm, end pitch +14.4 deg
+    max slope that holds (sim, 15 A peak / traction) @ 19.8 V: 40.0 deg; continuous-torque slope limit 18.6 deg
+    drive up 10 deg at 1 m/s: ok True, peak torque 1.96 N m, tilt peak 16.2 deg
+  CoM +2.5 mm ahead of axle = 0.81 deg: hold torque m_b g dx = 0.14 N m total; IMU zeroed to the frame (not to the CoM line) -> robot parks 9 cm from its start, steady torque ~0 (trim the pitch zero in 6b)
+
+Sensitivity 6.9 kg, I_wheel 1.4e-3: tilt 10 deg ok True
+Sensitivity 6.9 kg, CoM 50 mm higher (l+0.05; leg 289): tilt 10 deg ok True max tilt 45

@@ -1,0 +1,110 @@
+Spring span ext 111.0 mm, at 140 mm crouch 147.8 mm; thigh angle at 140: -10.8 deg
+
+# M = 6.0 kg, unsprung 0.84/side, m_b = 4.32 kg
+Jump energy: ideal 22.7 J (snatch loss 4.6 J), /0.85 = 26.7 J; stroke 0.150 m
+| case | 19.8 V sim / real cm | 22.2 V sim / real cm | peak hip A / Nm | battery A |
+|---|---|---|---|---|
+| springs 2.7 N/mm (5.5 J) | 20.1 / 16.1 | 23.9 / 19.1 | 40 / 17.3 | 56 |
+| no springs | 18.1 / 14.4 | 22.2 / 17.8 | 40 / 17.3 | 56 |
+Fixes (19.8 V real cm, from 140):
+  stiffer 4.1 N/mm: 17.1 cm @19.8 V, 20.0 @22.2 V, F_max 159 N, E/leg 3.07 J
+  4.1 N/mm, F0 20: 17.7 cm @19.8 V, 20.6 @22.2 V, F_max 171 N, E/leg 3.51 J
+  5.5 N/mm: 18.2 cm @19.8 V, 21.0 @22.2 V, F_max 210 N, E/leg 4.02 J
+  hip 6:1 + 2.7 N/mm: 21.6 cm @19.8 V, 24.5 @22.2 V, F_max 107 N, E/leg 2.12 J
+  hip 6:1 + 4.1 N/mm: 22.4 cm @19.8 V, 25.5 @22.2 V, F_max 159 N, E/leg 3.07 J
+Hip torque per leg (worst pose in stroke):
+  standing: leg 21.2 N, 3.78 Nm, no-spring motor 8.7 A
+  single-leg climb (x2.25): leg 47.7 N, 8.51 Nm, no-spring motor 19.7 A
+  nominal: gravity 3.08 Nm, spring 2.54 Nm -> motor 0.53 Nm = 1.2 A
+  crouch 140: gravity 3.78 Nm, spring 2.55 Nm -> motor 1.23 Nm = 2.9 A
+  climb at nominal with spring: motor 4.38 Nm = 10.1 A (cont limit 20 A hip, thermal 5.7 Nm)
+Landing (10 kN/m TPU stop engaging at 160 mm; one-wheel cases use full m_b):
+| LC | body g | unsprung g | axle N | leg N | hip torque Nm (total/motor) | knee pin N | stroke mm | hip gear spike Nm | wheel gear spin-up Nm |
+|---|---|---|---|---|---|---|---|---|---|
+| A sym ctrl | 5.8 | 15 | 206 | 123 | 15.6 / 13.5 | 458 | 61 | 0.0 | 2.8 |
+| B sym off | 13.0 | 35 | 312 | 275 | 50.4 / 0.0 | 1399 | 136 | 30.3 | 4.2 |
+| C one ctrl | 5.0 | 12 | 255 | 211 | 26.2 / 23.9 | 783 | 64 | 0.0 | 3.4 |
+| D one off | 10.1 | 40 | 426 | 429 | 85.0 / 0.0 | 2486 | 152 | 29.0 | 5.7 |
+Speed: R=0.27: loaded 19.2 km/h, 2 Nm/wheel to 16.1 km/h; R=0.72: loaded 15.6 km/h, 2 Nm/wheel to 6.9 km/h; peak/cont per wheel 2.30/0.92 Nm; traction cap/wheel 2.00 Nm; CoM +11 mm forward holds 0.65 Nm total continuous (0.32/wheel, 35 % of 0.92 cont)
+Balance LQR (torques TOTAL both wheels; I_wheel 2e-3 per wheel, k_g 0.13):
+  l=0.15: 5deg: floor 0.26, min-sat 0.28, LQR pk 5.7, ok@limit True, dv 0.17 | 10deg: floor 0.52, min-sat 0.55, LQR pk 11.3, ok@limit True, dv 0.35 | max tilt 45.0 deg | limit 4.00 Nm (motor 4.34, traction 4.00)
+  l=0.23: 5deg: floor 0.31, min-sat 0.33, LQR pk 5.9, ok@limit True, dv 0.23 | 10deg: floor 0.63, min-sat 0.67, LQR pk 11.8, ok@limit True, dv 0.46 | max tilt 45.0 deg | limit 4.00 Nm (motor 4.34, traction 4.00)
+  l=0.35: 5deg: floor 0.36, min-sat 0.39, LQR pk 6.2, ok@limit True, dv 0.32 | 10deg: floor 0.71, min-sat 0.78, LQR pk 12.4, ok@limit True, dv 0.64 | max tilt 43.0 deg | limit 4.00 Nm (motor 4.34, traction 4.00)
+
+# M = 6.4 kg, unsprung 0.84/side, m_b = 4.72 kg
+Jump energy: ideal 24.0 J (snatch loss 4.5 J), /0.85 = 28.2 J; stroke 0.150 m
+| case | 19.8 V sim / real cm | 22.2 V sim / real cm | peak hip A / Nm | battery A |
+|---|---|---|---|---|
+| springs 2.7 N/mm (5.5 J) | 20.2 / 16.2 | 24.1 / 19.3 | 40 / 17.3 | 56 |
+| no springs | 18.5 / 14.8 | 22.9 / 18.3 | 40 / 17.3 | 56 |
+Fixes (19.8 V real cm, from 140):
+  stiffer 4.1 N/mm: 17.0 cm @19.8 V, 20.0 @22.2 V, F_max 159 N, E/leg 3.07 J
+  4.1 N/mm, F0 20: 17.6 cm @19.8 V, 20.5 @22.2 V, F_max 171 N, E/leg 3.51 J
+  5.5 N/mm: 18.0 cm @19.8 V, 20.8 @22.2 V, F_max 210 N, E/leg 4.02 J
+  hip 6:1 + 2.7 N/mm: 21.4 cm @19.8 V, 23.9 @22.2 V, F_max 107 N, E/leg 2.12 J
+  hip 6:1 + 4.1 N/mm: 22.3 cm @19.8 V, 25.0 @22.2 V, F_max 159 N, E/leg 3.07 J
+Hip torque per leg (worst pose in stroke):
+  standing: leg 23.2 N, 4.13 Nm, no-spring motor 9.5 A
+  single-leg climb (x2.25): leg 52.1 N, 9.29 Nm, no-spring motor 21.5 A
+  nominal: gravity 3.36 Nm, spring 2.54 Nm -> motor 0.82 Nm = 1.9 A
+  crouch 140: gravity 4.13 Nm, spring 2.55 Nm -> motor 1.58 Nm = 3.7 A
+  climb at nominal with spring: motor 5.02 Nm = 11.6 A (cont limit 20 A hip, thermal 5.7 Nm)
+Landing (10 kN/m TPU stop engaging at 160 mm; one-wheel cases use full m_b):
+| LC | body g | unsprung g | axle N | leg N | hip torque Nm (total/motor) | knee pin N | stroke mm | hip gear spike Nm | wheel gear spin-up Nm |
+|---|---|---|---|---|---|---|---|---|---|
+| A sym ctrl | 5.7 | 15 | 210 | 133 | 16.7 / 14.7 | 492 | 61 | 0.0 | 2.8 |
+| B sym off | 12.8 | 36 | 324 | 295 | 54.7 / 0.0 | 1538 | 138 | 29.5 | 4.3 |
+| C one ctrl | 4.7 | 12 | 266 | 216 | 26.4 / 23.9 | 806 | 66 | 0.0 | 3.6 |
+| D one off | 9.7 | 40 | 456 | 448 | 89.7 / 0.0 | 2637 | 154 | 28.8 | 6.1 |
+Speed: R=0.27: loaded 19.2 km/h, 2 Nm/wheel to 16.1 km/h; R=0.72: loaded 15.5 km/h, 2 Nm/wheel to 6.9 km/h; peak/cont per wheel 2.30/0.92 Nm; traction cap/wheel 2.13 Nm; CoM +11 mm forward holds 0.69 Nm total continuous (0.35/wheel, 38 % of 0.92 cont)
+Balance LQR (torques TOTAL both wheels; I_wheel 2e-3 per wheel, k_g 0.13):
+  l=0.15: 5deg: floor 0.28, min-sat 0.30, LQR pk 5.7, ok@limit True, dv 0.17 | 10deg: floor 0.56, min-sat 0.59, LQR pk 11.4, ok@limit True, dv 0.35 | max tilt 45.0 deg | limit 4.27 Nm (motor 4.34, traction 4.27)
+  l=0.23: 5deg: floor 0.33, min-sat 0.35, LQR pk 5.9, ok@limit True, dv 0.23 | 10deg: floor 0.67, min-sat 0.71, LQR pk 11.9, ok@limit True, dv 0.47 | max tilt 45.0 deg | limit 4.27 Nm (motor 4.34, traction 4.27)
+  l=0.35: 5deg: floor 0.38, min-sat 0.41, LQR pk 6.2, ok@limit True, dv 0.32 | 10deg: floor 0.76, min-sat 0.83, LQR pk 12.5, ok@limit True, dv 0.64 | max tilt 43.1 deg | limit 4.27 Nm (motor 4.34, traction 4.27)
+
+# M = 6.9 kg, unsprung 0.84/side, m_b = 5.22 kg
+Jump energy: ideal 25.6 J (snatch loss 4.4 J), /0.85 = 30.1 J; stroke 0.150 m
+| case | 19.8 V sim / real cm | 22.2 V sim / real cm | peak hip A / Nm | battery A |
+|---|---|---|---|---|
+| springs 2.7 N/mm (5.5 J) | 20.3 / 16.2 | 24.5 / 19.6 | 40 / 17.3 | 56 |
+| no springs | 19.1 / 15.3 | 23.4 / 18.7 | 40 / 17.3 | 56 |
+Fixes (19.8 V real cm, from 140):
+  stiffer 4.1 N/mm: 16.9 cm @19.8 V, 20.1 @22.2 V, F_max 159 N, E/leg 3.07 J
+  4.1 N/mm, F0 20: 17.4 cm @19.8 V, 20.5 @22.2 V, F_max 171 N, E/leg 3.51 J
+  5.5 N/mm: 17.7 cm @19.8 V, 20.7 @22.2 V, F_max 210 N, E/leg 4.02 J
+  hip 6:1 + 2.7 N/mm: 20.9 cm @19.8 V, 22.7 @22.2 V, F_max 107 N, E/leg 2.12 J
+  hip 6:1 + 4.1 N/mm: 21.8 cm @19.8 V, 24.1 @22.2 V, F_max 159 N, E/leg 3.07 J
+Hip torque per leg (worst pose in stroke):
+  standing: leg 25.6 N, 4.57 Nm, no-spring motor 10.6 A
+  single-leg climb (x2.25): leg 57.6 N, 10.28 Nm, no-spring motor 23.8 A
+  nominal: gravity 3.72 Nm, spring 2.54 Nm -> motor 1.18 Nm = 2.7 A
+  crouch 140: gravity 4.57 Nm, spring 2.55 Nm -> motor 2.02 Nm = 4.7 A
+  climb at nominal with spring: motor 5.83 Nm = 13.5 A (cont limit 20 A hip, thermal 5.7 Nm)
+Landing (10 kN/m TPU stop engaging at 160 mm; one-wheel cases use full m_b):
+| LC | body g | unsprung g | axle N | leg N | hip torque Nm (total/motor) | knee pin N | stroke mm | hip gear spike Nm | wheel gear spin-up Nm |
+|---|---|---|---|---|---|---|---|---|---|
+| A sym ctrl | 5.6 | 14 | 215 | 144 | 18.1 / 16.1 | 533 | 61 | 0.0 | 2.9 |
+| B sym off | 12.4 | 38 | 337 | 318 | 59.5 / 0.0 | 1676 | 140 | 28.5 | 4.5 |
+| C one ctrl | 4.3 | 11 | 280 | 219 | 26.5 / 23.9 | 823 | 71 | 0.0 | 3.7 |
+| D one off | 9.2 | 39 | 490 | 470 | 95.2 / 0.0 | 2806 | 156 | 28.6 | 6.6 |
+Speed: R=0.27: loaded 19.2 km/h, 2 Nm/wheel to 16.1 km/h; R=0.72: loaded 15.5 km/h, 2 Nm/wheel to 6.9 km/h; peak/cont per wheel 2.30/0.92 Nm; traction cap/wheel 2.30 Nm; CoM +11 mm forward holds 0.74 Nm total continuous (0.37/wheel, 40 % of 0.92 cont)
+Balance LQR (torques TOTAL both wheels; I_wheel 2e-3 per wheel, k_g 0.13):
+  l=0.15: 5deg: floor 0.30, min-sat 0.32, LQR pk 5.7, ok@limit True, dv 0.18 | 10deg: floor 0.61, min-sat 0.64, LQR pk 11.5, ok@limit True, dv 0.35 | max tilt 45.0 deg | limit 4.34 Nm (motor 4.34, traction 4.60)
+  l=0.23: 5deg: floor 0.36, min-sat 0.38, LQR pk 6.0, ok@limit True, dv 0.23 | 10deg: floor 0.73, min-sat 0.77, LQR pk 12.0, ok@limit True, dv 0.47 | max tilt 45.0 deg | limit 4.34 Nm (motor 4.34, traction 4.60)
+  l=0.35: 5deg: floor 0.41, min-sat 0.44, LQR pk 6.3, ok@limit True, dv 0.32 | 10deg: floor 0.82, min-sat 0.89, LQR pk 12.6, ok@limit True, dv 0.65 | max tilt 41.4 deg | limit 4.34 Nm (motor 4.34, traction 4.60)
+
+## Max mass for 20 cm real @19.8 V (springs 2.7 N/mm, 40 A hips)
+  M=4.4: 15.2 cm
+  M=4.6: 15.5 cm
+  M=4.8: 15.7 cm
+  M=5.0: 15.8 cm
+  M=5.2: 15.9 cm
+  M=5.4: 16.0 cm
+  M=5.6: 16.1 cm
+  M=5.8: 16.1 cm
+  M=6.0: 16.1 cm
+  M=6.2: 16.1 cm
+  M=6.4: 16.2 cm
+  M=6.6: 16.2 cm
+  M=6.8: 16.2 cm
+  M=7.0: 16.3 cm

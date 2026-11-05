@@ -1,0 +1,34 @@
+hip x = 28.0 mm, hip z = 280.0 mm (nominal), axle z = 85.0
+pose     phi_deg  hip_h   K(x,z)world      C(x,z)world      W(x,z)world
+crouch      0.5  101.0  [148.9 281. ]  [186.1 300.5]  [-10.2 179. ]
+stop       -7.7  130.0  [147.9 263.9]  [183.5 286.2]  [ -3. 150.]
+nom       -30.0  195.0  [132.8 219.5]  [164.8 246.7]  [ 0. 85.]
+ext       -72.7  289.0  [ 64.  164.5]  [ 83.9 201.4]  [-11.  -9.]
+spring anchor (hip rel) [47.3 56.6] world [ 75.2 336.6]; length crouch/nom/ext 104.2/89.7/62.0 -> stroke 42.2 mm (target 52)
+end stop pad centre world [100.3 292.5]; engages at hip 130, pad compression at full crouch 9.9 mm (hip travel 29 mm)
+static overlaps: none
+min leg clearances over crouch/nom/ext (mm):
+  spring                 vs B joint hw          3.3
+  coupler                vs spring              6.3
+  shank                  vs hip gearbox         8.8
+  B joint hw             vs end stop (TPU+brkt)   11.0
+  shank                  vs end stop (TPU+brkt)   16.4
+  thigh                  vs B joint hw         18.6
+  knee joint hw          vs end stop (TPU+brkt)   23.0
+  thigh                  vs end stop (TPU+brkt)   24.9
+  spring                 vs end stop (TPU+brkt)   28.7
+  C joint hw             vs hip gearbox        37.5
+  crank                  vs B joint hw         40.0
+  B joint hw             vs hip joint hw       41.2
+crouch  mass 4.370 kg  CoM world (0.8,-0.04,242.7)  axle x -10.2  fore-aft vs axle +10.9  lateral -0.04  height above ground 148.7  above axle 63.7
+nom     mass 4.370 kg  CoM world (2.1,-0.04,215.8)  axle x 0.0  fore-aft vs axle +2.1  lateral -0.04  height above ground 215.8  above axle 130.8
+ext     mass 4.370 kg  CoM world (-5.3,-0.04,189.3)  axle x -11.0  fore-aft vs axle +5.7  lateral -0.04  height above ground 283.3  above axle 198.3
+IMU [  0.   0. 187.] vs CoM: d = [ -2.1   0.  -28.8]
+IMU distance to nearest motor/driver/resistor/fan: 47.9 mm
+crouch  height 304.5  depth 321.1  width 300  body bottom above ground 56.0
+nom     height 398.5  depth 299.8  width 300  body bottom above ground 150.0
+ext     height 492.5  depth 221.5  width 300  body bottom above ground 244.0
+SolidCraft pose parameters (deg):
+  crouch: thigh_ang=0.482 shank_ang=-148.240 coupler_ang=-6.851 spring_ang=33.141 spring_len=104.23 shank_full=230.87
+  nom: thigh_ang=-29.987 shank_ang=-135.530 coupler_ang=-36.533 spring_ang=24.105 spring_len=89.75 shank_full=230.87
+  ext: thigh_ang=-72.677 shank_ang=-114.283 coupler_ang=-84.929 spring_ang=17.323 spring_len=62.00 shank_full=230.87

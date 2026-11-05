@@ -1,0 +1,2 @@
+sun-big (3 planets): interference points 0, min flank gap over one pitch 0.056 mm (max of per-step min 0.058)
+small-ring: interference points 0, min flank gap over one pitch 0.033 mm (max of per-step min 0.058)

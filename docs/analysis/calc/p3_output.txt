@@ -1,0 +1,31 @@
+check layout lengths ext/nom/crouch mm: [62.0, 89.8, 104.2]
+M=4.37 kg, m_b=3.298 kg, unsprung 0.536 kg/side
+
+| option | stroke mm | F crouch N | E/leg J | crouch | jump 19.8 V sim cm | real x0.8 cm | jump 22.2 V real cm | hold @nominal A | hold @crouch A |
+|---|---|---|---|---|---|---|---|---|---|
+| O0 current spring 2.7 N/mm, F0 8 N (r 40) | 42.2 | 122 | 2.74 | 101 | 29.5 | 23.6 | 27.7 | 0.7 | 2.1 |
+| O0 current spring 2.7 N/mm, F0 8 N (r 40) | 38.9 | 113 | 2.36 | 130 | 26.8 | 21.4 | 25.2 | 0.7 | 0.5 |
+| O1 stiffer 4.1 N/mm, F0 8 N (r 40) | 42.2 | 181 | 3.99 | 101 | 32.3 | 25.9 | 29.8 | 3.5 | 0.8 |
+| O1 stiffer 4.1 N/mm, F0 8 N (r 40) | 38.9 | 168 | 3.42 | 130 | 29.0 | 23.2 | 26.9 | 3.5 | 2.6 |
+| O2 3.5 N/mm, F0 20 N (r 40) | 42.2 | 168 | 3.96 | 101 | 32.6 | 26.0 | 30.0 | 3.2 | 0.2 |
+| O2 3.5 N/mm, F0 20 N (r 40) | 38.9 | 156 | 3.43 | 130 | 29.3 | 23.5 | 27.2 | 3.2 | 2.0 |
+| O3 50 mm crank, 2.7 N/mm, F0 8 N (same anchor, NOT checked for clearance) | 50.0 | 143 | 3.77 | 101 | 31.9 | 25.5 | 29.5 | 2.9 | 0.0 |
+| O3 50 mm crank, 2.7 N/mm, F0 8 N (same anchor, NOT checked for clearance) | 46.1 | 133 | 3.24 | 130 | 28.7 | 23.0 | 26.7 | 2.9 | 1.8 |
+| no spring | - | - | 0 | 130 | 22.2 | 17.7 | | | |
+| no spring | - | - | 0 | 101 | 23.9 | 19.1 | | | |
+
+## Wire check, music wire DH, G 81.5 GPa (tau allowable = 0.45 Rm body; hooks ~0.75 of that)
+| k N/mm | Fmax N | d mm | D mean mm | OD mm | C | tau MPa | allow MPa | active coils | body length mm |
+|---|---|---|---|---|---|---|---|---|---|
+| 2.7 | 125 | 1.8 | 11.0 | 12.8 | 6.1 | 749 | 921 | 29.8 | 55 |
+| 2.7 | 125 | 2.0 | 11.0 | 13.0 | 5.5 | 560 | 900 | 45.4 | 93 |
+| 2.7 | 125 | 2.0 | 12.0 | 14.0 | 6.0 | 598 | 900 | 34.9 | 72 |
+| 2.7 | 125 | 2.2 | 11.5 | 13.7 | 5.2 | 445 | 879 | 58.1 | 130 |
+| 4.1 | 180 | 1.8 | 11.0 | 12.8 | 6.1 | 1078 | 921 | 19.6 | 37 |
+| 4.1 | 180 | 2.0 | 11.0 | 13.0 | 5.5 | 806 | 900 | 29.9 | 62 |
+| 4.1 | 180 | 2.0 | 12.0 | 14.0 | 6.0 | 861 | 900 | 23.0 | 48 |
+| 4.1 | 180 | 2.2 | 11.5 | 13.7 | 5.2 | 641 | 879 | 38.3 | 86 |
+
+## Anchor moved 49 mm outward along the spring line: A = [94.1 71.2] mm (hip-rel x,z), was [47.3 56.6]
+span ext/crouch 111.0/152.0 mm, stroke 41.0 mm, F crouch 119 N
+jump real (x0.8): 19.8 V from 101: 23.5 cm; 22.2 V: 27.5 cm; 19.8 V from 130: 21.3 cm

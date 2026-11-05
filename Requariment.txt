@@ -1,0 +1,14 @@
+This is the requirment for the Graduate Project [Balance Robot]
+
+Diameter around (50cm tall x 30cm)
+Widght 3kg to 4kg
+Speed is not less than 10k/h 
+Can jump to up to 20cm
+climping by single leg in differance ground plan
+Add Lidar to make a visual mapping and send the map to us
+
+Some referance robots 
+https://intranet.fel.cvut.cz/en/aktuality/2021/robot_2_nohy
+https://oshwlab.com/hawaii0707/letian-robot2-wheel-legged-robot
+https://spectrum.ieee.org/roadrunner-bipedal-robot
+https://www.inceptivemind.com/two-wheeled-jumping-robot-ascento-uneven-surfaces/13666/

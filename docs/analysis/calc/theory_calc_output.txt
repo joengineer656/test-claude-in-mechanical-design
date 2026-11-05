@@ -1,0 +1,154 @@
+## Motor constants (chosen KV130; R scaled from KV90 listing)
+Kt = 8.27/KV = 0.0636 Nm/A, Ke = 0.0735 V/(rad/s), R_ll = 0.08914792899408283 ohm
+KV90: Kt=0.0919 Nm/A, T@40A=3.68 Nm, no-load @22.2V*0.7=1399 rpm, @19.8V=1247 rpm
+KV130: Kt=0.0636 Nm/A, T@40A=2.54 Nm, no-load @22.2V*0.7=2020 rpm, @19.8V=1802 rpm
+KV160: Kt=0.0517 Nm/A, T@40A=2.07 Nm, no-load @22.2V*0.7=2486 rpm, @19.8V=2218 rpm
+
+## Wheel speed (KV90, R_ll=0.186 ohm, D=170 mm)
+| N | Vbus V | motor no-load rpm | no-load km/h | loaded km/h (rolling+aero + 30 % torque headroom) |
+|---|---|---|---|---|
+| 3:1 | 22.2 | 1399 | 14.9 | 12.7 |
+| 3:1 | 19.8 | 1247 | 13.3 | 11.1 |
+| 4:1 | 22.2 | 1399 | 11.2 | 9.6 |
+| 4:1 | 19.8 | 1247 | 10.0 | 8.4 |
+| 5:1 | 22.2 | 1399 | 9.0 | 7.7 |
+| 5:1 | 19.8 | 1247 | 8.0 | 6.7 |
+| 6:1 | 22.2 | 1399 | 7.5 | 6.4 |
+| 6:1 | 19.8 | 1247 | 6.7 | 5.6 |
+
+## Wheel torque / acceleration / balance (KV90, hub layout, m_u=0.721 kg/side)
+| N | T_wheel cont Nm | T_wheel peak Nm | a_torque m/s2 | a_max (traction cap) | max recoverable tilt deg | torque margin 2Tp/(m_b g l) | N^2 J_rotor kg m2 | m_eff kg |
+|---|---|---|---|---|---|---|---|---|
+| 3:1 | 2.73 | 9.92 | 53.4 | 7.8 | 39 (torque-only 90) | 4.1 | 0.0018 | 4.38 |
+| 4:1 | 3.64 | 13.23 | 65.4 | 7.8 | 39 (torque-only 90) | 5.4 | 0.0032 | 4.76 |
+| 5:1 | 4.55 | 16.54 | 74.0 | 7.8 | 39 (torque-only 90) | 6.8 | 0.0050 | 5.26 |
+| 6:1 | 5.46 | 19.85 | 79.6 | 7.8 | 39 (torque-only 90) | 8.2 | 0.0072 | 5.87 |
+
+## Wheel speed (KV130, R_ll=0.089 ohm, D=170 mm)
+| N | Vbus V | motor no-load rpm | no-load km/h | loaded km/h (rolling+aero + 30 % torque headroom) |
+|---|---|---|---|---|
+| 3:1 | 22.2 | 2020 | 21.6 | 20.0 |
+| 3:1 | 19.8 | 1802 | 19.2 | 17.7 |
+| 4:1 | 22.2 | 2020 | 16.2 | 15.0 |
+| 4:1 | 19.8 | 1802 | 14.4 | 13.3 |
+| 5:1 | 22.2 | 2020 | 12.9 | 12.0 |
+| 5:1 | 19.8 | 1802 | 11.5 | 10.6 |
+| 6:1 | 22.2 | 2020 | 10.8 | 10.0 |
+| 6:1 | 19.8 | 1802 | 9.6 | 8.9 |
+
+## Wheel torque / acceleration / balance (KV130, hub layout, m_u=0.721 kg/side)
+| N | T_wheel cont Nm | T_wheel peak Nm | a_torque m/s2 | a_max (traction cap) | max recoverable tilt deg | torque margin 2Tp/(m_b g l) | N^2 J_rotor kg m2 | m_eff kg |
+|---|---|---|---|---|---|---|---|---|
+| 3:1 | 1.89 | 6.87 | 36.9 | 7.8 | 39 (torque-only 90) | 2.8 | 0.0018 | 4.38 |
+| 4:1 | 2.52 | 9.16 | 45.3 | 7.8 | 39 (torque-only 90) | 3.8 | 0.0032 | 4.76 |
+| 5:1 | 3.15 | 11.45 | 51.2 | 7.8 | 39 (torque-only 90) | 4.7 | 0.0050 | 5.26 |
+| 6:1 | 3.78 | 13.74 | 55.1 | 7.8 | 39 (torque-only 90) | 5.6 | 0.0072 | 5.87 |
+Traction limit per wheel (static, mu*M*g*r/2) = 1.20 Nm
+
+## Leg 4-bar synthesis
+L1 thigh=121 mm, L2 knee->wheel=189 mm, L3 coupler=113 mm, Lkc knee->coupler pin=42 mm, shank angle KC->KW=-175 deg, coupler body pivot B=(46,34) mm from hip, branch=-1
+wheel x drift over stroke: -45.6 .. -27.2 mm; hip rotation over stroke 74 deg; J=dy/dphi 110..219 mm/rad; transmission angle 35..148 deg
+| hip height above axle mm | thigh angle deg | wheel x mm | J mm/rad | knee (x,y) mm | coupler pin C (x,y) mm |
+|---|---|---|---|---|---|
+| 101 | 0 | -37.9 | 219 | (121,1) | (158,21) |
+| 150 | -14 | -28.1 | 172 | (117,-29) | (152,-5) |
+| 199 | -32 | -29.2 | 145 | (102,-64) | (134,-36) |
+| 250 | -54 | -40.8 | 119 | (71,-98) | (99,-66) |
+| 289 | -74 | -41.7 | 117 | (33,-116) | (53,-79) |
+
+Sprung (body) mass m_b = 2.16 kg; static leg force per leg = 10.6 N
+
+## Hip torque cases (per leg, output side), from statics
+| case | leg force N | hip torque @crouch Nm | @nominal Nm | @extended Nm | worst Nm |
+|---|---|---|---|---|---|
+| standing (W_b/2) | 10.6 | 2.34 | 1.54 | 1.25 | 2.34 |
+| height change, +0.5 g (1.5 W_b/2) | 15.9 | 3.51 | 2.31 | 1.87 | 3.51 |
+| single-leg climb: 75 % W_b x1.5 dyn | 23.8 | 5.26 | 3.46 | 2.81 | 5.26 |
+(check: statics T=1.538 vs virtual work F*J=1.538 Nm)
+
+Jump energy (hub): M=3.60 m_b=2.16 v_takeoff=1.98 v_body=3.30 m/s E_actuators=15.8 J (snatch loss 4.7 J); /0.85 losses = 18.6 J
+
+Jump energy (belt): M=3.72 m_b=3.09 v_takeoff=1.98 v_body=2.38 m/s E_actuators=14.5 J (snatch loss 1.5 J); /0.85 losses = 17.1 J
+
+## Hip ratio sweep: jump push-off simulation (two legs, I_peak=40 A)
+Spring (per leg, torsion-equivalent at hip): T0=0.30 Nm preload at full extension, k=4.27 Nm/rad, stroke 74 deg, T@crouch=5.85 Nm, T@nominal=3.41 Nm vs gravity 1.53 Nm, energy/leg=4.00 J
+| N hip | V | spring | jump h cm | push time ms | spring J | motor J | snatch loss J | peak I/motor A | peak battery A |
+|---|---|---|---|---|---|---|---|---|---|
+| KV90 5:1 | 22.2 | 8 J | 29.3 | 71 | 8.1 | 13.2 | 6.9 | 40 | 56 |
+| KV90 5:1 | 22.2 | none | 21.6 | 83 | 0.0 | 16.7 | 5.1 | 40 | 56 |
+| KV90 5:1 | 19.8 | 8 J | 25.4 | 74 | 8.1 | 10.9 | 6.0 | 40 | 56 |
+| KV90 5:1 | 19.8 | none | 17.5 | 86 | 0.0 | 14.3 | 4.1 | 40 | 56 |
+| KV90 6:1 | 22.2 | 8 J | 25.7 | 71 | 8.1 | 11.1 | 6.1 | 40 | 56 |
+| KV90 6:1 | 22.2 | none | 17.3 | 81 | 0.0 | 14.2 | 4.1 | 40 | 56 |
+| KV90 6:1 | 19.8 | 8 J | 22.3 | 74 | 8.1 | 9.1 | 5.3 | 40 | 56 |
+| KV90 6:1 | 19.8 | none | 13.6 | 86 | 0.0 | 12.1 | 3.2 | 40 | 56 |
+| KV90 7:1 | 22.2 | 8 J | 22.8 | 71 | 8.1 | 9.4 | 5.4 | 40 | 56 |
+| KV90 7:1 | 22.2 | none | 13.7 | 82 | 0.0 | 12.1 | 3.2 | 40 | 56 |
+| KV90 7:1 | 19.8 | 8 J | 19.9 | 75 | 8.1 | 7.7 | 4.7 | 40 | 56 |
+| KV90 7:1 | 19.8 | none | 10.4 | 88 | 0.0 | 10.2 | 2.5 | 40 | 56 |
+| KV90 8:1 | 22.2 | 8 J | 20.5 | 72 | 8.1 | 8.0 | 4.8 | 40 | 56 |
+| KV90 8:1 | 22.2 | none | 10.6 | 85 | 0.0 | 10.3 | 2.5 | 40 | 56 |
+| KV90 8:1 | 19.8 | 8 J | 18.0 | 76 | 8.1 | 6.5 | 4.2 | 40 | 56 |
+| KV90 8:1 | 19.8 | none | 7.8 | 93 | 0.0 | 8.6 | 1.8 | 40 | 56 |
+| KV130 6:1 | 22.2 | 8 J | 36.6 | 72 | 8.1 | 17.5 | 8.6 | 40 | 56 |
+| KV130 6:1 | 22.2 | none | 29.4 | 86 | 0.0 | 21.3 | 6.9 | 40 | 56 |
+| KV130 6:1 | 19.8 | 8 J | 32.3 | 73 | 8.1 | 15.0 | 7.6 | 40 | 56 |
+| KV130 6:1 | 19.8 | none | 24.8 | 88 | 0.0 | 18.6 | 5.9 | 40 | 56 |
+| KV130 7:1 | 22.2 | 8 J | 33.3 | 70 | 8.1 | 15.6 | 7.9 | 40 | 56 |
+| KV130 7:1 | 22.2 | none | 25.5 | 82 | 0.0 | 19.1 | 6.0 | 40 | 56 |
+| KV130 7:1 | 19.8 | 8 J | 29.2 | 72 | 8.1 | 13.1 | 6.9 | 40 | 56 |
+| KV130 7:1 | 19.8 | none | 21.2 | 84 | 0.0 | 16.5 | 5.0 | 40 | 56 |
+| KV130 8:1 | 22.2 | 8 J | 30.2 | 69 | 8.1 | 13.7 | 7.1 | 40 | 56 |
+| KV130 8:1 | 22.2 | none | 21.9 | 79 | 0.0 | 16.9 | 5.2 | 40 | 56 |
+| KV130 8:1 | 19.8 | 8 J | 26.4 | 71 | 8.1 | 11.5 | 6.2 | 40 | 56 |
+| KV130 8:1 | 19.8 | none | 17.8 | 82 | 0.0 | 14.5 | 4.2 | 40 | 56 |
+| KV130 9:1 | 22.2 | 8 J | 27.5 | 68 | 8.1 | 12.1 | 6.5 | 40 | 56 |
+| KV130 9:1 | 22.2 | none | 18.6 | 78 | 0.0 | 15.0 | 4.4 | 40 | 56 |
+| KV130 9:1 | 19.8 | 8 J | 24.0 | 71 | 8.1 | 10.1 | 5.7 | 40 | 56 |
+| KV130 9:1 | 19.8 | none | 14.7 | 82 | 0.0 | 12.7 | 3.5 | 40 | 56 |
+| KV130 10:1 | 22.2 | 8 J | 25.2 | 69 | 8.1 | 10.8 | 5.9 | 40 | 56 |
+| KV130 10:1 | 22.2 | none | 15.7 | 79 | 0.0 | 13.3 | 3.7 | 40 | 56 |
+| KV130 10:1 | 19.8 | 8 J | 22.1 | 72 | 8.1 | 8.9 | 5.2 | 40 | 56 |
+| KV130 10:1 | 19.8 | none | 12.2 | 84 | 0.0 | 11.2 | 2.9 | 40 | 56 |
+| KV130 11:1 | 22.2 | 8 J | 23.3 | 69 | 8.1 | 9.7 | 5.5 | 40 | 56 |
+| KV130 11:1 | 22.2 | none | 13.2 | 81 | 0.0 | 11.8 | 3.1 | 40 | 56 |
+| KV130 11:1 | 19.8 | 8 J | 20.4 | 73 | 8.1 | 8.0 | 4.8 | 40 | 56 |
+| KV130 11:1 | 19.8 | none | 10.0 | 87 | 0.0 | 9.9 | 2.4 | 40 | 56 |
+| KV130 12:1 | 22.2 | 8 J | 21.6 | 70 | 8.1 | 8.7 | 5.1 | 40 | 56 |
+| KV130 12:1 | 22.2 | none | 11.1 | 83 | 0.0 | 10.5 | 2.6 | 40 | 56 |
+| KV130 12:1 | 19.8 | 8 J | 19.0 | 74 | 8.1 | 7.1 | 4.5 | 40 | 56 |
+| KV130 12:1 | 19.8 | none | 8.1 | 90 | 0.0 | 8.8 | 1.9 | 40 | 56 |
+
+Hip N=8: output torque cont 6.1 Nm, peak 17.3 Nm
+Hip motor holding torque at nominal with spring: 1.89 Nm out -> 4.4 A
+Holding at full crouch (spring loaded): 3.53 Nm out -> 8.2 A
+crank r_a=30 mm: linear k=4745 N/m (4.74 N/mm), preload F0=10 N, F@crouch=195 N, working extension=39 mm
+crank r_a=40 mm: linear k=2669 N/m (2.67 N/mm), preload F0=8 N, F@crouch=146 N, working extension=52 mm
+crank r_a=50 mm: linear k=1708 N/m (1.71 N/mm), preload F0=6 N, F@crouch=117 N, working extension=65 mm
+
+## Landing from 20 cm apex (v=1.98 m/s)
+| case | body g (peak) | unsprung g | tyre/axle N | leg force N | hip torque total Nm | hip motor part Nm | leg stroke mm | hip gear torque from end-stop Nm |
+|---|---|---|---|---|---|---|---|---|
+| A symmetric, controlled | 6.4 | 18 | 171 | 68 | 8.5 | 6.3 | 60 | 0.0 |
+| B symmetric, motors off -> end stop | 12.1 | 20 | 162 | 128 | 28.0 | 0.0 | 169 | 17.2 |
+| C one wheel first, controlled | 5.7 | 16 | 191 | 121 | 15.2 | 12.9 | 61 | 0.0 |
+| D one wheel first, motors off | 10.9 | 20 | 293 | 232 | 50.8 | 0.0 | 173 | 4.5 |
+| A' belt layout, controlled | 5.5 | 24 | 121 | 83 | 10.0 | 8.1 | 61 | 0.0 |
+
+Pin forces at peak leg force (statics, vertical ground force only):
+| case | leg force N | pose hip h mm | hip torque Nm | knee pin N | coupler N | hip bearing radial N | wheel axle N |
+|---|---|---|---|---|---|---|---|
+| A symmetric, controlled | 68 | 238 | 8.5 | 252 | 193 | 252 | 171 |
+| B symmetric, motors off -> end stop | 128 | 101 | 28.2 | 867 | 842 | 867 | 162 |
+| C one wheel first, controlled | 121 | 239 | 15.1 | 450 | 344 | 450 | 191 |
+| D one wheel first, motors off | 232 | 101 | 51.2 | 1572 | 1528 | 1572 | 293 |
+| A' belt layout, controlled | 83 | 248 | 10.0 | 311 | 235 | 311 | 121 |
+Wheel gear spin-up torque (A symmetric, controlled): mu*F*r=11.7 Nm, through gear (N=WHEEL_N inertia share 0.76) = 8.9 Nm
+Wheel gear spin-up torque (C one wheel first, controlled): mu*F*r=13.0 Nm, through gear (N=WHEEL_N inertia share 0.76) = 9.9 Nm
+
+## Hub vs belt
+hub: unsprung/side 0.721 kg (40 % of M), body 2.16 kg, leg inertia about hip 0.0288 kg m2, unstable pole 7.2 rad/s, N=WHEEL_N recoverable tilt 90 deg, eff. mass 4.76 kg
+belt: unsprung/side 0.315 kg (17 % of M), body 3.09 kg, leg inertia about hip 0.0126 kg m2, unstable pole 8.1 rad/s, N=WHEEL_N recoverable tilt 90 deg, eff. mass 4.76 kg
+
+## Mass-limit check: jump at M=4.0 kg (hub, chosen hip N, 19.8 V, spring)
+m_b=2.56: jump 26.9 cm, peak I 40 A

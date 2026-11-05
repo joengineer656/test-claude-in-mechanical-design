@@ -1,0 +1,21 @@
+Final spring 3.5 N/mm, F0 15 N; hip 6:1; unsprung 0.84 kg/side; min hip height 140 mm; real = sim x 0.80
+| mass kg | Voc (pack open-circuit) | R_int mOhm | V min under load | peak battery A | push-off ms | jump sim cm | jump real cm |
+|---|---|---|---|---|---|---|---|
+| 6.4 | 25.2 fixed 25.2 | 0 | 25.2 V | 56 | 83 | 32.1 | **25.6** |
+| 6.4 | 22.2 fixed 22.2 (no sag) | 0 | 22.2 V | 56 | 84 | 28.4 | **22.7** |
+| 6.4 | 19.8 fixed 19.8 (old test value) | 0 | 19.8 V | 56 | 85 | 25.2 | **20.2** |
+| 6.4 | 25.2  | 40 | 23.0 V | 56 | 84 | 31.0 | **24.8** |
+| 6.4 | 22.2  | 40 | 20.0 V | 56 | 84 | 27.2 | **21.7** |
+| 6.4 | 22.2 aged/cold pack | 80 | 17.7 V | 56 | 85 | 25.9 | **20.7** |
+| 6.4 | 20.5 near empty, 3.4 V/cell | 40 | 18.3 V | 56 | 85 | 24.9 | **19.9** |
+| 6.4 | 20.5 near empty, aged | 80 | 16.0 V | 56 | 86 | 23.6 | **18.9** |
+| 6.9 | 25.2 fixed 25.2 | 0 | 25.2 V | 56 | 89 | 31.7 | **25.3** |
+| 6.9 | 22.2 fixed 22.2 (no sag) | 0 | 22.2 V | 56 | 89 | 27.7 | **22.2** |
+| 6.9 | 19.8 fixed 19.8 (old test value) | 0 | 19.8 V | 56 | 90 | 24.6 | **19.7** |
+| 6.9 | 25.2  | 40 | 23.0 V | 56 | 89 | 30.7 | **24.5** |
+| 6.9 | 22.2  | 40 | 20.0 V | 56 | 90 | 26.5 | **21.2** |
+| 6.9 | 22.2 aged/cold pack | 80 | 17.7 V | 56 | 90 | 25.4 | **20.3** |
+| 6.9 | 20.5 near empty, 3.4 V/cell | 40 | 18.3 V | 56 | 90 | 24.3 | **19.5** |
+| 6.9 | 20.5 near empty, aged | 80 | 16.0 V | 56 | 91 | 23.0 | **18.4** |
+
+Check: 'fixed 19.8' row equals leg_refit_jump (20.2 cm at 6.4 kg, 19.7 at 6.9 kg).

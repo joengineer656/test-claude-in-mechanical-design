@@ -1,0 +1,2 @@
+ratio 3.5 centre dist 26.25 assembly (zs+zr)/3 28.0 zs/3 8.0 zr/3 20.0
+max overlap planet-sun mm2 0  planet-ring mm2 0 (raster noise ~0.05)

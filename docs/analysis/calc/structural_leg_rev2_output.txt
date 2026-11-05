@@ -1,0 +1,128 @@
+== 0. Load table and consistency of the 4-bar statics (vertical axle force only) ==
+LC  h    axle N  FK(statics)  FK(theory 6.4)  FC(statics)  ratio theory/statics
+A  210    210        739          490           601       0.66
+C  205    266        941          810           774       0.86
+B  140    324       1459         1540          1413       1.06
+D  140    456       2054         2640          1989       1.29
+(ratio >1: theory includes leg-link inertia/spring/horizontal parts not in a vertical-only static; loads below use the THEORY knee pin value and scale the statics vectors to it)
+
+== 2. Knee pin K (D10, 42CrMo4 12.9, yield 1100), thigh bush, thigh knee boss ==
+mass LC  FK kN | pad/strap N  M Nm  sigma  SF pin | SF pin if strap cannot take the transverse part (cantilever from pad) | bush p MPa (SF vs 28 sintered bronze static) | thigh boss R17 net sect. MPa SF PAHT
+6.4 A   0.49 |   393/  97   4.5    46 23.90 | 19.16 | p=  4.9 SF=5.71 |   5.4 SF=7.60
+6.4 C   0.81 |   649/ 161   7.5    76 14.46 | 11.59 | p=  8.1 SF=3.46 |   8.9 SF=4.60
+6.4 B   1.54 |  1235/ 305  14.2   145  7.61 |  6.10 | p= 15.4 SF=1.82 |  16.9 SF=2.42
+6.4 D   2.64 |  2117/ 523  24.3   248  4.44 |  3.56 | p= 26.4 SF=1.06 |  29.0 SF=1.41
+6.9 A   0.53 |   425/ 105   4.9    50 22.10 | 17.72 | p=  5.3 SF=5.28 |   5.8 SF=7.02
+6.9 C   0.82 |   657/ 163   7.6    77 14.28 | 11.45 | p=  8.2 SF=3.41 |   9.0 SF=4.54
+6.9 B   1.68 |  1347/ 333  15.5   158  6.97 |  5.59 | p= 16.8 SF=1.67 |  18.5 SF=2.22
+6.9 D   2.81 |  2253/ 557  25.9   264  4.17 |  3.34 | p= 28.1 SF=1.00 |  30.9 SF=1.32
+pin at 2000 N: sigma 188 MPa; cantilever bound 234 MPa
+pin at 2640 N: sigma 248 MPa; cantilever bound 309 MPa
+
+== 3. Shank dog-leg and C pad ==
+Arm = 8 mm PAHT-CF (71-79, 10x3 phase channel) + 3 mm 6061 plate (68-71) bonded; ground load plane y 115.75, section mid-plane y 73.5; stresses = |in-plane| + |axial| + |out-of-plane| (worst fibre).
+case              dist from K | w | Min Nm Mt Nm Mn Nm | Al MPa (SF/240) | PAHT MPa (SF/41 ; SF PETG/17.9)  | tau Al, PAHT
+6.4 D vertical                       s=   86 w=31.4 | -46.6 -13.9  20.5 | Al   173 SF 1.16 | PAHT  31.3 SF 0.95 (PETG 0.41) | 65.8 17.3
+6.4 D slide +x, wheel torque 9.2 Nm  s=  105 w=30.2 |  -4.5  -6.7  31.0 | Al   157 SF 1.44 | PAHT  41.1 SF 0.93 (PETG 0.41) | 33.5  8.8
+6.4 D slide -x                       s=   86 w=31.4 | -87.8 -30.3   9.4 | Al   193 SF 0.76 | PAHT  22.6 SF 0.59 (PETG 0.26) | 143.7 37.7
+6.4 D lateral slide Fy=0.8Fax        s=   86 w=31.4 | -46.6 -23.2 100.9 | Al   524 SF 0.43 | PAHT 130.2 SF 0.29 (PETG 0.13) | 110.1 28.9
+6.4 C LC-C slide + lateral           s=   86 w=31.4 |   5.3  -1.2  44.2 | Al   204 SF 1.17 | PAHT  55.2 SF 0.74 (PETG 0.32) |  5.5  1.4
+6.4 B vertical                       s=   86 w=31.4 | -27.2  -8.1  12.0 | Al   101 SF 1.98 | PAHT  18.3 SF 1.62 (PETG 0.71) | 38.4 10.1
+6.9 D vertical                       s=   86 w=31.4 | -49.6 -14.8  21.8 | Al   185 SF 1.09 | PAHT  33.3 SF 0.89 (PETG 0.39) | 70.0 18.4
+6.9 D slide +x, wheel torque 9.2 Nm  s=  105 w=30.2 |  -5.4  -7.2  33.0 | Al   168 SF 1.34 | PAHT  43.9 SF 0.88 (PETG 0.38) | 35.6  9.3
+6.9 D slide -x                       s=   86 w=31.4 | -92.8 -32.2  10.0 | Al   204 SF 0.72 | PAHT  24.0 SF 0.56 (PETG 0.24) | 152.9 40.1
+6.9 D lateral slide Fy=0.8Fax        s=   86 w=31.4 | -49.6 -24.7 107.4 | Al   558 SF 0.40 | PAHT 138.6 SF 0.28 (PETG 0.12) | 117.1 30.7
+6.9 C LC-C slide + lateral           s=   86 w=31.4 |   5.2  -1.2  44.7 | Al   207 SF 1.16 | PAHT  55.8 SF 0.73 (PETG 0.32) |  5.6  1.5
+6.9 B vertical                       s=   86 w=31.4 | -29.7  -8.8  13.1 | Al   110 SF 1.82 | PAHT  19.9 SF 1.49 (PETG 0.65) | 41.9 11.0
+dog-leg effect LC-D in-plane M at stations (Nm), bowed: [np.float64(-71.7), np.float64(-63.8), np.float64(-54.4), np.float64(-46.6), np.float64(-39.1), np.float64(-28.3), np.float64(-15.2), np.float64(-4.3)]  straight: [np.float64(-67.3), np.float64(-48.6), np.float64(-26.2), np.float64(-7.5)]
+
+Shank plate thickness study (6.4 kg, LC-D): worst section, SF = allowable / von-Mises-type combined stress
+Al plate 3 mm | vert: Al 1.16 PAHT 0.95 | slide-x: Al 0.76 PAHT 0.59 | lat: Al 0.43 PAHT 0.29
+Al plate 4 mm | vert: Al 1.39 PAHT 1.20 | slide-x: Al 0.92 PAHT 0.75 | lat: Al 0.51 PAHT 0.37
+Al plate 5 mm | vert: Al 1.66 PAHT 1.54 | slide-x: Al 1.10 PAHT 0.96 | lat: Al 0.60 PAHT 0.48
+Al plate 6 mm | vert: Al 1.96 PAHT 1.95 | slide-x: Al 1.30 PAHT 1.23 | lat: Al 0.71 PAHT 0.61
+
+Plate study, LC-C controlled with slide + lateral (S6 on S3), 6.4 kg, and LC-D vertical at 6.9 kg
+Al plate 3 mm | C6.4 sl0.8 fy0.8: Al 1.17 PAHT 0.74 | C6.4 sl-0.8 fy0.0: Al 1.85 PAHT 1.51 | D6.9 sl0.0 fy0.0: Al 1.09 PAHT 0.89
+Al plate 5 mm | C6.4 sl0.8 fy0.8: Al 1.61 PAHT 1.22 | C6.4 sl-0.8 fy0.0: Al 2.68 PAHT 2.45 | D6.9 sl0.0 fy0.0: Al 1.56 PAHT 1.44
+Al plate 6 mm | C6.4 sl0.8 fy0.8: Al 1.90 PAHT 1.56 | C6.4 sl-0.8 fy0.0: Al 3.18 PAHT 3.13 | D6.9 sl0.0 fy0.0: Al 1.85 PAHT 1.83
+Al plate 8 mm | C6.4 sl0.8 fy0.8: Al 2.66 PAHT 2.50 | C6.4 sl-0.8 fy0.0: Al 4.36 PAHT 4.91 | D6.9 sl0.0 fy0.0: Al 2.53 PAHT 2.87
+
+== 3b. C pad (R10.5 column y 79-113.5, bush 113.5-125.5, Ø14 bush -> 3.5 mm wall) ==
+mass LC  FC N (axial/transverse to K-C) | pad load N | root bending MPa | SF PAHT in-plane | SF across layers (x0.4) | bush wall net section MPa SF
+6.4 A    398 (   -67/   393) |   394 |   17.5 |  2.34 |  0.93 |  12.2 3.36
+6.4 C    666 (  -144/   650) |   653 |   29.1 |  1.41 |  0.56 |  20.2 2.03
+6.4 B   1492 ( -1070/  1039) |  1134 |   50.5 |  0.81 |  0.32 |  35.1 1.17
+6.4 D   2557 ( -1835/  1782) |  1943 |   86.6 |  0.47 |  0.19 |  60.1 0.68
+6.9 A    431 (   -72/   425) |   426 |   19.0 |  2.16 |  0.86 |  13.2 3.11
+6.9 C    674 (  -146/   658) |   661 |   29.5 |  1.39 |  0.56 |  20.5 2.00
+6.9 B   1627 ( -1168/  1134) |  1237 |   55.1 |  0.74 |  0.30 |  38.3 1.07
+6.9 D   2722 ( -1953/  1896) |  2068 |   92.1 |  0.44 |  0.18 |  64.0 0.64
+R needed for SF 1.5 at 6.4 kg LC-D (in-plane layers): 15.4 mm radius for a printed column (now 10.5, no room: thigh clearance 4.2 mm)
+R needed for SF 1.5 at 6.4 kg LC-D (across layers x0.4): 20.9 mm radius for a printed column (now 10.5, no room: thigh clearance 4.2 mm)
+Steel S355 stand-off Ø21 (y 79-125.5, bush pressed in, Ø36 flange, 4 x M4): bending 87 MPa SF 4.10; 6061 2.77
+   root moment 79 Nm on a Ø28 bolt circle, 4 x M4: bolt tension 3123 N each (M4 8.8 proof ~ 5 kN): SF 1.6; 3 mm Al plate pull-through shear 41 MPa
+K pad lug (R17, bush 12 long, pad share 0.80 of F_K):
+   6.4 kg LC-D F_K 2640: net section 19.4 MPa SF PAHT 2.12; across layers n/a (in-plane load)
+   6.9 kg LC-D F_K 2810: net section 20.6 MPa SF PAHT 1.99; across layers n/a (in-plane load)
+
+== 1. Arch plate + posts + 6061 box beam (rigid-plate share model, 2D in the leg plane) ==
+post k = 3255 N/mm each (cantilever, conservative: no end-rotation restraint); beam kx 18653, kz 1189 N/mm (rigid root); post Z 341 mm3; beam Zz 417, Zx 1392 mm3
+
+mass LC  |FB| N  R2 N (ideal A / sleeve B)  | post reactions N (P1,P2)  moment Nm@base  sigma MPa  SF S355 | beam tip N (x,z)  M_z-weak Nm  sigma MPa  SF 6061
+6.4 A    398    289/ 160 |    45    45     3.6      11 33.63 | (  228,    6)    0.4     12 19.86
+6.4 C    666    399/ 198 |    52    45     4.2      12 29.14 | (  361,  -18)    1.2     20 11.77
+6.4 B   1492    650/ 286 |   189   249    19.8      58  6.11 | (  588,  163)   11.0     55  4.37
+6.4 D   2557   1027/ 418 |   309   410    32.6      96  3.71 | ( 1005,  252)   17.1     90  2.68
+6.9 A    431    303/ 164 |    45    44     3.6      11 33.77 | (  244,    2)    0.2     12 19.61
+6.9 C    674    402/ 199 |    52    45     4.2      12 28.98 | (  365,  -19)    1.3     21 11.57
+6.9 B   1627    698/ 302 |   204   269    21.4      63  5.65 | (  641,  174)   11.8     59  4.04
+6.9 D   2722   1086/ 438 |   328   435    34.6     102  3.50 | ( 1069,  266)   18.0     95  2.53
+
+sweep: B-pin force direction +-60 deg about the computed one, LC-D (worst post bending, beam stress)
+6.4 kg: post shear max 960 N -> sigma 224 MPa SF(S355) 1.58; beam 242 MPa SF 0.99; beam z-force 1201 N, root moment 81 Nm
+6.9 kg: post shear max 1019 N -> sigma 238 MPa SF(S355) 1.49; beam 258 MPa SF 0.93; beam z-force 1276 N, root moment 86 Nm
+
+== 1b. Arch plate local sections (6061, 7 mm), B pin, bearing ring, body-side post collar ==
+6.4 kg LC-D: B pin 2557 N: pin bending 300 MPa SF 3.67; plate bore bearing 37 MPa SF 9.9; B boss ligament 65 MPa SF 3.68; ring ligaments (post force 717 N) 22 MPa SF 10.93; R2 1027 N on ring 31 MPa SF 7.63
+      web to the posts (min width 22 mm at the post boss R11 -> 11 mm ligament each side): 7 MPa SF 36.0
+      if the side-plate collar (y 60-65, D18 hole) acts as the intermediate support with the base at y 40: collar load 1449 N, bearing 18 MPa SF PAHT 2.26 (PETG 0.99); base seat at y 40 is NOT defined in body.md
+6.9 kg LC-D: B pin 2722 N: pin bending 319 MPa SF 3.45; plate bore bearing 39 MPa SF 9.3; B boss ligament 69 MPa SF 3.46; ring ligaments (post force 761 N) 23 MPa SF 10.30; R2 1086 N on ring 33 MPa SF 7.22
+      web to the posts (min width 22 mm at the post boss R11 -> 11 mm ligament each side): 7 MPa SF 34.0
+      if the side-plate collar (y 60-65, D18 hole) acts as the intermediate support with the base at y 40: collar load 1538 N, bearing 19 MPa SF PAHT 2.13 (PETG 0.93); base seat at y 40 is NOT defined in body.md
+
+== 4b. Ties to the body: beam foot 2 x M5 and hip Al plate 4 x M4 (through-bolts + washer assumed; heat-set insert rule < 150 N) ==
+6.4 kg realistic direction: beam tip (x 1005, z 252) N: M5 tension 1344 N each (insert rule 150 N -> SF 0.11); shear 2319 N each; M5 8.8 shear SF 2.9; bearing on 4 mm printed rib 116 MPa SF PAHT 0.35; slip friction (preload 5.5 kN, mu 0.3, 2 bolts) 3300 N vs 1005 N
+6.4 kg worst-direction sweep: beam tip (x -669, z 1201) N: M5 tension 6399 N each (insert rule 150 N -> SF 0.02); shear 1545 N each; M5 8.8 shear SF 4.4; bearing on 4 mm printed rib 77 MPa SF PAHT 0.53; slip friction (preload 5.5 kN, mu 0.3, 2 bolts) 3300 N vs 669 N
+6.9 kg realistic direction: beam tip (x 1069, z 266) N: M5 tension 1418 N each (insert rule 150 N -> SF 0.11); shear 2467 N each; M5 8.8 shear SF 2.8; bearing on 4 mm printed rib 123 MPa SF PAHT 0.33; slip friction (preload 5.5 kN, mu 0.3, 2 bolts) 3300 N vs 1069 N
+6.9 kg worst-direction sweep: beam tip (x -713, z 1276) N: M5 tension 6798 N each (insert rule 150 N -> SF 0.02); shear 1646 N each; M5 8.8 shear SF 4.1; bearing on 4 mm printed rib 82 MPa SF PAHT 0.50; slip friction (preload 5.5 kN, mu 0.3, 2 bolts) 3300 N vs 713 N
+6.4 kg LC-D hip plate 4 x M4 (+-44), IF the posts are based on the plate: out-of-plane moment 57 Nm -> tension 325 N/bolt; shear 260 N/bolt (incl. 20 Nm torque); bearing on 4 mm PAHT pad 14.5 MPa SF 2.83; M4 8.8 tension SF 15.4; heat-set insert rule SF 0.46 -> through-bolt + washer needed
+6.9 kg LC-D hip plate 4 x M4 (+-44), IF the posts are based on the plate: out-of-plane moment 61 Nm -> tension 345 N/bolt; shear 271 N/bolt (incl. 20 Nm torque); bearing on 4 mm PAHT pad 15.1 MPa SF 2.72; M4 8.8 tension SF 14.5; heat-set insert rule SF 0.44 -> through-bolt + washer needed
+
+== 4a. Thigh hex sleeve (steel 26.3/29 A/F, 4 mm at y 94-98) -> bearing 1 and hex contact ==
+sleeve length / centre y -> bearing 1 (87.5): R1 N, M1 Nm, ball SF, seat SF, tilt deg  (spring 180 N, thigh load at y 99, spring at 110, brg 2 at 121)
+L=0 mm yc= 87.5 6.4 kg | A: R1   381 M  0.0 ball 7.15 seat 99.00 0.0deg R2  289 | C: R1   591 M  0.0 ball 4.61 seat 99.00 0.0deg R2  399 | B: R1  1070 M  0.0 ball 2.55 seat 99.00 0.0deg R2  650 | D: R1  1793 M  0.0 ball 1.52 seat 99.00 0.0deg R2 1027
+L=0 mm yc= 87.5 6.9 kg | A: R1   407 M  0.0 ball 6.69 seat 99.00 0.0deg R2  303 | C: R1   598 M  0.0 ball 4.56 seat 99.00 0.0deg R2  402 | B: R1  1162 M  0.0 ball 2.34 seat 99.00 0.0deg R2  698 | D: R1  1904 M  0.0 ball 1.43 seat 99.00 0.0deg R2 1086
+L=4 mm yc= 96.0 6.4 kg | A: R1   510 M  4.3 ball 3.51 seat  3.63 0.9deg R2  160 | C: R1   792 M  6.7 ball 2.27 seat  2.34 1.4deg R2  198 | B: R1  1434 M 12.2 ball 1.25 seat  1.29 2.6deg R2  286 | D: R1  2402 M 20.4 ball 0.75 seat  0.77 4.3deg R2  418
+L=4 mm yc= 96.0 6.9 kg | A: R1   546 M  4.6 ball 3.29 seat  3.40 1.0deg R2  164 | C: R1   801 M  6.8 ball 2.24 seat  2.32 1.4deg R2  199 | B: R1  1558 M 13.2 ball 1.15 seat  1.19 2.8deg R2  302 | D: R1  2552 M 21.7 ball 0.70 seat  0.73 4.6deg R2  438
+L=6 mm yc= 97.0 6.4 kg | A: R1   532 M  5.1 ball 3.24 seat  3.12 1.1deg R2  138 | C: R1   825 M  7.8 ball 2.09 seat  2.01 1.7deg R2  165 | B: R1  1494 M 14.2 ball 1.15 seat  1.11 3.0deg R2  226 | D: R1  2502 M 23.8 ball 0.69 seat  0.66 5.1deg R2  318
+L=6 mm yc= 97.0 6.9 kg | A: R1   568 M  5.4 ball 3.03 seat  2.92 1.1deg R2  142 | C: R1   834 M  7.9 ball 2.07 seat  1.99 1.7deg R2  166 | B: R1  1622 M 15.4 ball 1.06 seat  1.02 3.3deg R2  238 | D: R1  2658 M 25.3 ball 0.65 seat  0.62 5.4deg R2  332
+L=8 mm yc= 98.0 6.4 kg | A: R1   555 M  5.8 ball 2.99 seat  2.71 1.2deg R2  115 | C: R1   861 M  9.0 ball 1.93 seat  1.74 1.9deg R2  129 | B: R1  1559 M 16.4 ball 1.07 seat  0.96 3.5deg R2  161 | D: R1  2611 M 27.4 ball 0.64 seat  0.57 5.8deg R2  209
+L=8 mm yc= 98.0 6.9 kg | A: R1   593 M  6.2 ball 2.80 seat  2.53 1.3deg R2  117 | C: R1   870 M  9.1 ball 1.91 seat  1.72 1.9deg R2  130 | B: R1  1693 M 17.8 ball 0.98 seat  0.89 3.8deg R2  167 | D: R1  2774 M 29.1 ball 0.60 seat  0.54 6.2deg R2  216
+
+Hex contact stress (steel sleeve against PAHT-CF; torque on 3 flats at half length, radial on projected 26 x L):
+mass LC  T Nm  R1 N  | L=4 carrier hex 26 A/F p_t+p_r MPa SF | thigh pocket 29.2 A/F | L=6 carrier | L=8 carrier
+6.4 C  13.0    792 |  18.7 SF 2.19 |  15.6 SF 2.63 |  12.7 SF 3.23 |   9.7 SF 4.23
+6.4 B  17.2   1434 |  28.5 SF 1.44 |  23.9 SF 1.71 |  19.4 SF 2.11 |  14.8 SF 2.76
+6.4 D  20.0   2402 |  40.2 SF 1.02 |  34.1 SF 1.20 |  27.4 SF 1.49 |  21.1 SF 1.94
+6.4 D   5.0   2402 |  27.4 SF 1.50 |  24.0 SF 1.71 |  18.9 SF 2.17 |  14.7 SF 2.79
+6.9 C  13.0    801 |  18.8 SF 2.18 |  15.7 SF 2.62 |  12.7 SF 3.21 |   9.7 SF 4.21
+6.9 B  17.2   1558 |  29.7 SF 1.38 |  25.0 SF 1.64 |  20.2 SF 2.03 |  15.5 SF 2.64
+6.9 D  20.0   2552 |  41.6 SF 0.98 |  35.4 SF 1.16 |  28.4 SF 1.44 |  21.9 SF 1.87
+6.9 D   5.0   2552 |  28.8 SF 1.42 |  25.2 SF 1.62 |  19.9 SF 2.06 |  15.5 SF 2.65
+thigh hub ligament at hex vertex: R22 - 16.86 = 5.1 mm; hoop tension from radial 2.4 kN on the pocket ~ 46 MPa (Kt 2, t 10) SF 0.88
+
+Bearing 1 at the 2.0 kN design load (LC-D capped by a compliant stop), sleeve 4 mm (yc 96) and 6061/6906 option
+F_K 2000: R1 1839 N M1 15.6 Nm ball SF 0.98 seat SF 1.01 tilt 3.3 deg | 6906 (C0 ~5.0 kN) ball SF ~1.68
+F_K 2640: R1 2402 N M1 20.4 Nm ball SF 0.75 seat SF 0.77 tilt 4.3 deg | 6906 (C0 ~5.0 kN) ball SF ~1.29
+Sleeve at 2.0 kN + thigh plane moved inboard by 2 mm (yc 94, i.e. sleeve y 92-96): ball 1.15 seat 1.42
