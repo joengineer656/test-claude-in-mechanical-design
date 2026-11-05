@@ -4,6 +4,16 @@ A graduate-project mechanical design of an Ascento-style wheel-legged balance ro
 
 **Status: PAUSED by the client (decision A16).** This is a design in progress, not a release. Nothing has been printed or tested on hardware.
 
+## Screenshots
+| | |
+|---|---|
+| ![Assembly](docs/screenshots/assembly_iso.png) **Full assembly (rev 1)** | ![Transparent](docs/screenshots/assembly_transparent.png) **Assembly, transparent** |
+| ![Front](docs/screenshots/assembly_front.png) Front | ![Side](docs/screenshots/assembly_side.png) Side |
+| ![Layout](docs/screenshots/master_layout_iso.png) **Master layout** | ![Body](docs/screenshots/body_iso.png) **Body** |
+| ![Wheel](docs/screenshots/wheel_iso.png) **Wheel + TPU tyre** | ![Wheel section](docs/screenshots/wheel_section.png) Wheel section |
+| ![Gearbox](docs/screenshots/hip_gearbox_iso.png) **Hip gearbox 6:1** | ![Exploded](docs/screenshots/hip_gearbox_exploded.png) Gearbox exploded |
+| ![Leg 195](docs/screenshots/leg_195_iso.png) **Leg, hip 195 mm** | ![Leg 289](docs/screenshots/leg_289_iso.png) Leg, extended |
+
 ## Requirements (Requariment.txt, BOM File.txt)
 ~500 × 300 mm, 3–4 kg (client later accepted growth), ≥10 km/h, jump up to 20 cm, single-leg climbing, lidar mapping, everything 3D printed. 4× Eaglepower 8308 motors, 4× MKS XDrive Mini drivers, ESP32 + Raspberry Pi 4, LiPo, lidar, Pi camera.
 
